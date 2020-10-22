@@ -1,0 +1,19 @@
+{
+    "python.pythonPath": "/home/refat/anaconda3/bin/python",
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "python.testing.pytestArgs": [
+        "Uni-Codes"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.promptToConfigure": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}
