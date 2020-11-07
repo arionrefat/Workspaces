@@ -1,51 +1,53 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .clearfix:after{
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 body{
- font-family: Fira code, Arial;
- font-size: 18px;
+    font-family: Times new roman;
+    font-size: 18px;
 }
 h1,h2{
-  color: #0a152f;
+    color: #0a152f;
 }
 h1{
-  font-size: 40px;
-  margin: 20px;
+    font-size: 40px;
+    margin: 20px;
 }
 h2{
-  font-size: 25px;
-  margin: 10px;
+    font-size: 25px;
+    margin: 10px;
 }
 .intro{
-  text-align: justify;
-  margin-bottom: 20px;
-  color: #090d46;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #090d46;
 }
 .author{
-  font-size: 22px;
-  color: #154455;
+    font-size: 22px;
+    color: #154455;
 }
 .container{
-  width: 1140px;
-  margin-top: 20px auto 0 auto;
+    width: 1140px;
+    margin: 20px auto 0 auto;
 }
 .blog-post{
-  width: 75%;
-  float: left;
-  padding-right: 30px;
+    width: 75%;
+    float: left;
+    padding-right: 30px;
 }
 .other-post{
-  width: 25%;
-  float: left;
+    width: 25%;
+    float: left;
 }
 .author-box{
-  float: left;
+    padding-top: 20px;
+    border-top: 1px solid #808080;
+    float: left;
 }
