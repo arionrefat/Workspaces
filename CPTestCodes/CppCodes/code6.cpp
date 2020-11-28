@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-    int num1 {0};
-    int num2 {0};
+    string num1 {0};
+    vector <int> {0};
 
-    cin >> num1 >> num2;
+    cin >> num1;
     
-    cout << num2 - 1 << " " << num1 - 1 << "\n";
+    // for()
 
 }
