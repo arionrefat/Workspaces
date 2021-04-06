@@ -14,10 +14,10 @@ int main(){
 	cout << "You have entered: " << num1 << " and " << num2 << " and " << num3 <<  endl;
     cout << "Testing my lord" << endl;
 	
-	cout << "Hello hekoo";
+	cout << "Hello hekoo":qecvt:qecvt;
     cout << "is this working" << "\n";
 
 	return 0;
 }
-
+:q
 

@@ -35,7 +35,7 @@ fi
 # Text for =! (not equal) for the string
 if [[ "${USER_NAME}" != "${USER_NAME_TO_TEST_FOR}" ]]
 then
-    echo "Your username does not match ${USERNAME_NAME_TO_TEST_FOR}" 
+    echo "Your username does not match ${USERNAME_NAME_TO_TEST_FOR}"
     exit 1
 fi
 

@@ -1,0 +1,15 @@
+#+TITLE: Todo
+#+DESCRIPTION: Daily Todo List
+#+Author: Refatul Islam
+
+* Task List Daily
+** TODO
+*** Academics
++ CSE220
+  + Lecture 2, Part 3
+  + Lab1
++ MAT215
+  + Week 2, part 1
+*** Extra
++ Org Mode
++ Edit rc.lua
