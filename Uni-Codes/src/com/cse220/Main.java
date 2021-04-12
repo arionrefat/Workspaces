@@ -1,14 +1,27 @@
 package com.cse220;
 
+//Here Main class is the Tester class
+//Here ListStack and ArrayStack are mostly taken from BUX and bit modified
+
 public class Main {
     public static void main(String[] args) {
-        String source = "1+2*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14";
-        ParenBalance pb = new ParenBalance();
-        pb.parenthesisBalancing(source);
+        // String source = "1+2*(3/4)";
+        // String source = "1+2*[3*3+{4–5(6(7/8/9)+10)}–11+(12*8)/{13+13}]+14";
+        // String source = "1+2*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14";
+        // String source = "1+2]*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14";
+        String source = "1+2/(5+9*9+8})";
+
+        // Using ArrayStack
+        ParenBalanceArray pbArray = new ParenBalanceArray();
+        pbArray.parenthesisBalancing(source);
+
+        // Using ListStack
+        ParenBalanceList ListBalancing = new ParenBalanceList();
+        ListBalancing.parenthesisBalancing(source);
     }
 }
 
-class ParenBalance {
+class ParenBalanceArray {
     ArrayStack stack = new ArrayStack();
     boolean flag = false;
     int index = 0;
@@ -34,7 +47,7 @@ class ParenBalance {
         // index = (source.indexOf((char) stack.peek()) + 1);
 
         for (int i = 0; i < source.length(); i++) {
-            if (source.charAt(i) == (char) stack.peek()) {
+            if ((stack.size != 0) && (source.charAt(i) == (char) stack.peek())){
                 index = i + 1;
                 break;
             }
@@ -81,7 +94,7 @@ class ParenBalanceList {
         // index = (source.indexOf((char) stack.peek()) + 1);
 
         for (int i = 0; i < source.length(); i++) {
-            if (source.charAt(i) == (char) stack.peek()) {
+            if ((stack.size != 0) && source.charAt(i) == (char) stack.peek()) {
                 index = i + 1;
                 break;
             }
@@ -102,82 +115,84 @@ class ParenBalanceList {
     }
 }
 
+class ListStack implements Stack {
+    Node head;
+    int size = 0;
 
-    class ListStack implements Stack {
-        Node head;
+    public void push(Object e) {
 
-        public void push(Object e) {
+        Node n = new Node(e, head);
+        head = n;
+        size++;
 
-            Node n = new Node(e, head);
-            head = n;
-
-        }
-
-        public Object peek() {
-            if (head == null)
-                return null;
-
-            return head.element;
-        }
-
-        public Object pop() {
-            if (head == null)
-                return null;
-
-            Node remove = head;
-            head = head.next;
-            remove.next = null;
-            return remove.element;
-        }
-
-        public void print() {
-            for (Node n = head; n != head; n = n.next)
-                System.out.println(n.element);
-        }
     }
 
+    public Object peek() {
+        if (head == null)
+            return null;
 
-    class ArrayStack implements Stack {
-        Object[] a;
-        int size;
+        return head.element;
+    }
 
-        public ArrayStack() {
-            a = new Object[100];
-            size = 0;
-        }
+    public Object pop() {
+        if (head == null)
+            return null;
 
-        public void push(Object e) {
-            if (size == a.length) {
-                return;
-            }
-            a[size] = e;
-            size++;
-        }
+        Node remove = head;
+        head = head.next;
+        remove.next = null;
 
-        public Object peek() {
-            if (size == 0) {
-                return null;
-            }
-            return a[size - 1];
-        }
+        size--;
 
-        public Object pop() {
-            if (size == 0) {
-                return null;
-            }
-            Object val = a[size - 1];
-            a[size - 1] = null;
-            size--;
-            return val;
-        }
+        return remove.element;
+    }
 
-        public void print() {
-            if (size == 0)
-                return;
-            else
-                for (int i = 0; i < size; i++)
-                    System.out.println(a[i]);
-        }
+    public void print() {
+        for (Node n = head; n != head; n = n.next)
+            System.out.println(n.element);
+    }
+}
+
+class ArrayStack implements Stack {
+    Object[] a;
+    int size;
+
+    public ArrayStack() {
+        a = new Object[100];
+        size = 0;
+    }
+
+    public void push(Object e) {
+        if (size == a.length)
+            return;
+
+        a[size] = e;
+        size++;
+    }
+
+    public Object peek() {
+        if (size == 0)
+            return null;
+        return a[size - 1];
+    }
+
+    public Object pop() {
+        if (size == 0)
+            return null;
+
+        Object val = a[size - 1];
+        a[size - 1] = null;
+        size--;
+        return val;
+    }
+
+    public void print() {
+        if (size == 0)
+            return;
+        else
+            for (int i = 0; i < size; i++)
+                System.out.println(a[i]);
+    }
 }
 
 class Node {

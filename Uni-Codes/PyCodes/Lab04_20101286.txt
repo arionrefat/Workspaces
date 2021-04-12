@@ -1,0 +1,123 @@
+Task 1:
+
+class Stack:
+    stack=[]
+    def __init__(self):
+        self.pointer=-1
+
+    def push(self,element):
+        self.stack.append(element)
+        self.pointer+=1
+
+    def peek(self):
+        return(self.stack[self.pointer])
+
+    def pop(self):
+        value=self.stack[self.pointer]
+        self.stack=self.stack[:-1]
+        self.pointer-=1
+        return value
+
+    def pairs(self,left,right):
+        if left=='[' and right==']':
+            return True
+        if left=='{' and right=='}':
+            return True
+        if left=='(' and right==')':
+            return True
+        return False
+    def balance(self,s):
+        arr=[]
+        for i in range(len(s)):
+            if s[i]=='[' or s[i]=='{' or s[i]=='(':
+                self.push(s[i])
+                arr.append(i)
+            elif s[i]==']' or s[i]=='}' or s[i]==')':
+                if(self.pointer==-1):
+                    print("This expression is NOT correct.")
+                    print("Error at character","#",(i+1),"‘",s[i],"‘","-not opened")
+                    return
+                x=self.pop()
+                if (self.pairs(x,s[i])):
+                    pass
+                else:
+                    print("This expression is NOT correct.")
+                    print("Error at character","#",(arr[self.pointer+1]+1),"‘",x,"‘","-not closed")
+                    
+                    return
+        if(self.pointer>-1):
+            print("This expression is NOT correct.")
+            return
+        print("This expression is correct.")
+
+class tester:
+    s="1+2]*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14"
+    a=Stack()
+    a.balance(s)
+
+Task 2:
+
+class Node:
+    def __init__(self,value):
+        self.value=value
+        self.ref=None
+
+class Stack:
+    head=None
+    def __init__(self):
+        self.pointer=-1
+
+    def push(self,data):
+        if self.head==None:
+            self.head=Node(data)
+        else:
+            n=Node(data)
+            n.ref=self.head
+            self.head=n
+        self.pointer+=1
+    def peek(self):
+        return(self.head.value)
+    
+    def pop(self):
+        temp=self.head
+        self.head=self.head.ref
+        self.pointer-=1
+        return temp
+    
+    def pairs(self,left,right):
+        if left=='[' and right==']':
+            return True
+        if left=='{' and right=='}':
+            return True
+        if left=='(' and right==')':
+            return True
+        return False
+
+    def balance(self,s):
+        arr=[]
+        for i in range(len(s)):
+            if s[i]=='[' or s[i]=='{' or s[i]=='(':
+                self.push(s[i])
+                arr.append(i)
+            elif s[i]==']' or s[i]=='}' or s[i]==')':
+                if(self.pointer==-1):
+                    print("This expression is NOT correct.")
+                    print("Error at character","#",(i+1),"‘",s[i],"‘","-not opened")
+                    return
+                x=self.pop()
+                if (self.pairs(x.value,s[i])):
+                    pass
+                else:
+                    print("This expression is NOT correct.")
+                    print("Error at character","#",(arr[self.pointer+1]+1),"‘",x.value,"‘","-not closed")
+                    return
+        if(self.pointer>-1):
+            print("This expression is NOT correct.")
+            
+            return
+        print("This expression is correct.")
+
+class tester:
+    s="1+2*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14"
+    a=Stack()
+    a.balance(s)

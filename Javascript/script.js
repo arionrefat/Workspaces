@@ -9,9 +9,9 @@ document.querySelector('.guess').value = 23;
 console.log(document.querySelector('.guess').value);
 */
 
-const clickValue = function(){
+const clickValue = function() {
     console.log(document.querySelector('.guess').value);
     const guess = (document.querySelector('.guess').value);
     console.log(typeof guess);
 }
-document.querySelector('.check').addEventListener('click',clickValue);
+document.querySelector('.check').addEventListener('click', clickValue);
