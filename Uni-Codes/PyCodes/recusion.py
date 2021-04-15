@@ -8,4 +8,4 @@ def length_of_string(s):
 
     return 1+length_of_string(s[1:])
 
-length_of_string('refatul')
+print(length_of_string('refatul'))
