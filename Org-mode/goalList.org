@@ -1,0 +1,24 @@
+#+TITLE: GoalList
+#+DESCRIPTION: Planning to do something and learn a topic along the way.
+#+AUTHOR: Refatul Islam
+
+* Writing stuffs in Org-Mode:
+** Writing something like blog posts and convert them into HTML
+*** Short Writings
++ My dead follows the fuhrer.
++ Metting my future and past self.
+
+** Writing Documentation
+
+* Do projects in Javascript
+** Ideas:
+*** A simple game
+
+* Skill learning:
+** Programming:
+*** Learn Javascript
+** Video editing
+*** Kdenlive
+*** Premier Pro:
+**** Idea:
++ Make a Apex Legends kill Montage.
