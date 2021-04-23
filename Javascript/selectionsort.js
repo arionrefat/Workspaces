@@ -1,5 +1,4 @@
-const array = [10, 13, 14, 15, 2, 1];
-console.log(array);
+const array = [1,4,4,8,11,19,1];
 
 function minTermIndex(i, array) {
     let j = array.length - 1;
@@ -16,8 +15,6 @@ function minTermIndex(i, array) {
     }
     return index;
 }
-
-console.log(minTermIndex(0, array));
 
 function selectionSort(index, array){
     const indexOfMin = minTermIndex(index, array);
