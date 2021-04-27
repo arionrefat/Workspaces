@@ -1,7 +1,5 @@
 package lab02;
 
-
-
 class Node
 {
 	int data;
@@ -46,7 +44,7 @@ class Mylist
 			{
 				tail.next = new Node(n.data,null);
 				tail = tail.next;
-				
+
 				n = n.next;
 				total++;
 			}
@@ -103,7 +101,7 @@ class Mylist
 		n.next = new Node(i,null);
 		n.next.next = next_;
 		total++;
-		
+
 	}
 	Node remove(int di)
 	{
@@ -131,10 +129,10 @@ class Mylist
 				n.next = null;
 				return n;
 			}
-				
-			
+
+
 		}
-		
+
 		return ret;
 	}
 }
@@ -142,7 +140,7 @@ class Mylist
 
 
 public class LAB02 {
-	
+
 	static Mylist evens(Mylist l)
 	{
 		Mylist l1 = new Mylist();
@@ -162,20 +160,20 @@ public class LAB02 {
 		Node n = l.head;
 		if(n==null)
 			return false;
-		
+
 		while(n.next!=null)
 		{
 			if( n.data%2==0 )
 				return true;
 			n = n.next;
 		}
-		
+
 		return false;
 	}
 
 	static void reverse_inplace(Mylist l)
 	{
-		
+
 		Node n = l.head;
 		if(n==null)
 			return;
@@ -183,7 +181,7 @@ public class LAB02 {
 		while(n.next!=null)
 			n = n.next;
 		tail = n;
-		
+
 		Node newhead = null;
 		n = l.head;
 		while(n!=null)
@@ -193,7 +191,7 @@ public class LAB02 {
 			newhead = n;
 			n = nextnode;
 		}
-		
+
 		l.head = newhead;
 		Node n_ = l.head;
 		while(n_.next!=null)
@@ -201,8 +199,8 @@ public class LAB02 {
 		tail = n_;
 		return;
 	}
-	
-	
+
+
 	static void printsum(Mylist l)
 	{
 		Node n = l.head;
@@ -216,34 +214,34 @@ public class LAB02 {
 		}
 		System.out.println(sum);
 	}
-	
-	
+
+
 	public static void main(String[] args)
 	{
-		
-		
+
+
 		int a1[] = {10,20,30,40};
 		Mylist l1 = new Mylist();
-		
+
 		l1.insert(11);
 		l1.insert(11);
 		l1.insert(21);
 		l1.insert(21);
 		l1.insert(31);
 		l1.insert(41);
-		
+
 		l1.showList();
 		System.out.println("l1 has total "+l1.total+" elements");
-		
+
 		Mylist l2 = new Mylist(a1);
 		Mylist l3 = new Mylist(l1);
-		
+
 		l2.showList();
 		System.out.println("l2 has total "+l2.total+" elements");
-		
+
 		l3.showList();
 		System.out.println("l3 has total "+l3.total+" elements");
-		
+
 		reverse_inplace(l3);
 		l3.showList();
 		System.out.println("l3 has total "+l3.total+" elements");
