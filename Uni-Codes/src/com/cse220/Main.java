@@ -1,3 +1,5 @@
+import java.security.DrbgParameters.Reseed;
+
 public class Main {
     public static void main(String args[]) {
         int[] array = { 1, 4, 2, 11, 17, 2, 1, 3, 9, 2 };
