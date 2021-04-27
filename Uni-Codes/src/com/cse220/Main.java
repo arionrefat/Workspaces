@@ -1,214 +1,36 @@
 package com.cse220;
 
-//Here Main class is the Tester class
-//Here ListStack and ArrayStack are mostly taken from BUX and bit modified
-
 public class Main {
-    public static void main(String[] args) {
-        // String source = "1+2*(3/4)";
-        // String source = "1+2*[3*3+{4–5(6(7/8/9)+10)}–11+(12*8)/{13+13}]+14";
-        // String source = "1+2*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14";
-        // String source = "1+2]*[3*3+{4–5(6(7/8/9)+10)–11+(12*8)]+14";
-        String source = "1+2/(5+9*9+8})";
-
-        // Using ArrayStack
-        ParenBalanceArray pbArray = new ParenBalanceArray();
-        pbArray.parenthesisBalancing(source);
-
-        // Using ListStack
-        ParenBalanceList ListBalancing = new ParenBalanceList();
-        ListBalancing.parenthesisBalancing(source);
+    public static void main(String args[]) {
+        int[] array = { 1, 4, 2, 11, 17, 2, 1, 3, 9 };
+        RecursiveSelection selectionsort = new RecursiveSelection();
+        selectionsort.selectionSort(array, 0);
+        selectionsort.print(array);
     }
 }
 
-class ParenBalanceArray {
-    ArrayStack stack = new ArrayStack();
-    boolean flag = false;
-    int index = 0;
-    String openClose;
+class RecursiveSelection {
+    void selectionSort(int[] array, int start) {
+        int size = array.length - 1;
 
-    public void parenthesisBalancing(String source) {
-        for (int i = 0; i < source.length(); i++) {
-            if (source.charAt(i) == '(' || source.charAt(i) == '{' || source.charAt(i) == '[')
-                stack.push(source.charAt(i));
-            else if (source.charAt(i) == ')' || source.charAt(i) == '}' || source.charAt(i) == ']') {
-                if (stack.size == 0) {
-                    stack.push(source.charAt(i));
-                    break;
-                } else {
-                    if ((source.charAt(i) == ')' && stack.peek().equals('('))
-                            || (source.charAt(i) == '}' && stack.peek().equals('{'))
-                            || (source.charAt(i) == ']' && stack.peek().equals('[')))
-                        stack.pop();
-                }
-            }
-        }
-
-        // index = (source.indexOf((char) stack.peek()) + 1);
-
-        for (int i = 0; i < source.length(); i++) {
-            if ((stack.size != 0) && (source.charAt(i) == (char) stack.peek())){
-                index = i + 1;
-                break;
-            }
-        }
-
-        if (stack.size == 0)
-            flag = true;
-        else if (stack.peek().equals('(') || stack.peek().equals('{') || stack.peek().equals('['))
-            openClose = "closed";
-        else
-            openClose = "opened";
-
-        if (flag == true)
-            System.out.println("The expression is correct");
-        else
-            System.out.println("The expression is NOT correct. \n" + "Error at character # " + index + ". " + "‘"
-                    + stack.peek() + "‘- not " + openClose + ".");
-    }
-}
-
-class ParenBalanceList {
-    ListStack stack = new ListStack();
-    boolean flag = false;
-    int index = 0;
-    String openClose;
-
-    public void parenthesisBalancing(String source) {
-        for (int i = 0; i < source.length(); i++) {
-            if (source.charAt(i) == '(' || source.charAt(i) == '{' || source.charAt(i) == '[')
-                stack.push(source.charAt(i));
-            else if (source.charAt(i) == ')' || source.charAt(i) == '}' || source.charAt(i) == ']') {
-                if (stack.size == 0) {
-                    stack.push(source.charAt(i));
-                    break;
-                } else {
-                    if ((source.charAt(i) == ')' && stack.peek().equals('('))
-                            || (source.charAt(i) == '}' && stack.peek().equals('{'))
-                            || (source.charAt(i) == ']' && stack.peek().equals('[')))
-                        stack.pop();
-                }
-            }
-        }
-
-        // index = (source.indexOf((char) stack.peek()) + 1);
-
-        for (int i = 0; i < source.length(); i++) {
-            if ((stack.size != 0) && source.charAt(i) == (char) stack.peek()) {
-                index = i + 1;
-                break;
-            }
-        }
-
-        if (stack.size == 0)
-            flag = true;
-        else if (stack.peek().equals('(') || stack.peek().equals('{') || stack.peek().equals('['))
-            openClose = "closed";
-        else
-            openClose = "opened";
-
-        if (flag == true)
-            System.out.println("The expression is correct");
-        else
-            System.out.println("The expression is NOT correct. \n" + "Error at character # " + index + ". " + "‘"
-                    + stack.peek() + "‘- not " + openClose + ".");
-    }
-}
-
-class ListStack implements Stack {
-    Node head;
-    int size = 0;
-
-    public void push(Object e) {
-
-        Node n = new Node(e, head);
-        head = n;
-        size++;
-
-    }
-
-    public Object peek() {
-        if (head == null)
-            return null;
-
-        return head.element;
-    }
-
-    public Object pop() {
-        if (head == null)
-            return null;
-
-        Node remove = head;
-        head = head.next;
-        remove.next = null;
-
-        size--;
-
-        return remove.element;
-    }
-
-    public void print() {
-        for (Node n = head; n != head; n = n.next)
-            System.out.println(n.element);
-    }
-}
-
-class ArrayStack implements Stack {
-    Object[] a;
-    int size;
-
-    public ArrayStack() {
-        a = new Object[100];
-        size = 0;
-    }
-
-    public void push(Object e) {
-        if (size == a.length)
+        if (start > size)
             return;
 
-        a[size] = e;
-        size++;
+        int min = start;
+
+        for (int i = start + 1; i < size; i++) {
+            if (array[i] < array[min])
+                min = i;
+        }
+
+        int temp = array[start];
+        array[start] = array[min];
+        array[min] = temp;
+        selectionSort(array, start + 1);
     }
 
-    public Object peek() {
-        if (size == 0)
-            return null;
-        return a[size - 1];
+    void print(int[] array) {
+        for (Integer val : array)
+            System.out.println(val);
     }
-
-    public Object pop() {
-        if (size == 0)
-            return null;
-
-        Object val = a[size - 1];
-        a[size - 1] = null;
-        size--;
-        return val;
-    }
-
-    public void print() {
-        if (size == 0)
-            return;
-        else
-            for (int i = 0; i < size; i++)
-                System.out.println(a[i]);
-    }
-}
-
-class Node {
-    Object element;
-    Node next;
-
-    Node(Object e, Node n) {
-        element = e;
-        next = n;
-    }
-}
-
-interface Stack {
-    void push(Object e);
-
-    Object pop();
-
-    Object peek();
 }
