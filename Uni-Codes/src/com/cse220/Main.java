@@ -1,17 +1,18 @@
 public class Main {
     public static void main(String args[]) {
         int[] array = { 1, 4, 2, 1, 2, 29, 9, 5, 11, 1, 5, 61 };
-        // RecursiveSelection selectionsort = new RecursiveSelection();
+        MyListo list = new MyListo(array);
+        RecursiveSelection selectionsort = new RecursiveSelection();
+        selectionsort.selectionListSort(list, 0);
         // selectionsort.selectionSort(array, 0);
         // selectionsort.print(array);
         // System.out.println();
         // RecursiveInsertion insertionsort = new RecursiveInsertion();
         // insertionsort.insertionSort(array, array.length);
         // insertionsort.print(array);
-        MyListo list = new MyListo(array);
         // list.showList();
-        RecursiveBubble bubblesort = new RecursiveBubble();
-        bubblesort.bubbleSort(list, list.size());
+        // RecursiveBubble bubblesort = new RecursiveBubble();
+        // bubblesort.bubbleSort(list, list.size());
         // list.size();
         // System.out.println();
         // list.insert(69, 9);
@@ -38,6 +39,25 @@ class RecursiveSelection {
         array[min] = temp;
 
         selectionSort(array, start + 1);
+    }
+
+    void selectionListSort(MyListo list, int start) {
+        int size = list.size() - 1;
+
+        if (start > size)
+            return;
+
+        int min = start;
+
+        for (int i = start + 1; i <= size; i++)
+            if (list.nodeAt(i).element < list.nodeAt(min).element)
+                min = i;
+
+        int temp = list.nodeAt(start).element;
+        list.insert(list.nodeAt(min).element, start);
+        list.insert(temp, min);
+
+        selectionListSort(list, start + 1);
     }
 
     void print(int[] array) {
@@ -199,5 +219,85 @@ class MyListo {
                 newNode.next = nextOne;
             }
         }
+    }
+}
+
+class DublyListo {
+
+    Node01 head = new Node01(null, null, null);
+
+    public DublyListo(int[] a) {
+        head.next = head.prev = head;
+        Node01 tail = head;
+
+        for (int i = 0; i < a.length; i++) {
+            Node01 newNode = new Node01(a[i], null, null);
+            newNode.prev = tail;
+            newNode.next = tail.next;
+            tail.next = newNode;
+            newNode.next.prev = newNode;
+            tail = newNode;
+        }
+    }
+
+    void showList() {
+        if (head.next == null)
+            System.out.println("Empty List");
+        else {
+            for (Node01 n1 = head.next; n1 != head; n1 = n1.next) {
+                System.out.println(n1.element);
+            }
+        }
+    }
+
+    int size() {
+        int count = 0;
+
+        for (Node01 n = head.next; n != head; n = n.next)
+            count++;
+
+        return count;
+    }
+
+    Node01 nodeAt(int index) {
+        Node01 n = head.next;
+
+        for (int i = 0; i < index; i++)
+            n = n.next;
+
+        return n;
+    }
+
+    void insert(int newElement, int index) {
+        Node01 n = new Node01(newElement, null, null);
+
+        boolean flag = true;
+
+        for (Node01 n1 = head.next; n1 != head; n1 = n1.next) {
+            if (n1.element == n.element) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag) {
+            Node01 temp = nodeAt(index - 1);
+            Node01 q = temp.next;
+            n.next = q;
+            n.prev = temp;
+            temp.next = n;
+            q.prev = n;
+        }
+    }
+}
+
+class Node01 {
+    public Object element;
+    public Node01 prev;
+    public Node01 next;
+
+    public Node01(Object e, Node01 n, Node01 p) {
+        element = e;
+        next = n;
+        prev = p;
     }
 }
