@@ -1,13 +1,15 @@
 public class Main {
     public static void main(String args[]) {
-        int[] array = { 1, 4, 2, 1, 2, 29, 9, 5, 11, 1, 5, 61 };
-        MyListo list = new MyListo(array);
-        RecursiveSelection selectionsort = new RecursiveSelection();
-        selectionsort.selectionListSort(list, 0);
+        int[] array = { 6, 500, 4, 2, 0, 420, 96, 69 };
+        // MyListo list = new MyListo(array);
+        // RecursiveSelection selectionsort = new RecursiveSelection();
+        // selectionsort.selectionListSort(list, 0);
         // selectionsort.selectionSort(array, 0);
         // selectionsort.print(array);
         // System.out.println();
-        // RecursiveInsertion insertionsort = new RecursiveInsertion();
+        DublyListo list0 = new DublyListo(array);
+        RecursiveInsertion insertionsort = new RecursiveInsertion();
+        insertionsort.insertionDubListSort(list0, list0.size());
         // insertionsort.insertionSort(array, array.length);
         // insertionsort.print(array);
         // list.showList();
@@ -16,7 +18,10 @@ public class Main {
         // list.size();
         // System.out.println();
         // list.insert(69, 9);
-        list.showList();
+        // list.showList();
+        // list0.insert(69, 3);
+        list0.showList();
+
     }
 }
 
@@ -82,6 +87,23 @@ class RecursiveInsertion {
         }
 
         array[index + 1] = number;
+    }
+
+    void insertionDubListSort(DublyListo array, int size) {
+        if (size <= 1)
+            return;
+
+        insertionDubListSort(array, size - 1);
+
+        int number = (int) array.nodeAt(size - 1).element;
+        int i = size - 2;
+
+        while (i >= 0 && (int) array.nodeAt(i).element > number) {
+            array.insert((int) array.nodeAt(i).element, i + 1);
+            i--;
+        }
+
+        array.insert(number, i + 1);
     }
 
     void print(int[] array) {
@@ -269,24 +291,17 @@ class DublyListo {
     }
 
     void insert(int newElement, int index) {
-        Node01 n = new Node01(newElement, null, null);
+        Node01 elemento = new Node01(newElement, null, null);
 
-        boolean flag = true;
+        Node01 temp = nodeAt(index);
+        Node01 newNode = temp.next;
+        Node01 prevtemp = temp.prev;
 
-        for (Node01 n1 = head.next; n1 != head; n1 = n1.next) {
-            if (n1.element == n.element) {
-                flag = false;
-                break;
-            }
-        }
-        if (flag) {
-            Node01 temp = nodeAt(index - 1);
-            Node01 q = temp.next;
-            n.next = q;
-            n.prev = temp;
-            temp.next = n;
-            q.prev = n;
-        }
+        temp.next = temp.prev = null;
+        prevtemp.next = elemento;
+        elemento.next = newNode;
+        elemento.prev = prevtemp;
+        newNode.prev = elemento;
     }
 }
 
