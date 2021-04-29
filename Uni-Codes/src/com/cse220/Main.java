@@ -1,28 +1,35 @@
+//Disclaimer:
+
+//Run this file in terminal by renaming the file into Main.java and 
+//running Following the command in terminal
+// ``java Main.java``
+
 public class Main {
     public static void main(String args[]) {
-        int[] array = { 1, 3, 4, 5, 9, 10 };
-        // MyListo list = new MyListo(array);
-        // RecursiveSelection selectionsort = new RecursiveSelection();
-        // selectionsort.selectionListSort(list, 0);
-        // selectionsort.selectionSort(array, 0);
-        // selectionsort.print(array);
+        int[] array = { 3, 1, 5, 9, 10, 68 };
+        MyListo list = new MyListo(array);
+        RecursiveSelection selectionsort = new RecursiveSelection();
+        selectionsort.selectionListSort(list, 0);
+        selectionsort.selectionSort(array, 0);
+        selectionsort.print(array);
         // System.out.println();
-        // DublyListo list0 = new DublyListo(array);
-        // RecursiveInsertion insertionsort = new RecursiveInsertion();
-        // insertionsort.insertionDubListSort(list0, list0.size());
-        // insertionsort.insertionSort(array, array.length);
-        // insertionsort.print(array);
-        // list.showList();
-        // RecursiveBubble bubblesort = new RecursiveBubble();
-        // bubblesort.bubbleSort(list, list.size());
-        // list.size();
-        // System.out.println();
-        // list.insert(69, 9);
-        // list.showList();
-        // list0.insert(69, 3);
-        // list0.showList();
+
+        DublyListo list0 = new DublyListo(array);
+        RecursiveInsertion insertionsort = new RecursiveInsertion();
+        insertionsort.insertionDubListSort(list0, list0.size());
+        insertionsort.insertionSort(array, array.length);
+        insertionsort.print(array);
+        list.showList();
+        list0.showList();
+
+        RecursiveBubble bubblesort = new RecursiveBubble();
+        bubblesort.bubbleSort(list, list.size());
+
         RecursiveBinary binarysearch = new RecursiveBinary();
         System.out.println(binarysearch.binarySort(array, 0, array.length, 3));
+
+        fibonacciMemoization fibM = new fibonacciMemoization();
+        System.out.println(fibM.fibMemoi(7));
     }
 }
 
@@ -126,6 +133,42 @@ class RecursiveBubble {
             }
         }
         bubbleSort(list, size - 1);
+    }
+}
+
+class fibonacciMemoization {
+    int array[];
+
+    fibonacciMemoization() {
+        array = new int[10001];
+    }
+
+    fibonacciMemoization(int n) {
+        array = new int[n + 1];
+    }
+
+    // starts from 0
+
+    // int fibMemoi(int number) {
+    // if (array[number] > 0)
+    // return array[number];
+    // if (number == 1 || number == 2)
+    // return array[number] = 1;
+    // else if (number == 0)
+    // return array[number] = 0;
+    // else
+    // return array[number] = fibMemoi(number - 1) + fibMemoi(number - 2);
+    // }
+
+    // Starts from 1
+
+    int fibMemoi(int number) {
+        if (array[number] > 0)
+            return array[number];
+        if (number == 0 || number == 1)
+            return array[number] = 1;
+        else
+            return array[number] = fibMemoi(number - 1) + fibMemoi(number - 2);
     }
 }
 
