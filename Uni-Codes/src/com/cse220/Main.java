@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String args[]) {
-        int[] array = { 6, 500, 4, 2, 0, 420, 96, 69 };
+        int[] array = { 1, 3, 4, 5, 9, 10 };
         // MyListo list = new MyListo(array);
         // RecursiveSelection selectionsort = new RecursiveSelection();
         // selectionsort.selectionListSort(list, 0);
         // selectionsort.selectionSort(array, 0);
         // selectionsort.print(array);
         // System.out.println();
-        DublyListo list0 = new DublyListo(array);
-        RecursiveInsertion insertionsort = new RecursiveInsertion();
-        insertionsort.insertionDubListSort(list0, list0.size());
+        // DublyListo list0 = new DublyListo(array);
+        // RecursiveInsertion insertionsort = new RecursiveInsertion();
+        // insertionsort.insertionDubListSort(list0, list0.size());
         // insertionsort.insertionSort(array, array.length);
         // insertionsort.print(array);
         // list.showList();
@@ -20,8 +20,9 @@ public class Main {
         // list.insert(69, 9);
         // list.showList();
         // list0.insert(69, 3);
-        list0.showList();
-
+        // list0.showList();
+        RecursiveBinary binarysearch = new RecursiveBinary();
+        System.out.println(binarysearch.binarySort(array, 0, array.length, 3));
     }
 }
 
@@ -125,6 +126,25 @@ class RecursiveBubble {
             }
         }
         bubbleSort(list, size - 1);
+    }
+}
+
+class RecursiveBinary {
+    int binarySort(int[] array, int i, int size, int target) {
+
+        if (size >= i && i < array.length - 1) {
+
+            int middleTerm = i + (size - i) / 2;
+
+            if (array[middleTerm] == target)
+                return middleTerm;
+
+            if (array[middleTerm] > target)
+                return binarySort(array, i, middleTerm - 1, target);
+
+            return binarySort(array, middleTerm + 1, size, target);
+        } else
+            return -1;
     }
 }
 
