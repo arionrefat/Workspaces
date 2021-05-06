@@ -3,7 +3,7 @@
 const number = Math.trunc(Math.random() * 20) + 1;
 console.log(number);
 
-const clickValue = function() {
+const clickValue = function () {
     const guess = (document.querySelector('.guess').value);
     if (!guess) document.querySelector('.message').textContent = 'No number';
     else {
