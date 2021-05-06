@@ -1,5 +1,3 @@
-package lab02;
-
 class Node
 {
 	int data;

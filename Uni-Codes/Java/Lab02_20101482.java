@@ -1,5 +1,3 @@
-package com.cse220;
-
 class tester {
     public static void main(String[] args) {
         int[] a = { 10, 20, 30, 40, 50 };
