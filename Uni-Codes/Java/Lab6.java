@@ -4,7 +4,7 @@
 //running Following the command in terminal
 // ``java Main.java``
 
-public class Main {
+public class Lab6 {
     public static void main(String args[]) {
         int[] array = { 3, 1, 5, 9, 10, 68 };
         MyListo list = new MyListo(array);
@@ -169,19 +169,5 @@ class fibonacciMemoization {
             return array[number] = 1;
         else
             return array[number] = fibMemoi(number - 1) + fibMemoi(number - 2);
-    }
-}
-
-class RecursiveBinary {
-    int binarySort(int[] array, int i, int size, int target) {
-
-        if (size >= i && i < array.length - 1) {
-
-            int middleTerm = i + (size - i) / 2;
-
-            if (array[middleTerm] == target)
-                return middleTerm;
-
-        }
     }
 }

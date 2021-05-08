@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Uni-Codes/src/com/cse220"
+        "Uni-Codes/src/com/cse220",
+        "Uni-Codes/Java"
     ]
 }
