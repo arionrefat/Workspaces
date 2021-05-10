@@ -13,3 +13,10 @@
 *** Extra
 + Org Mode
 + Edit rc.lua
+
+
+* Ideas:
+
+** Make a personal password manager
+** C language is preferred
+** Make a browser extention
