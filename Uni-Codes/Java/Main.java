@@ -11,8 +11,10 @@ class Tester {
         // }
         // System.out.println(keyIndex.search(1));
 
+        // index = ((consonentCount * 24) + sum) % 9;
+
         String[] word = { "12G0", "AB1J0", "ST1E89B8A32", "11060", "ABBY1", "KLKA090", "GHUA991", "GHAA011",
-                "HJLA991" };
+                "PAN1110" };
         Hashing hash = new Hashing(word);
         hash.print();
     }
@@ -127,16 +129,17 @@ class KeyIndex {
 class Hashing {
     String[] aux = new String[9];
     int index = 0;
-    int sum = 0;
-    int consonentCount = 0;
+    int sum;
+    int consonentCount;
 
     Hashing(String[] array) {
         String tempString = "";
 
         // ST1E89B8A32
         for (int i = 0; i < array.length; i++) {
+            sum = 0;
+            consonentCount = 0;
             tempString = array[i];
-            int temp = 0;
 
             for (int j = 0; j < tempString.length(); j++) {
                 char ch = tempString.charAt(j);
@@ -157,11 +160,21 @@ class Hashing {
                 else
                     sum += (ch - 48);
             }
+
             index = ((consonentCount * 24) + sum) % 9;
 
-            if (aux[index] != array[i]) {
-                aux[index] = array[i];
-            }
+            System.out.println(index);
+            System.out.println();
+
+            if (aux[index] != null) {
+                for (int j = 0; j < aux.length; j++) {
+                    if (aux[j] == null) {
+                        aux[j] = tempString;
+                        break;
+                    }
+                }
+            } else
+                aux[index] = tempString;
         }
     }
 
