@@ -5,7 +5,9 @@ console.log(number);
 
 const clickValue = function () {
     const guess = (document.querySelector('.guess').value);
-    if (!guess) document.querySelector('.message').textContent = 'No number';
+
+    if (!guess)
+        document.querySelector('.message').textContent = 'No number';
     else {
         if (guess > number) document.querySelector('.message').textContent = 'Guessed a bit High';
         else if (guess < number) document.querySelector('.message').textContent = 'Guessed a bit Low';
