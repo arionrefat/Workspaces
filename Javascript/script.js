@@ -1,6 +1,6 @@
 'use strict';
 
-const number = Math.trunc(Math.random() * 20) + 1;
+let number = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 console.log(number);
 
@@ -31,7 +31,23 @@ const clickValue = function () {
         else {
             document.querySelector('.message').textContent = 'Correct answer!🎉';
             document.querySelector('.number').textContent = guess;
+            document.querySelector('body').style.backgroundColor = '#60b347';
+            document.querySelector('.number').style.width = '30rem';
         }
     }
 }
+
+const reset = function () {
+    score = 20;
+    number = Math.trunc(Math.random() * 20) + 1;
+
+    document.querySelector('.message').textContent = 'Start guessing...';
+    document.querySelector('.score').textContent = score;
+    document.querySelector('.number').textContent = '?';
+    document.querySelector('.guess').value = '';
+
+    document.querySelector('body').style.backgroundColor = '#222';
+    document.querySelector('.number').style.width = '15rem';
+}
 document.querySelector('.check').addEventListener('click', clickValue);
+document.querySelector('.again').addEventListener('click', reset);
