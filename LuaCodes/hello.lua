@@ -13,5 +13,5 @@ print(variable)
 
 io.write("Size of string ", #variable, "\n")
 io.write("The number is ", number , "\n")
-
+print("this is faster approach")
 io.write("The type of number is ", type(number) , "\n")
