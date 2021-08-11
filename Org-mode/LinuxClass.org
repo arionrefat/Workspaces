@@ -1,0 +1,18 @@
+#+TITLE: Linux Class
+#+AUTHOR: Refatul Islam
+#+DESCRIPTION: Linux Terminal
+
+* Linux Terminal:
+** Terminal Emulators:
+- Terminal (tty), Example: archlinux base install
+** All types of shell:
+- sh to bash history
+- sh, bash, zsh, fish
+- can use simultaniously (example below)
+** Terminals Commands(GNU utils):
+- ls, find, fmt, sed
+** Example of fast usecase:
+- Font Installation using cmd-line and pcmanfm
+- copy the same file and rename
+** Stop customizing, discover apps instead:
+- zoxide showcase
