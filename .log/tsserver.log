@@ -1,13 +1,13 @@
-Info 0    [01:19:38.502] Starting TS Server
-Info 1    [01:19:38.503] Version: 4.3.2
-Info 2    [01:19:38.503] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /home/refat/Workspaces/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/fad7dbb30ffe9d534825e069c32229e6/tscancellation*
-Info 3    [01:19:38.503] Platform: linux NodeVersion: 16 CaseSensitive: true
-Info 4    [01:19:38.503] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [01:19:38.520] Search path: /home/refat/Workspaces/Javascript
-Info 6    [01:19:38.521] For info: /home/refat/Workspaces/Javascript/callback.js :: No config files found.
-Info 7    [01:19:38.525] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 8    [01:19:39.409] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 883.640330000082ms
-Info 9    [01:19:39.409] Project '/dev/null/inferredProject1*' (Inferred)
-Info 10   [01:19:39.409] 	Files (19)
+Info 0    [16:54:06.475] Starting TS Server
+Info 1    [16:54:06.476] Version: 4.3.5
+Info 2    [16:54:06.476] Arguments: /usr/bin/node /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/bin/tsserver --logFile /home/refat/Workspaces/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/ce2ee4c848ad4da4b775184fd20d82ab/tscancellation*
+Info 3    [16:54:06.476] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [16:54:06.476] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:54:06.499] Search path: /home/refat/Workspaces/Javascript/07-Pig-Game/final
+Info 6    [16:54:06.500] For info: /home/refat/Workspaces/Javascript/07-Pig-Game/final/script.js :: No config files found.
+Info 7    [16:54:06.507] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [16:54:07.765] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1257.732321999967ms
+Info 9    [16:54:07.766] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [16:54:07.766] 	Files (19)
 
-Info 11   [01:19:39.410] -----------------------------------------------
+Info 11   [16:54:07.766] -----------------------------------------------

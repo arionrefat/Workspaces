@@ -1,8 +1,8 @@
 from queue import PriorityQueue
 import math
 
-input = open("input1.txt", "r")
-output = open("output1.txt", "w")
+input = open("input2.txt", "r")
+output = open("output2.txt", "w")
 test_cases = input.readline()
 
 
@@ -40,11 +40,21 @@ def Dijkstra(graph, source):
                 dist[vertex[0]] = alt
                 prev[vertex[0]] = u
                 Q.put((dist[vertex[0]], vertex[0]))
+    set = []
+    index = len(prev)-1
 
-    return dist[sizeOfGraph - 1]
+    while(1):
+        if prev[index] == None:
+            set.append(1)
+            break
+
+        set.append(index)
+        index = prev[index]
+    set.reverse()
+    print(*set, file=output)
 
 
-adjList = {}
+adjacentList = {}
 
 for i in range(int(test_cases)):
 
@@ -54,13 +64,13 @@ for i in range(int(test_cases)):
     M = int(lists[1])
 
     for i in range(N+1):
-        adjList[i] = []
+        adjacentList[i] = []
 
-    for i in range(M):
+    for j in range(M):
         anotherList = input.readline().split()
         u = int(anotherList[0])
         v = int(anotherList[1])
         w = int(anotherList[2])
-        adjList[u].append([v, w])
+        adjacentList[u].append([v, w])
 
-    print(Dijkstra(adjList, 1), file=output)
+    Dijkstra(adjacentList, 1)
