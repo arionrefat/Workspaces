@@ -5,7 +5,6 @@ input = open("input1.txt", "r")
 output = open("output1.txt", "w")
 test_cases = input.readline()
 
-
 def Dijkstra(graph, source):
     sizeOfGraph = len(graph)
     dist = [math.inf]*sizeOfGraph

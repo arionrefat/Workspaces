@@ -14,8 +14,7 @@ def AssignmentSelection(inputlists, n):
     lists = sorted(inputlists, key=lambda a: a[1])
     selected = []
     selected.append(lists[0])
-    count = 1
-    count1 = 1
+    count, count1 = 1, 1
     f = lists[0][1]
 
     for i in range(1, n):
@@ -23,12 +22,13 @@ def AssignmentSelection(inputlists, n):
             count += 1
             f = lists[count1][1]
             selected.append(lists[count1])
-        count1 +=1
-    print(count, file = fileoutput)
+        count1 += 1
+    print(count, file=fileoutput)
 
     for i in range(len(selected)):
         for j in range(len(selected[i])):
-            print(selected[i][j], end=' ', file = fileoutput)
-        print(file = fileoutput)
+            print(selected[i][j], end=" ", file=fileoutput)
+        print(file=fileoutput)
+
 
 AssignmentSelection(inputlist, n)

@@ -1,5 +1,5 @@
-fileInput= open("input1.txt")
-fileoutput = open("output3.txt" ,"w")
+fileInput= open("/home/refat/Workspaces/Uni-Codes/PyCodes/Lab03/input1.txt")
+fileoutput = open("/home/refat/Workspaces/Uni-Codes/PyCodes/Lab03/output3.txt" ,"w")
 
 data = int(fileInput.readline())
 lists = []
@@ -12,6 +12,8 @@ graph={}
 for i in range(data):
     list = lists[i]
     graph[list[0]] = list[1:]
+
+print(graph)
 
 visited = []
 
