@@ -23,7 +23,7 @@ diceRoll.addEventListener('click', function() {
     // if the dice is 1, 
     if (dice == 1) {
         //switched to the next playerswitched to the next player
-
+        
     }
     else {
 

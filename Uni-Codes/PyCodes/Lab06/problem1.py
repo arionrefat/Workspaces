@@ -42,6 +42,8 @@ def LCS(X, Y, N):
         else:
             j -= 1
 
+    print(zoneLCS)
+
     zoneLCS.remove('')
 
     zoneNames = {'Y' : 'Yasnaya', 'P' : 'Pochinki', 'S' : 'School', 'R' : 'Rozhok', 'F' : 'Farm', 'M' : 'Mylta', 'H' : 'Shelter', 'I' : 'Prison'}
