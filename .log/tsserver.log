@@ -1,13 +1,13 @@
-Info 0    [16:54:06.475] Starting TS Server
-Info 1    [16:54:06.476] Version: 4.3.5
-Info 2    [16:54:06.476] Arguments: /usr/bin/node /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/bin/tsserver --logFile /home/refat/Workspaces/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/ce2ee4c848ad4da4b775184fd20d82ab/tscancellation*
-Info 3    [16:54:06.476] Platform: linux NodeVersion: 16 CaseSensitive: true
-Info 4    [16:54:06.476] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [16:54:06.499] Search path: /home/refat/Workspaces/Javascript/07-Pig-Game/final
-Info 6    [16:54:06.500] For info: /home/refat/Workspaces/Javascript/07-Pig-Game/final/script.js :: No config files found.
-Info 7    [16:54:06.507] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 8    [16:54:07.765] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1257.732321999967ms
-Info 9    [16:54:07.766] Project '/dev/null/inferredProject1*' (Inferred)
-Info 10   [16:54:07.766] 	Files (19)
+Info 0    [01:14:25.142] Starting TS Server
+Info 1    [01:14:25.142] Version: 4.3.5
+Info 2    [01:14:25.142] Arguments: /usr/bin/node /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/bin/tsserver --logFile /home/refat/Workspaces/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/01cc5032001b9a11807c62270b0afbaa/tscancellation*
+Info 3    [01:14:25.142] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [01:14:25.142] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [01:14:25.189] Search path: /home/refat/Workspaces/Javascript/07-Pig-Game/starter
+Info 6    [01:14:25.190] For info: /home/refat/Workspaces/Javascript/07-Pig-Game/starter/script.js :: No config files found.
+Info 7    [01:14:25.195] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [01:14:25.974] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 778.8110790000064ms
+Info 9    [01:14:25.975] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [01:14:25.975] 	Files (19)
 
-Info 11   [16:54:07.766] -----------------------------------------------
+Info 11   [01:14:25.975] -----------------------------------------------
