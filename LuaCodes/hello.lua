@@ -23,3 +23,7 @@ if (variable ~= anothernumber)
     then
         print("hela");
 end
+
+for i= 1,6 do
+	print("this ")
+end
