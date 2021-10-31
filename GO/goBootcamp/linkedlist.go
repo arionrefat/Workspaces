@@ -39,7 +39,6 @@ func (n *Node) PrintList() {
 }
 
 func main() {
-
 	list := List{}
 	list.Insert(4)
 	list.Insert(8)

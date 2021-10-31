@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 type fun func(int, int) int
 
@@ -11,7 +14,8 @@ type fun func(int, int) int
 // }
 
 func main() {
-	Arithmetic(1, 3, "sum", sum)
+	Arithmetic(5, 9, "sum", sum)
+	fmt.Println("this is a another line")
 }
 
 func sum(a int, b int) int {
@@ -19,8 +23,9 @@ func sum(a int, b int) int {
 }
 
 func Arithmetic(a int, b int, optype string, f fun) {
-
 	var res int
+
+	time.Sleep(1 * time.Second)
 
 	if optype == "sum" {
 		res = f(a, b)
