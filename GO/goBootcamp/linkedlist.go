@@ -14,10 +14,11 @@ type List struct {
 func (l *List) PrintList() {
 	list := l.Head
 	for list != nil {
-		fmt.Printf("|%v| ->", list.Data)
+		fmt.Printf("%v ->", list.Data)
 		list = list.Next
 	}
 }
+
 func (l *List) Insert(data int) {
 	head := l.Head
 	if head == nil {
@@ -29,14 +30,6 @@ func (l *List) Insert(data int) {
 	}
 	head.Next = &Node{Data: data}
 }
-func (n *Node) PrintList() {
-
-	for n != nil {
-		fmt.Printf("Data -> %v", n.Data)
-		n = n.Next.Next
-	}
-
-}
 
 func main() {
 	list := List{}
@@ -45,5 +38,6 @@ func main() {
 	list.Insert(9)
 	list.Insert(7)
 	list.Insert(1)
+	list.Insert(12)
 	list.PrintList()
 }

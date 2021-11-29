@@ -1,0 +1,18 @@
+Info 0    [18:25:15.385] Starting TS Server
+Info 1    [18:25:15.385] Version: 4.4.4
+Info 2    [18:25:15.385] Arguments: /usr/bin/node /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/bin/tsserver --logFile /home/refat/Workspaces/Javascript/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/1e947254e251675b09047d9b4a579932/tscancellation*
+Info 3    [18:25:15.385] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [18:25:15.385] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:25:15.420] Format host information updated
+Info 6    [18:25:15.426] Search path: /home/refat/Workspaces/Javascript
+Info 7    [18:25:15.428] For info: /home/refat/Workspaces/Javascript/script.js :: No config files found.
+Info 8    [18:25:15.439] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [18:25:17.059] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1619.5253069996834ms
+Info 10   [18:25:17.060] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [18:25:17.060] 	Files (19)
+
+Info 12   [18:25:17.061] -----------------------------------------------
+Info 13   [18:25:31.734] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 14   [18:25:31.758] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 23.81883200071752ms
+Info 15   [18:25:31.759] Different program with same set of files
+Info 16   [18:25:32.070] Format host information updated

@@ -5,13 +5,40 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch Task1",
+      "request": "launch",
+      "mainClass": "java.Task1",
+      "projectName": "Workspaces_bce352a8"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibo",
+      "request": "launch",
+      "mainClass": "java.Fibo",
+      "projectName": "Workspaces_bce352a8"
+    },
+    {
+      "type": "java",
+      "name": "Launch Task2",
+      "request": "launch",
+      "mainClass": "java.Task2",
+      "projectName": "Workspaces_bce352a8"
+    },
+    {
+      "type": "java",
+      "name": "Launch Task3",
+      "request": "launch",
+      "mainClass": "java.Task3",
+      "projectName": "Workspaces_bce352a8"
+    },
+    {
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal"
     },
-
     {
       "type": "pwa-chrome",
       "request": "launch",

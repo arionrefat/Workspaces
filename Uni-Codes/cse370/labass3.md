@@ -1,0 +1,15 @@
+1. select first_name, last_name, email, phone_number, hire_date, department_id from employees where (department_id, hire_date) in (select department_id, max(hire_date) from employees group by department_id);
+2. select first_name, last_name, email, phone_number, hire_date, department_id from employees where (department_id, hire_date) in (select department_id, min(hire_date) from employees group by department_id);
+3. select first_name, last_name, employee_id, phone_number, salary, department_id from employees where (department_id, salary ) in (select department_id, min(salary) from employees group by department_id);
+4. select first_name, last_name, employee_id, commission_pct, department_id from employees where department_id=7 and commission_pct<all ( select commission_pct from employees where department_id=5);
+5. select department_id ,count(*) "Total employees" from employees group by department_id;
+6. select first_name, last_name, employee_id, email, salary, department_id from employees where hire_date < ('2020-1-1');
+7. select first_name, last_name, employee_id, email, salary, department_id from employees where manager_id='abcd998773' and salary=(select max(salary) from employees);
+8. select distinct department_id from employees l1 where not exists (select * from employees l2 where l1.department_id=l2.department_id and l2.salary>30000);
+9. select department_id,job_id,commission_pct from employees l1 where exists (select * from employees l2 where l1.department_id=l2.department_id and l1.job_id!=l2.job_id and l1.commission_pct < l2.commission_pct);
+10. select first_name, last_name, employee_id, email, salary, department_id, commission_pct from employees where commission_pct in(select min(commission_pct ) from employees group by manager_id);
+11. select count(*) as total_manager from employees where employee_id=manager_id;
+12. select department_id, job_id, salary FROM employees l1 WHERE EXISTS (SELECT * FROM employees l2 WHERE l1.department_id=l2.department_id and l1.job_id!=l2.job_id and l1.salary<l2.salary);
+13. select distinct manager_id from employees l1 where exists( select * from employees l2 where l1.manager_id = l2.manager_id and l2.salary > 1500);
+14. select distinct manager_id from employees l1 where exists( select * from employees l2 where l1.manager_id = l2.manager_id and l2.commission_pct < 15.25);
+15. select distinct manager_id from employees l1 where not exists (select * from employees l2 where l1.manager_id=l2.manager_id and l2.salary<3500);

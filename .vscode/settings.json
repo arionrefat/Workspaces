@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
         "Uni-Codes/src/com/cse220",
-        "Uni-Codes/Java"
+        "Uni-Codes/Java",
+        "Uni-Codes/cse321"
     ],
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true
