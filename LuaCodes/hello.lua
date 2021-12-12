@@ -25,5 +25,5 @@ if (variable ~= anothernumber)
 end
 
 for i= 1,6 do
-	print("this ")
+	print("this "..i)
 end

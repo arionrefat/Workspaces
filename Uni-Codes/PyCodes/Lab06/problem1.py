@@ -1,5 +1,5 @@
 fileInput = open("input1.txt")
-fileoutput = open("output1.txt", "w")
+fileoutput = open("output1.txt", "w"           )
 n = int(fileInput.readline())
 string1 = fileInput.readline()
 string2 = fileInput.readline()
@@ -8,7 +8,7 @@ def LCS(X, Y, N):
     m = N
     n = N
 
-    L = [[0 for x in range(n+1)] for x in range(m+1)]
+    L = [[0 for x in range(n+1)] for x in range(m+1
 
     for i in range(m + 1):
         for j in range(n + 1):

@@ -5,6 +5,7 @@ import numpy as np
 
 n = 27
 
+
 def fibonacci_1(n):
     if n <= 0:
         print("Invalid input!")
@@ -12,6 +13,7 @@ def fibonacci_1(n):
         return n - 1
     else:
         return fibonacci_1(n - 1) + fibonacci_1(n - 2)
+
 
 def fibonacci_2(n):
     fibonacci_array = [0, 1]
@@ -38,11 +40,11 @@ for i in range(n - 1):
     z[i + 1] = time.time() - start
 
 x_interval = math.ceil(n / 10)
-plt.plot(x, y, 'r')
-plt.plot(x, z, 'b')
+plt.plot(x, y, "r")
+plt.plot(x, z, "b")
 plt.xticks(np.arange(min(x), max(x) + 1, x_interval))
-plt.xlabel('n-th position')
-plt.ylabel('time')
+plt.xlabel("n-th position")
+plt.ylabel("time")
 
-plt.title('Comparing Time Complexity!')
+plt.title("Comparing Time Complexity!")
 plt.show()

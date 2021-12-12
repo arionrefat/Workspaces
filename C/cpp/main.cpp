@@ -9,7 +9,7 @@ int main() {
   int n, m{};
   vector<int> nums;
 
-  cin >> n >> m;
+  cin >> n;
   for (int i = 0; i < n; i++) {
     int temp;
     cin >> temp;

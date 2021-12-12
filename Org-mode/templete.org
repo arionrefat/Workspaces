@@ -1,6 +1,0 @@
-* Org heading toggling: SPC-m-h
-- Org Item toggling: SPC-m-i
-
-
-+ can use M-x to find the commands and it's shortcuts and start searching it by writing Org-(key)
-+ Use `TAB` for folding and unfolding.
