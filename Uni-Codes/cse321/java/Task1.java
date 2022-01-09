@@ -10,13 +10,24 @@ class Calcu extends Thread {
     calculation = calcs;
   }
 
-  public int add(int number1, int number2) { return number1 + number2; }
-  public int sub(int number1, int number2) { return number1 - number2; }
-  public int mul(int number1, int number2) { return number1 * number2; }
-  public int div(int number1, int number2) { return number1 / number2; }
+  public int add(int number1, int number2) {
+    return number1 + number2;
+  }
+
+  public int sub(int number1, int number2) {
+    return number1 - number2;
+  }
+
+  public int mul(int number1, int number2) {
+    return number1 * number2;
+  }
+
+  public int div(int number1, int number2) {
+    return number1 / number2;
+  }
 
   @Override
-  public void run() {
+  public void run() { // process mean any program in execution thread is part of a provess
     if (calculation.equals("add"))
       System.out.println(add(num1, num2));
     else if (calculation.equals("sub"))
@@ -29,6 +40,7 @@ class Calcu extends Thread {
       System.out.println("No Valid operation");
   }
 }
+
 public class Task1 {
   public static void main(String[] args) throws InterruptedException {
     Scanner input = new Scanner(System.in);

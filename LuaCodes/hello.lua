@@ -11,19 +11,18 @@ local variable = "THis is a varible name"
 local number = 90
 
 io.write("Size of string ", #variable, "\n")
-io.write("The number is ", number , "\n")
-io.write("The type of number is ", type(number) , "\n")
+io.write("The number is ", number, "\n")
+io.write("The type of number is ", type(number), "\n")
 
-print(type(type(string)));
-print(type(nil));
+print(type(type(string)))
+print(type(nil))
 
-local anothernumber = 10;
+local anothernumber = 10
 
-if (variable ~= anothernumber)
-    then
-        print("hela");
+if variable ~= anothernumber then
+	print("hela")
 end
 
-for i= 1,6 do
-	print("this "..i)
+for i = 1, 6 do
+	print("this " .. i)
 end

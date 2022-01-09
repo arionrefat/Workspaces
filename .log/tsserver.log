@@ -1,13 +1,14 @@
-Info 0    [12:19:57.885] Starting TS Server
-Info 1    [12:19:57.890] Version: 4.3.5
-Info 2    [12:19:57.890] Arguments: /usr/bin/node /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/bin/tsserver --logFile /home/refat/Workspaces/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/5583809dfe3fcb561d8e24e76901dfba/tscancellation*
-Info 3    [12:19:57.890] Platform: linux NodeVersion: 16 CaseSensitive: true
-Info 4    [12:19:57.890] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [12:19:57.906] Search path: /home/refat/Workspaces/Javascript/07-Pig-Game/starter
-Info 6    [12:19:57.908] For info: /home/refat/Workspaces/Javascript/07-Pig-Game/starter/script.js :: No config files found.
-Info 7    [12:19:57.913] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 8    [12:19:58.750] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 836.5310880000179ms
-Info 9    [12:19:58.750] Project '/dev/null/inferredProject1*' (Inferred)
-Info 10   [12:19:58.750] 	Files (19)
+Info 0    [00:13:20.038] Starting TS Server
+Info 1    [00:13:20.038] Version: 4.5.4
+Info 2    [00:13:20.038] Arguments: /usr/bin/node /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/refat/Workspaces/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/5141e5187b74ae199af9ce2910e34064/tscancellation*
+Info 3    [00:13:20.038] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [00:13:20.038] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [00:13:20.060] Format host information updated
+Info 6    [00:13:20.064] Search path: /home/refat/Workspaces/Javascript
+Info 7    [00:13:20.065] For info: /home/refat/Workspaces/Javascript/spreadoperator.js :: No config files found.
+Info 8    [00:13:20.072] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [00:13:20.763] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 690.5256069991738ms
+Info 10   [00:13:20.763] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [00:13:20.763] 	Files (19)
 
-Info 11   [12:19:58.750] -----------------------------------------------
+Info 12   [00:13:20.763] -----------------------------------------------

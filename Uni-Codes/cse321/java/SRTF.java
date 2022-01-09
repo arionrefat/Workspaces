@@ -29,7 +29,8 @@ public class SRTF {
         while (true) {
             int c = n;
             int min = 999;
-            if (total == n) break;
+            if (total == n)
+                break; // n = no of process
 
             for (i = 0; i < n; i++) {
                 if ((arrival_time[i] <= st) && (f[i] == 0) && (burst_time[i] < min)) {
@@ -38,7 +39,8 @@ public class SRTF {
                 }
             }
 
-            if (c == n) st++;
+            if (c == n)
+                st++;
             else {
                 burst_time[c]--;
                 st++;
@@ -57,7 +59,9 @@ public class SRTF {
         }
 
         System.out.println("proc  arrival  burst  complete turn waiting");
-        for(i=0;i<n;i++) System.out.println(proc[i] +"\t"+ arrival_time[i]+"\t"+ k[i] +"\t"+ complete_time[i] +"\t"+ turnaround_time[i] +"\t"+ waiting_time[i]);
+        for (i = 0; i < n; i++)
+            System.out.println(proc[i] + "\t" + arrival_time[i] + "\t" + k[i] + "\t" + complete_time[i] + "\t"
+                    + turnaround_time[i] + "\t" + waiting_time[i]);
         System.out.println("Average Turnaround time is " + (float) (avgta / n));
         System.out.println("Average Waiting time is " + (float) (avgwt / n));
         input.close();

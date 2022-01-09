@@ -1,6 +1,6 @@
 const function1 = () => {
     setTimeout(() => {
-        console.log('this is a word haha');
+        console.log('This doesnt mean anything');
     }, 3000);
 }
 

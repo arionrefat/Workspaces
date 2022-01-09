@@ -1,0 +1,35 @@
+[13:24:28.435] Global cache location '/home/refat/.cache/typescript/4.5', safe file path '/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[13:24:28.436] Processing cache location '/home/refat/.cache/typescript/4.5'
+[13:24:28.436] Trying to find '/home/refat/.cache/typescript/4.5/package.json'...
+[13:24:28.437] Loaded content of '/home/refat/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.572"}}
+[13:24:28.437] Loaded content of '/home/refat/.cache/typescript/4.5/package-lock.json'
+[13:24:28.437] Finished processing cache location '/home/refat/.cache/typescript/4.5'
+[13:24:28.438] Process id: 103631
+[13:24:28.438] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[13:24:28.438] validateDefaultNpmLocation: false
+[13:24:28.439] Npm config file: /home/refat/.cache/typescript/4.5/package.json
+[13:24:28.439] Updating types-registry npm package...
+[13:24:28.439] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[13:24:30.595]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 2s
+
+found 0 vulnerabilities
+
+[13:24:30.595] Updated types-registry npm package
+[13:24:30.623] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/refat/Workspaces/Javascript/script.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/refat/Workspaces/Javascript","kind":"discover"}
+[13:24:30.642] Loaded safelist from types map file '/home/refat/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[13:24:30.643] Explicitly included types: []
+[13:24:30.644] Inferred typings from unresolved imports: []
+[13:24:30.644] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/refat/Workspaces/Javascript/bower_components","/home/refat/Workspaces/Javascript/node_modules"]}
+[13:24:30.645] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/refat/Workspaces/Javascript/bower_components","/home/refat/Workspaces/Javascript/node_modules"]}
+[13:24:30.645] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/bower_components
+[13:24:30.646] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:24:30.648] Elapsed:: 1.6446819994598627ms DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:24:30.648] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/node_modules
+[13:24:30.648] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:24:30.648] Elapsed:: 0.1041480004787445ms DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:24:30.648] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:24:30.649] Response has been sent.
+[13:24:30.649] No new typings were requested as a result of typings discovery
