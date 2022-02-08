@@ -2,21 +2,26 @@
 #+DESCRIPTION: Daily Todo List
 #+Author: Refatul Islam
 
-* Task List Daily
-** TODO
-*** Academics
-+ CSE220
-  + Lecture 2, Part 3
-  + Lab1
-+ MAT215
-  + Week 2, part 1
-*** Extra
-+ Org Mode
-+ Edit rc.lua
+* Finish Lectures
+** CSE250
+*** DONE Week 2 Rewatch lecture 4
+*** DONE Finish Week 2
+*** TODO Finish Week 3
+** CSE471
+*** DONE Finish Lecture 1 all 5 segments
+*** TODO Revise Lecture 1 Slides
+** ENV103
+*** DONE Learn Lecture 1 slides
+*** DONE Learn Lecture 2 slides
+*** TODO Learn Lecture 3 slides
+** CSE420
+*** DONE Finish Week 1 Lecture 1
+*** TODO Finish Week 1 Lecture 2
 
-
-* Ideas:
-
-** Make a personal password manager
-** C language is preferred
-** Make a browser extention
+* Project
+** Project Bot
+*** DONE Refactor Code
+** Go Rest API
+*** TODO Understand Code
+** CSS Tutorial
++ Finished section-1
