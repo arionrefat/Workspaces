@@ -1,0 +1,34 @@
+#+TITLE: Todo
+#+DESCRIPTION: Daily Todo List
+#+Author: Refatul Islam
+
+* Finish Lectures
+** CSE250
+*** DONE Week 2 Rewatch lecture 4
+*** DONE Finish Week 2
+*** DONE Finish Lab recorded Video
+*** DONE Finish Week 3
+*** TODO Watch class lectures 4 and 5
+*** TODO Revise KCL KVL theory
+** CSE471
+*** TODO Revise Lecture 1 Slides
+*** TODO Learn Lecture 2 Slides
+** ENV103
+*** DONE Learn Lecture 1 slides
+*** DONE Learn Lecture 2 slides
+*** DONE Learn Lecture 3 slides
+*** TODO Learn Lecture 4 slides
+** CSE420
+*** DONE Revise Week 1 Lecture 2
+*** DONE Finish Week 2 Lecture 1
+*** TODO Finish Week 2 Lecture 2
+*** TODO Finish Week 2 Lecture 2
+
+* Project
+** Project Bot
+*** TODO Refactor Code
+*** TODO Convert it to typescript
+** Go Rest API
+*** TODO Understand Code
+** CSS Tutorial
++ Finished section-1
