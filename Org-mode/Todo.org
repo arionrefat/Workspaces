@@ -4,24 +4,20 @@
 
 * Finish Lectures
 ** CSE250
-*** DONE Revise KCL KVL and OHM theory
+*** TODO Finish Lab Assignment 3
 ** CSE471
-*** TODO Revise Lecture 1 Slides
-*** TODO Learn Lecture 2 Slides
-*** TODO Watch Lecture 2 part 2
+*** TODO Start Week 7
 ** ENV103
-*** TODO Learn Lecture 4 slides
-*** TODO Revise Doc notes
+*** TODO Learn Lecture 5 slides
 ** CSE420
-*** TODO Finish Week 2 Lecture 2
-*** DONE Finish Lab Video
-*** TODO Polish LabAssignment 1
+*** TODO Do LabAssignment 2
+*** TODO Finish Week 3
 
 * Project
 ** Project Bot
 *** TODO Refactor Code
 *** TODO Convert it to typescript
-** Go Rest API
-*** TODO Understand Code
+** Go Server
+*** TODO make 
 ** CSS Tutorial
 + Finished section-1

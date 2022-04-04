@@ -1,8 +1,8 @@
-syntaxWords = ['if', 'else', 'for']
-varini = ['int', 'double', 'float']
-operators = ['+', '-', '=']
-logicalops = ['>']
-otherstuffs = [',', '(', ')', ';', '{', '}']
+syntaxWords = ["if", "else", "for"]
+varini = ["int", "double", "float"]
+operators = ["+", "-", "="]
+logicalops = [">"]
+otherstuffs = [",", "(", ")", ";", "{", "}"]
 
 keywords = list()
 identifiers = list()
@@ -16,52 +16,48 @@ with open("input.txt", "r") as file:
         line = line.strip()
 
         for i in otherstuffs:
-            line = line.replace(i, ' '+ i +' ')
+            line = line.replace(i, " " + i + " ")
         for i in operators:
-            line = line.replace(i, ' '+ i +' ')
+            line = line.replace(i, " " + i + " ")
         for i in logicalops:
-            line = line.replace(i, ' '+ i +' ')
-        line = line.split(' ')
+            line = line.replace(i, " " + i + " ")
+        line = line.split(" ")
 
-        if line[0] in varini:
-            temp = line[1:-2]
-            for i in temp:
-                if (i.isalpha()):
+        for i in line:
+            if i in syntaxWords or i in varini and i not in keywords:
+                keywords.append(i)
+
+            elif i in operators and i not in mathoperator:
+                mathoperator.append(i)
+
+            elif i in logicalops and i not in logicaloperator:
+                logicaloperator.append(i)
+
+            elif i in otherstuffs and i not in others:
+                others.append(i)
+
+            elif (
+                i not in syntaxWords
+                and i not in operators
+                and i not in logicalops
+                and i not in otherstuffs
+            ):
+                try:
+                    float(i)
+                    if i not in numericalvalues:
+                        numericalvalues.append(i)
+                except ValueError:
+                    pass
+
+                if i.isdigit() and i not in numericalvalues:
+                    numericalvalues.append(i)
+
+                elif i not in numericalvalues and i not in identifiers:
                     identifiers.append(i)
-            keywords.append(line[0])
-        if line[0] in syntaxWords:
-            keywords.append(line[0])
 
-        for i in operators:
-            if i in line:
-                if i not in mathoperator:
-                    mathoperator.append(i)
-
-        for i in logicalops:
-            if i in line:
-                if i not in logicaloperator:
-                    logicaloperator.append(i)
-
-        for i in otherstuffs:
-            if i in line:
-                if i not in others:
-                    others.append(i)
-
-        for i in line:
-            try:
-                float(i)
-                if i not in numericalvalues:
-                    numericalvalues.append(i)
-            except ValueError:
-                continue
-
-        for i in line:
-            if i.isnumeric() and i not in numericalvalues:
-                    numericalvalues.append(i)
-
-print("Keywords: ",*keywords, sep = ' ')
-print("Identifiers: ", *identifiers, sep = ' ')
-print("Math Operators: ",*mathoperator, sep = ' ')
-print("Logical Operators: ",*logicaloperator, sep = ' ')
-print("Numerical Values: ",*numericalvalues, sep = ' ')
-print("Others: ", *others, sep = '')
+print("Keywords: ", *keywords, sep=" ")
+print("Identifiers: ", *identifiers, sep=" ")
+print("Math Operators: ", *mathoperator, sep=" ")
+print("Logical Operators: ", *logicaloperator, sep=" ")
+print("Numerical Values: ", *numericalvalues, sep=" ")
+print("Others: ", *others, sep="")

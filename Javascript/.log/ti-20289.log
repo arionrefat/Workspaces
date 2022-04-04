@@ -1,0 +1,67 @@
+[01:09:29.641] Global cache location '/home/refat/.cache/typescript/4.5', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[01:09:29.642] Processing cache location '/home/refat/.cache/typescript/4.5'
+[01:09:29.642] Trying to find '/home/refat/.cache/typescript/4.5/package.json'...
+[01:09:29.646] Loaded content of '/home/refat/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.581"},"devDependencies":{"@types/asn1":"^0.2.0","@types/assert-plus":"^1.0.4","@types/aws4":"^1.11.1","@types/bluebird":"^3.5.36","@types/caseless":"^0.12.2","@types/combined-stream":"^1.0.3","@types/dashdash":"^1.14.1","@types/extend":"^3.0.1","@types/extsprintf":"^1.4.2","@types/forever-agent":"^0.6.1","@types/getpass":"^0.1.1","@types/is-typedarray":"^1.0.0","@types/isstream":"^0.1.0","@types/jsbn":"^1.2.30","@types/json-schema":"^7.0.9","@types/json-stringify-safe":"^5.0.0","@types/lodash":"^4.14.178","@types/mime-db":"^1.43.1","@types/mime-types":"^2.1.1","@types/psl":"^1.1.0","@types/punycode":"^2.1.0","@types/qs":"^6.9.7","@types/request":"^2.48.8","@types/request-promise":"^4.1.48","@types/safer-buffer":"^2.1.0","@types/sshpk":"^1.17.0","@types/tough-cookie":"^4.0.1","@types/uuid":"^8.3.4","@types/verror":"^1.10.5","@types/webidl-conversions":"^6.1.1","@types/whatwg-url":"^8.2.1","@types/ws":"^8.2.2"}}
+[01:09:29.646] Loaded content of '/home/refat/.cache/typescript/4.5/package-lock.json'
+[01:09:29.666] Adding entry into typings cache: 'asn1' => '/home/refat/.cache/typescript/4.5/node_modules/@types/asn1/index.d.ts'
+[01:09:29.669] Adding entry into typings cache: 'assert-plus' => '/home/refat/.cache/typescript/4.5/node_modules/@types/assert-plus/index.d.ts'
+[01:09:29.672] Adding entry into typings cache: 'aws4' => '/home/refat/.cache/typescript/4.5/node_modules/@types/aws4/index.d.ts'
+[01:09:29.674] Adding entry into typings cache: 'bluebird' => '/home/refat/.cache/typescript/4.5/node_modules/@types/bluebird/index.d.ts'
+[01:09:29.676] Adding entry into typings cache: 'caseless' => '/home/refat/.cache/typescript/4.5/node_modules/@types/caseless/index.d.ts'
+[01:09:29.680] Adding entry into typings cache: 'combined-stream' => '/home/refat/.cache/typescript/4.5/node_modules/@types/combined-stream/index.d.ts'
+[01:09:29.682] Adding entry into typings cache: 'dashdash' => '/home/refat/.cache/typescript/4.5/node_modules/@types/dashdash/index.d.ts'
+[01:09:29.684] Adding entry into typings cache: 'extend' => '/home/refat/.cache/typescript/4.5/node_modules/@types/extend/index.d.ts'
+[01:09:29.686] Adding entry into typings cache: 'extsprintf' => '/home/refat/.cache/typescript/4.5/node_modules/@types/extsprintf/index.d.ts'
+[01:09:29.688] Adding entry into typings cache: 'forever-agent' => '/home/refat/.cache/typescript/4.5/node_modules/@types/forever-agent/index.d.ts'
+[01:09:29.690] Adding entry into typings cache: 'getpass' => '/home/refat/.cache/typescript/4.5/node_modules/@types/getpass/index.d.ts'
+[01:09:29.692] Adding entry into typings cache: 'is-typedarray' => '/home/refat/.cache/typescript/4.5/node_modules/@types/is-typedarray/index.d.ts'
+[01:09:29.694] Adding entry into typings cache: 'isstream' => '/home/refat/.cache/typescript/4.5/node_modules/@types/isstream/index.d.ts'
+[01:09:29.695] Adding entry into typings cache: 'jsbn' => '/home/refat/.cache/typescript/4.5/node_modules/@types/jsbn/index.d.ts'
+[01:09:29.697] Adding entry into typings cache: 'json-schema' => '/home/refat/.cache/typescript/4.5/node_modules/@types/json-schema/index.d.ts'
+[01:09:29.698] Adding entry into typings cache: 'json-stringify-safe' => '/home/refat/.cache/typescript/4.5/node_modules/@types/json-stringify-safe/index.d.ts'
+[01:09:29.702] Adding entry into typings cache: 'lodash' => '/home/refat/.cache/typescript/4.5/node_modules/@types/lodash/index.d.ts'
+[01:09:29.706] Adding entry into typings cache: 'mime-db' => '/home/refat/.cache/typescript/4.5/node_modules/@types/mime-db/index.d.ts'
+[01:09:29.709] Adding entry into typings cache: 'mime-types' => '/home/refat/.cache/typescript/4.5/node_modules/@types/mime-types/index.d.ts'
+[01:09:29.710] Adding entry into typings cache: 'psl' => '/home/refat/.cache/typescript/4.5/node_modules/@types/psl/index.d.ts'
+[01:09:29.712] Adding entry into typings cache: 'punycode' => '/home/refat/.cache/typescript/4.5/node_modules/@types/punycode/index.d.ts'
+[01:09:29.713] Adding entry into typings cache: 'qs' => '/home/refat/.cache/typescript/4.5/node_modules/@types/qs/index.d.ts'
+[01:09:29.717] Adding entry into typings cache: 'request' => '/home/refat/.cache/typescript/4.5/node_modules/@types/request/index.d.ts'
+[01:09:29.718] Adding entry into typings cache: 'request-promise' => '/home/refat/.cache/typescript/4.5/node_modules/@types/request-promise/index.d.ts'
+[01:09:29.720] Adding entry into typings cache: 'safer-buffer' => '/home/refat/.cache/typescript/4.5/node_modules/@types/safer-buffer/index.d.ts'
+[01:09:29.722] Adding entry into typings cache: 'sshpk' => '/home/refat/.cache/typescript/4.5/node_modules/@types/sshpk/index.d.ts'
+[01:09:29.724] Adding entry into typings cache: 'tough-cookie' => '/home/refat/.cache/typescript/4.5/node_modules/@types/tough-cookie/index.d.ts'
+[01:09:29.726] Adding entry into typings cache: 'uuid' => '/home/refat/.cache/typescript/4.5/node_modules/@types/uuid/index.d.ts'
+[01:09:29.728] Adding entry into typings cache: 'verror' => '/home/refat/.cache/typescript/4.5/node_modules/@types/verror/index.d.ts'
+[01:09:29.729] Adding entry into typings cache: 'webidl-conversions' => '/home/refat/.cache/typescript/4.5/node_modules/@types/webidl-conversions/index.d.ts'
+[01:09:29.731] Adding entry into typings cache: 'whatwg-url' => '/home/refat/.cache/typescript/4.5/node_modules/@types/whatwg-url/index.d.ts'
+[01:09:29.733] Adding entry into typings cache: 'ws' => '/home/refat/.cache/typescript/4.5/node_modules/@types/ws/index.d.ts'
+[01:09:29.733] Finished processing cache location '/home/refat/.cache/typescript/4.5'
+[01:09:29.734] Process id: 20296
+[01:09:29.734] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[01:09:29.734] validateDefaultNpmLocation: false
+[01:09:29.734] Npm config file: /home/refat/.cache/typescript/4.5/package.json
+[01:09:29.734] Updating types-registry npm package...
+[01:09:29.735] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[01:09:32.752]     Succeeded. stdout:
+    
+    changed 1 package, and audited 41 packages in 3s
+
+found 0 vulnerabilities
+
+[01:09:32.753] Updated types-registry npm package
+[01:09:32.794] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/refat/Workspaces/Javascript/script.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/refat/Workspaces/Javascript","kind":"discover"}
+[01:09:32.811] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[01:09:32.812] Explicitly included types: []
+[01:09:32.813] Inferred typings from unresolved imports: []
+[01:09:32.813] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/refat/Workspaces/Javascript/bower_components","/home/refat/Workspaces/Javascript/node_modules"]}
+[01:09:32.813] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/refat/Workspaces/Javascript/bower_components","/home/refat/Workspaces/Javascript/node_modules"]}
+[01:09:32.814] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/bower_components
+[01:09:32.814] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:09:32.817] Elapsed:: 2.1007999991998076ms DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:09:32.817] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/node_modules
+[01:09:32.817] DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:09:32.817] Elapsed:: 0.16476199962198734ms DirectoryWatcher:: Added:: WatchInfo: /home/refat/Workspaces/Javascript/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:09:32.818] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[01:09:32.818] Response has been sent.
+[01:09:32.818] No new typings were requested as a result of typings discovery
