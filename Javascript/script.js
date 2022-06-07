@@ -11,17 +11,14 @@ const restaurant = {
     },
 };
 
-const arr = [2, 3, 4];
+// let [first, , second] = (restaurant.categories[(first, second)] = [
+//     second,
+//     first,
+// ]); // switch variables by destructuring
+//
+// console.log(first, second);
+//
+// console.log(restaurant.order(2, 0));
 
-const [x, y, z] = arr;
-
-console.log(x, y, z);
-
-let [first, , second] = (restaurant.categories[(first, second)] = [
-    second,
-    first,
-]); // switch variables by destructuring
-
-console.log(first, second);
-
-console.log(restaurant.order(2, 0));
+const {name, mainMenu, ...renew} = restaurant
+console.log(renew)
