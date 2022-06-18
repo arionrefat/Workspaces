@@ -132,11 +132,16 @@ const emp = new Employee(3, 'Refatul', 'Developer')
 console.log(emp.register()) //this is also calling the constructor from Person
 
 //Generics
+
+// function getArray(items: any[]): any[]{
+//     return new Array().concat(items)
+// }
+
 function getArray<T>(items: T[]): T[]{
     return new Array().concat(items)
 }
 
 let numArray = getArray<number>([1,3,4,5,6,7])
-let strArray = getArray<String>(['refat','tafer','ferta'])
+let strArray = getArray<Array<string>>([['refat'],['tafer'],['ferta']])
 
 // numArray.push(11)

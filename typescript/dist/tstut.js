@@ -75,4 +75,4 @@ function getArray(items) {
     return new Array().concat(items);
 }
 let numArray = getArray([1, 3, 4, 5, 6, 7]);
-let strArray = getArray(['refat', 'tafer', 'ferta']);
+let strArray = getArray([['refat'], ['tafer'], ['ferta']]);

@@ -3,21 +3,20 @@
 #+Author: Refatul Islam
 
 * Finish Lectures
-** CSE250
-*** TODO Finish Lab Assignment 3
-** CSE471
-*** TODO Start Week 7
-** ENV103
-*** TODO Learn Lecture 5 slides
-** CSE420
-*** TODO Do LabAssignment 2
-*** TODO Finish Week 3
+** CSE251
+*** TODO Finish Lecture 5
+*** TODO Finish Assignment 2
+** CSE424
+*** TODO Check MidpointCircle
+*** TODO Check 8 Point symmetry
+** CSE422
+*** TODO Prepare for quiz
+*** TODO Checkout MHB quiz
+** BUS201
+*** TODO Start with slides
 
 * Project
-** Project Bot
-*** TODO Refactor Code
-*** TODO Convert it to typescript
+** Reinforz
+*** TODO Deploy script
 ** Go Server
-*** TODO make 
-** CSS Tutorial
-+ Finished section-1
+*** TODO do project 3
