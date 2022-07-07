@@ -1,0 +1,37 @@
+[18:47:45.963] Global cache location '/home/refat/.cache/typescript/4.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[18:47:45.964] Processing cache location '/home/refat/.cache/typescript/4.7'
+[18:47:45.964] Trying to find '/home/refat/.cache/typescript/4.7/package.json'...
+[18:47:45.966] Loaded content of '/home/refat/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.598"},"devDependencies":{"@types/bluebird":"^3.5.36","@types/cookie-parser":"^1.4.3","@types/cors":"^2.8.12","@types/dot":"^1.1.5","@types/eslint":"^8.4.3","@types/eslint-config-prettier":"^6.11.0","@types/eslint-plugin-prettier":"^3.1.0","@types/express":"^4.17.13","@types/jsonwebtoken":"^8.5.8","@types/morgan":"^1.9.3","@types/node-fetch":"^2.6.2","@types/nodemon":"^1.19.1","@types/pg":"^8.6.5","@types/pg-pool":"^2.0.3","@types/prettier":"^2.6.3","@types/supertest":"^2.0.12","@types/uuid":"^8.3.4","@types/yup":"^0.29.14"}}
+[18:47:45.966] Loaded content of '/home/refat/.cache/typescript/4.7/package-lock.json'
+[18:47:45.985] Adding entry into typings cache: 'bluebird' => '/home/refat/.cache/typescript/4.7/node_modules/@types/bluebird/index.d.ts'
+[18:47:45.990] Adding entry into typings cache: 'cookie-parser' => '/home/refat/.cache/typescript/4.7/node_modules/@types/cookie-parser/index.d.ts'
+[18:47:45.993] Adding entry into typings cache: 'cors' => '/home/refat/.cache/typescript/4.7/node_modules/@types/cors/index.d.ts'
+[18:47:45.995] Adding entry into typings cache: 'dot' => '/home/refat/.cache/typescript/4.7/node_modules/@types/dot/index.d.ts'
+[18:47:45.999] Adding entry into typings cache: 'eslint' => '/home/refat/.cache/typescript/4.7/node_modules/@types/eslint/index.d.ts'
+[18:47:46.002] Adding entry into typings cache: 'eslint-config-prettier' => '/home/refat/.cache/typescript/4.7/node_modules/@types/eslint-config-prettier/index.d.ts'
+[18:47:46.005] Adding entry into typings cache: 'eslint-plugin-prettier' => '/home/refat/.cache/typescript/4.7/node_modules/@types/eslint-plugin-prettier/index.d.ts'
+[18:47:46.008] Adding entry into typings cache: 'express' => '/home/refat/.cache/typescript/4.7/node_modules/@types/express/index.d.ts'
+[18:47:46.014] Adding entry into typings cache: 'jsonwebtoken' => '/home/refat/.cache/typescript/4.7/node_modules/@types/jsonwebtoken/index.d.ts'
+[18:47:46.016] Adding entry into typings cache: 'morgan' => '/home/refat/.cache/typescript/4.7/node_modules/@types/morgan/index.d.ts'
+[18:47:46.021] Adding entry into typings cache: 'node-fetch' => '/home/refat/.cache/typescript/4.7/node_modules/@types/node-fetch/index.d.ts'
+[18:47:46.024] Adding entry into typings cache: 'nodemon' => '/home/refat/.cache/typescript/4.7/node_modules/@types/nodemon/index.d.ts'
+[18:47:46.026] Adding entry into typings cache: 'pg' => '/home/refat/.cache/typescript/4.7/node_modules/@types/pg/index.d.ts'
+[18:47:46.028] Adding entry into typings cache: 'pg-pool' => '/home/refat/.cache/typescript/4.7/node_modules/@types/pg-pool/index.d.ts'
+[18:47:46.031] Adding entry into typings cache: 'prettier' => '/home/refat/.cache/typescript/4.7/node_modules/@types/prettier/index.d.ts'
+[18:47:46.033] Adding entry into typings cache: 'supertest' => '/home/refat/.cache/typescript/4.7/node_modules/@types/supertest/index.d.ts'
+[18:47:46.036] Adding entry into typings cache: 'uuid' => '/home/refat/.cache/typescript/4.7/node_modules/@types/uuid/index.d.ts'
+[18:47:46.039] Adding entry into typings cache: 'yup' => '/home/refat/.cache/typescript/4.7/node_modules/@types/yup/index.d.ts'
+[18:47:46.039] Finished processing cache location '/home/refat/.cache/typescript/4.7'
+[18:47:46.040] Process id: 21903
+[18:47:46.040] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[18:47:46.040] validateDefaultNpmLocation: false
+[18:47:46.041] Npm config file: /home/refat/.cache/typescript/4.7/package.json
+[18:47:46.041] Updating types-registry npm package...
+[18:47:46.041] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[18:47:48.065]     Succeeded. stdout:
+    
+    up to date, audited 46 packages in 2s
+
+found 0 vulnerabilities
+
+[18:47:48.065] Updated types-registry npm package

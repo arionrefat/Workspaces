@@ -1,0 +1,1732 @@
+Info 0    [18:47:45.626] Starting TS Server
+Info 1    [18:47:45.626] Version: 4.7.3
+Info 2    [18:47:45.626] Arguments: /usr/bin/node /usr/lib/node_modules/typescript/lib/tsserver.js --logFile /home/refat/Workspaces/typescript/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/5fac8bce3fc49279410a1abaea6c971e/tscancellation*
+Info 3    [18:47:45.626] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [18:47:45.626] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:47:45.650] Format host information updated
+Info 6    [18:47:45.665] Search path: /home/refat/Workspaces/typescript/src
+Info 7    [18:47:45.666] For info: /home/refat/Workspaces/typescript/src/index.ts :: Config file name: /home/refat/Workspaces/typescript/tsconfig.json
+Info 8    [18:47:45.666] Creating configuration project /home/refat/Workspaces/typescript/tsconfig.json
+Info 9    [18:47:45.698] Config: /home/refat/Workspaces/typescript/tsconfig.json : {
+ "rootNames": [
+  "/home/refat/Workspaces/typescript/src/index.ts",
+  "/home/refat/Workspaces/typescript/src/tstut.ts"
+ ],
+ "options": {
+  "target": 2,
+  "module": 1,
+  "rootDir": "/home/refat/Workspaces/typescript/src",
+  "outDir": "/home/refat/Workspaces/typescript/dist",
+  "removeComments": true,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "strict": true,
+  "skipLibCheck": true,
+  "configFilePath": "/home/refat/Workspaces/typescript/tsconfig.json"
+ }
+}
+Info 10   [18:47:45.811] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 11   [18:47:47.452] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1640.7502330001444ms
+Info 12   [18:47:47.453] Project '/home/refat/Workspaces/typescript/tsconfig.json' (Configured)
+Info 13   [18:47:47.453] 	Files (106)
+
+Info 14   [18:47:47.453] -----------------------------------------------
+Info 15   [18:47:48.497] DirectoryWatcher:: Triggered with /home/refat/Workspaces/typescript/.log/ti-21896.log 0:: WatchInfo: /home/refat/Workspaces/typescript 1 undefined Config: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Wild card directory
+Info 16   [18:47:48.498] Project: /home/refat/Workspaces/typescript/tsconfig.json Detected file add/remove of non supported extension: /home/refat/Workspaces/typescript/.log/ti-21896.log
+Info 17   [18:47:48.498] Elapsed:: 0.5766310002654791ms DirectoryWatcher:: Triggered with /home/refat/Workspaces/typescript/.log/ti-21896.log 0:: WatchInfo: /home/refat/Workspaces/typescript 1 undefined Config: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Wild card directory
+Info 18   [18:51:11.977] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 19   [18:51:11.990] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 13.00160099985078ms
+Info 20   [18:51:11.990] Different program with same set of files
+Info 21   [18:51:11.992] getCompletionData: Get current token: 0.014367999974638224
+Info 22   [18:51:11.992] getCompletionData: Is inside comment: 0.02735200012102723
+Info 23   [18:51:11.992] getCompletionData: Get previous token: 0.04460499994456768
+Info 24   [18:51:12.001] getExportInfoMap: cache miss or empty; calculating new results
+Info 25   [18:51:12.064] getExportInfoMap: done in 66.06081400020048 ms
+Info 26   [18:51:12.077] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 27   [18:51:12.077] collectAutoImports: response is complete
+Info 28   [18:51:12.077] collectAutoImports: 11.24435199983418
+Info 29   [18:51:12.077] getCompletionData: Semantic work: 84.85820099990815
+Info 30   [18:51:12.115] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 37.26059000007808
+Info 31   [18:51:12.121] getCompletionData: Get current token: 0.00935700023546815
+Info 32   [18:51:12.121] getCompletionData: Is inside comment: 0.02228299994021654
+Info 33   [18:51:12.121] getCompletionData: Get previous token: 0.040376999881118536
+Info 34   [18:51:12.125] getExportInfoMap: cache hit
+Info 35   [18:51:12.134] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 36   [18:51:12.134] collectAutoImports: response is complete
+Info 37   [18:51:12.134] collectAutoImports: 7.981122999917716
+Info 38   [18:51:12.134] getCompletionData: Semantic work: 12.88861700007692
+Info 39   [18:51:12.157] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.81014599977061
+Info 40   [18:51:12.162] getCompletionData: Get current token: 0.006271999794989824
+Info 41   [18:51:12.162] getCompletionData: Is inside comment: 0.01311499997973442
+Info 42   [18:51:12.162] getCompletionData: Get previous token: 0.015879999846220016
+Info 43   [18:51:12.165] getExportInfoMap: cache hit
+Info 44   [18:51:12.168] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 45   [18:51:12.168] collectAutoImports: response is complete
+Info 46   [18:51:12.168] collectAutoImports: 2.561360999941826
+Info 47   [18:51:12.168] getCompletionData: Semantic work: 6.267926999833435
+Info 48   [18:51:12.183] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.096034000162035
+Info 49   [18:51:12.186] getCompletionData: Get current token: 0.007385000120848417
+Info 50   [18:51:12.186] getCompletionData: Is inside comment: 0.012823999859392643
+Info 51   [18:51:12.186] getCompletionData: Get previous token: 0.020219000056385994
+Info 52   [18:51:12.190] getExportInfoMap: cache hit
+Info 53   [18:51:12.193] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 54   [18:51:12.193] collectAutoImports: response is complete
+Info 55   [18:51:12.193] collectAutoImports: 2.623389999847859
+Info 56   [18:51:12.193] getCompletionData: Semantic work: 6.8902430003508925
+Info 57   [18:51:12.202] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.84609100036323
+Info 58   [18:51:12.207] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 59   [18:51:12.215] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 7.95653499988839ms
+Info 60   [18:51:12.215] Different program with same set of files
+Info 61   [18:51:15.095] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 62   [18:51:15.103] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 7.923773999791592ms
+Info 63   [18:51:15.103] Different program with same set of files
+Info 64   [18:51:15.227] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 65   [18:51:15.236] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 9.827603000216186ms
+Info 66   [18:51:15.237] Different program with same set of files
+Info 67   [18:51:15.238] getCompletionData: Get current token: 0.011843000072985888
+Info 68   [18:51:15.238] getCompletionData: Is inside comment: 0.057068999856710434
+Info 69   [18:51:15.238] getCompletionData: Get previous token: 0.07183700008317828
+Info 70   [18:51:15.239] getCompletionsAtPosition: isCompletionListBlocker: 0.5053530000150204
+Info 71   [18:51:15.239] Returning an empty list because completion was requested in an invalid position.
+Info 72   [18:51:15.263] getCompletionData: Get current token: 0.009418000001460314
+Info 73   [18:51:15.263] getCompletionData: Is inside comment: 0.029095999896526337
+Info 74   [18:51:15.263] getCompletionData: Get previous token: 0.18411100003868341
+Info 75   [18:51:15.263] getCompletionsAtPosition: isCompletionListBlocker: 0.0045889997854828835
+Info 76   [18:51:15.263] Returning an empty list because completion was requested in an invalid position.
+Info 77   [18:51:15.286] getCompletionData: Get current token: 0.00903699966147542
+Info 78   [18:51:15.286] getCompletionData: Is inside comment: 0.026570999994874
+Info 79   [18:51:15.286] getCompletionData: Get previous token: 0.04604799998924136
+Info 80   [18:51:15.286] getCompletionsAtPosition: isCompletionListBlocker: 0.0071840002201497555
+Info 81   [18:51:15.286] Returning an empty list because completion was requested in an invalid position.
+Info 82   [18:51:15.310] getCompletionData: Get current token: 0.012002999894320965
+Info 83   [18:51:15.310] getCompletionData: Is inside comment: 0.03549700044095516
+Info 84   [18:51:15.310] getCompletionData: Get previous token: 0.0517189996317029
+Info 85   [18:51:15.310] getCompletionsAtPosition: isCompletionListBlocker: 0.005279999691992998
+Info 86   [18:51:15.310] Returning an empty list because completion was requested in an invalid position.
+Info 87   [18:51:15.570] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 88   [18:51:15.577] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 7.216385999694467ms
+Info 89   [18:51:15.577] Different program with same set of files
+Info 90   [18:51:15.578] getCompletionData: Get current token: 0.010119999758899212
+Info 91   [18:51:15.578] getCompletionData: Is inside comment: 0.026901000179350376
+Info 92   [18:51:15.578] getCompletionData: Get previous token: 0.04192999983206391
+Info 93   [18:51:15.578] getCompletionsAtPosition: isCompletionListBlocker: 0.00506900018081069
+Info 94   [18:51:15.578] Returning an empty list because completion was requested in an invalid position.
+Info 95   [18:51:15.601] getCompletionData: Get current token: 0.008547000121325254
+Info 96   [18:51:15.602] getCompletionData: Is inside comment: 0.02561900019645691
+Info 97   [18:51:15.602] getCompletionData: Get previous token: 0.04035699972882867
+Info 98   [18:51:15.602] getCompletionsAtPosition: isCompletionListBlocker: 0.0039170002564787865
+Info 99   [18:51:15.602] Returning an empty list because completion was requested in an invalid position.
+Info 100  [18:51:15.625] getCompletionData: Get current token: 0.009739000350236893
+Info 101  [18:51:15.625] getCompletionData: Is inside comment: 0.027562000323086977
+Info 102  [18:51:15.625] getCompletionData: Get previous token: 0.042830999940633774
+Info 103  [18:51:15.625] getCompletionsAtPosition: isCompletionListBlocker: 0.004839000292122364
+Info 104  [18:51:15.625] Returning an empty list because completion was requested in an invalid position.
+Info 105  [18:51:15.648] getCompletionData: Get current token: 0.008816000074148178
+Info 106  [18:51:15.648] getCompletionData: Is inside comment: 0.02575899986550212
+Info 107  [18:51:15.648] getCompletionData: Get previous token: 0.04058800032362342
+Info 108  [18:51:15.648] getCompletionsAtPosition: isCompletionListBlocker: 0.004508000332862139
+Info 109  [18:51:15.648] Returning an empty list because completion was requested in an invalid position.
+Info 110  [18:51:15.773] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 111  [18:51:15.782] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 8.493410000111908ms
+Info 112  [18:51:15.782] Different program with same set of files
+Info 113  [18:51:15.783] getCompletionData: Get current token: 0.008206000085920095
+Info 114  [18:51:15.783] getCompletionData: Is inside comment: 0.02971700020134449
+Info 115  [18:51:15.783] getCompletionData: Get previous token: 0.13364499993622303
+Info 116  [18:51:15.783] getCompletionsAtPosition: isCompletionListBlocker: 0.007704999763518572
+Info 117  [18:51:15.783] Returning an empty list because completion was requested in an invalid position.
+Info 118  [18:51:15.807] getCompletionData: Get current token: 0.011322000063955784
+Info 119  [18:51:15.807] getCompletionData: Is inside comment: 0.024285999592393637
+Info 120  [18:51:15.807] getCompletionData: Get previous token: 0.03953499998897314
+Info 121  [18:51:15.807] getCompletionsAtPosition: isCompletionListBlocker: 0.005690999794751406
+Info 122  [18:51:15.807] Returning an empty list because completion was requested in an invalid position.
+Info 123  [18:51:15.830] getCompletionData: Get current token: 0.008566999807953835
+Info 124  [18:51:15.830] getCompletionData: Is inside comment: 0.022523000370711088
+Info 125  [18:51:15.830] getCompletionData: Get previous token: 0.060133999679237604
+Info 126  [18:51:15.830] getCompletionsAtPosition: isCompletionListBlocker: 0.004628999624401331
+Info 127  [18:51:15.830] Returning an empty list because completion was requested in an invalid position.
+Info 128  [18:51:15.853] getCompletionData: Get current token: 0.008937000297009945
+Info 129  [18:51:15.853] getCompletionData: Is inside comment: 0.02342499978840351
+Info 130  [18:51:15.854] getCompletionData: Get previous token: 0.033795000053942204
+Info 131  [18:51:15.854] getCompletionsAtPosition: isCompletionListBlocker: 0.004608999937772751
+Info 132  [18:51:15.854] Returning an empty list because completion was requested in an invalid position.
+Info 133  [18:51:16.293] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 134  [18:51:16.303] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 9.15107399970293ms
+Info 135  [18:51:16.303] Different program with same set of files
+Info 136  [18:51:16.924] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 137  [18:51:16.936] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 12.231926999986172ms
+Info 138  [18:51:16.937] Different program with same set of files
+Info 139  [18:51:19.881] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 140  [18:51:19.888] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 7.012899999972433ms
+Info 141  [18:51:19.888] Different program with same set of files
+Info 142  [18:51:20.532] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 143  [18:51:20.539] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 6.257328999694437ms
+Info 144  [18:51:20.539] Different program with same set of files
+Info 145  [18:51:21.088] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 146  [18:51:21.094] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 5.802281999960542ms
+Info 147  [18:51:21.094] Different program with same set of files
+Info 148  [18:51:21.473] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 149  [18:51:21.479] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 5.639572000131011ms
+Info 150  [18:51:21.479] Different program with same set of files
+Info 151  [18:51:21.971] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 152  [18:51:21.977] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 5.506998999975622ms
+Info 153  [18:51:21.977] Different program with same set of files
+Info 154  [18:51:22.463] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 155  [18:51:22.468] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 5.061730000190437ms
+Info 156  [18:51:22.468] Different program with same set of files
+Info 157  [18:51:22.808] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 158  [18:51:22.813] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 4.999901999719441ms
+Info 159  [18:51:22.813] Different program with same set of files
+Info 160  [18:51:22.813] getCompletionData: Get current token: 0.004978999961167574
+Info 161  [18:51:22.813] getCompletionData: Is inside comment: 0.017072000075131655
+Info 162  [18:51:22.813] getCompletionData: Get previous token: 0.02602999983355403
+Info 163  [18:51:22.814] getCompletionsAtPosition: isCompletionListBlocker: 0.14083900023251772
+Info 164  [18:51:22.821] getExportInfoMap: cache hit
+Info 165  [18:51:22.827] collectAutoImports: resolved 1 module specifiers, plus 0 ambient and 0 from cache
+Info 166  [18:51:22.827] collectAutoImports: response is complete
+Info 167  [18:51:22.828] collectAutoImports: 6.32638099975884
+Info 168  [18:51:22.828] getCompletionData: Semantic work: 13.854523999616504
+Info 169  [18:51:22.856] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 28.050820000004023
+Info 170  [18:51:23.402] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 171  [18:51:23.407] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 5.325423999689519ms
+Info 172  [18:51:23.408] Different program with same set of files
+Info 173  [18:51:23.724] Format host information updated
+Info 174  [18:51:23.725] getCompletionData: Get current token: 0.044754999689757824
+Info 175  [18:51:23.725] getCompletionData: Is inside comment: 0.017312999814748764
+Info 176  [18:51:23.725] getCompletionData: Get previous token: 0.06146699981763959
+Info 177  [18:51:23.725] getCompletionsAtPosition: isCompletionListBlocker: 0.00546099990606308
+Info 178  [18:51:23.728] getCompletionData: Semantic work: 2.4828939996659756
+Info 179  [18:51:24.014] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 180  [18:51:24.020] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 5.776413999963552ms
+Info 181  [18:51:24.020] Different program with same set of files
+Info 182  [18:51:24.564] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 183  [18:51:24.570] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 5.541675999760628ms
+Info 184  [18:51:24.570] Different program with same set of files
+Info 185  [18:51:24.571] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 186  [18:51:24.577] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 6.396426000166684ms
+Info 187  [18:51:24.577] Different program with same set of files
+Info 188  [18:51:26.175] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 189  [18:51:26.180] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 5.395227000117302ms
+Info 190  [18:51:26.180] Different program with same set of files
+Info 191  [18:51:26.295] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 192  [18:51:26.300] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 5.069937000051141ms
+Info 193  [18:51:26.300] Different program with same set of files
+Info 194  [18:51:26.301] getCompletionData: Get current token: 0.008175000082701445
+Info 195  [18:51:26.301] getCompletionData: Is inside comment: 0.022253000177443027
+Info 196  [18:51:26.301] getCompletionData: Get previous token: 0.023244000039994717
+Info 197  [18:51:26.301] getCompletionsAtPosition: isCompletionListBlocker: 0.1691419999115169
+Info 198  [18:51:26.309] getExportInfoMap: cache hit
+Info 199  [18:51:26.360] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 200  [18:51:26.360] collectAutoImports: response is complete
+Info 201  [18:51:26.360] collectAutoImports: 50.64708000002429
+Info 202  [18:51:26.360] getCompletionData: Semantic work: 59.38766699982807
+Info 203  [18:51:26.386] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.263723999727517
+Info 204  [18:53:19.954] FileWatcher:: Triggered with /home/refat/Workspaces/typescript/tsconfig.json 1:: WatchInfo: /home/refat/Workspaces/typescript/tsconfig.json 2000 undefined Project: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Config file
+Info 205  [18:53:19.955] Elapsed:: 0.7634490001946688ms FileWatcher:: Triggered with /home/refat/Workspaces/typescript/tsconfig.json 1:: WatchInfo: /home/refat/Workspaces/typescript/tsconfig.json 2000 undefined Project: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Config file
+Info 206  [18:53:20.206] Reloading configured project /home/refat/Workspaces/typescript/tsconfig.json
+Info 207  [18:53:20.224] Config: /home/refat/Workspaces/typescript/tsconfig.json : {
+ "rootNames": [
+  "/home/refat/Workspaces/typescript/src/index.ts",
+  "/home/refat/Workspaces/typescript/src/tstut.ts"
+ ],
+ "options": {
+  "target": 3,
+  "module": 1,
+  "rootDir": "/home/refat/Workspaces/typescript/src",
+  "outDir": "/home/refat/Workspaces/typescript/dist",
+  "removeComments": true,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "strict": true,
+  "skipLibCheck": true,
+  "configFilePath": "/home/refat/Workspaces/typescript/tsconfig.json"
+ }
+}
+Info 208  [18:53:20.243] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 209  [18:53:21.447] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 23 structureChanged: true structureIsReused:: Not Elapsed: 1204.0258010001853ms
+Info 210  [18:53:21.447] Project '/home/refat/Workspaces/typescript/tsconfig.json' (Configured)
+Info 211  [18:53:21.447] 	Files (106)
+
+Info 212  [18:53:21.447] -----------------------------------------------
+Info 213  [18:53:22.455] Before ensureProjectForOpenFiles:
+Info 214  [18:53:22.456] After ensureProjectForOpenFiles:
+Info 215  [18:53:22.456] got projects updated in background, updating diagnostics for /home/refat/Workspaces/typescript/src/index.ts
+Info 216  [18:54:30.009] FileWatcher:: Triggered with /home/refat/Workspaces/typescript/tsconfig.json 1:: WatchInfo: /home/refat/Workspaces/typescript/tsconfig.json 2000 undefined Project: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Config file
+Info 217  [18:54:30.010] Elapsed:: 1.111407999880612ms FileWatcher:: Triggered with /home/refat/Workspaces/typescript/tsconfig.json 1:: WatchInfo: /home/refat/Workspaces/typescript/tsconfig.json 2000 undefined Project: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Config file
+Info 218  [18:54:30.260] Reloading configured project /home/refat/Workspaces/typescript/tsconfig.json
+Info 219  [18:54:30.270] Config: /home/refat/Workspaces/typescript/tsconfig.json : {
+ "rootNames": [
+  "/home/refat/Workspaces/typescript/src/index.ts",
+  "/home/refat/Workspaces/typescript/src/tstut.ts"
+ ],
+ "options": {
+  "target": 3,
+  "module": 1,
+  "rootDir": "/home/refat/Workspaces/typescript/src",
+  "outDir": "/home/refat/Workspaces/typescript/dist",
+  "removeComments": true,
+  "noEmitOnError": true,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "strict": true,
+  "skipLibCheck": true,
+  "configFilePath": "/home/refat/Workspaces/typescript/tsconfig.json"
+ }
+}
+Info 220  [18:54:30.279] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 221  [18:54:30.289] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 9.70678299991414ms
+Info 222  [18:54:30.289] Different program with same set of files
+Info 223  [18:54:32.510] Before ensureProjectForOpenFiles:
+Info 224  [18:54:32.510] After ensureProjectForOpenFiles:
+Info 225  [18:54:32.511] got projects updated in background, updating diagnostics for /home/refat/Workspaces/typescript/src/index.ts
+Info 226  [18:55:04.442] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 227  [18:55:04.454] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 11.638424000237137ms
+Info 228  [18:55:04.454] Different program with same set of files
+Info 229  [18:55:04.790] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 230  [18:55:04.802] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 12.514291999861598ms
+Info 231  [18:55:04.802] Different program with same set of files
+Info 232  [18:55:25.888] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 233  [18:55:25.901] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 12.164701000321656ms
+Info 234  [18:55:25.901] Different program with same set of files
+Info 235  [18:55:25.982] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 236  [18:55:25.994] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 11.953225000295788ms
+Info 237  [18:55:25.994] Different program with same set of files
+Info 238  [18:55:26.085] getCompletionData: Get current token: 0.017121999990195036
+Info 239  [18:55:26.085] getCompletionData: Is inside comment: 0.03966600028797984
+Info 240  [18:55:26.085] getCompletionData: Get previous token: 0.021991999819874763
+Info 241  [18:55:26.086] getCompletionsAtPosition: isCompletionListBlocker: 0.5456860000267625
+Info 242  [18:55:26.101] getExportInfoMap: cache miss or empty; calculating new results
+Info 243  [18:55:26.176] getExportInfoMap: done in 78.77277000015602 ms
+Info 244  [18:55:26.219] collectAutoImports: resolved 1 module specifiers, plus 0 ambient and 19 from cache
+Info 245  [18:55:26.219] collectAutoImports: response is complete
+Info 246  [18:55:26.219] collectAutoImports: 42.770780000369996
+Info 247  [18:55:26.219] getCompletionData: Semantic work: 133.1314860000275
+Info 248  [18:55:26.262] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 41.42838800000027
+Info 249  [18:55:26.889] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 250  [18:55:26.898] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 8.385578999761492ms
+Info 251  [18:55:26.898] Different program with same set of files
+Info 252  [18:55:27.109] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 253  [18:55:27.120] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 11.254166000057012ms
+Info 254  [18:55:27.120] Different program with same set of files
+Info 255  [18:55:28.601] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 256  [18:55:28.609] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 7.79588000010699ms
+Info 257  [18:55:28.609] Different program with same set of files
+Info 258  [18:55:28.610] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 259  [18:55:28.621] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 10.987095000222325ms
+Info 260  [18:55:28.621] Different program with same set of files
+Info 261  [18:55:29.160] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 262  [18:55:29.168] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 7.707971999887377ms
+Info 263  [18:55:29.168] Different program with same set of files
+Info 264  [18:55:29.195] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 265  [18:55:29.204] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 9.041786999907345ms
+Info 266  [18:55:29.204] Different program with same set of files
+Info 267  [18:55:29.727] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 268  [18:55:29.735] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 8.401800000108778ms
+Info 269  [18:55:29.735] Different program with same set of files
+Info 270  [18:55:30.950] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 271  [18:55:30.957] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 6.910552999936044ms
+Info 272  [18:55:30.957] Different program with same set of files
+Info 273  [18:55:30.957] getCompletionData: Get current token: 0.011181000154465437
+Info 274  [18:55:30.957] getCompletionData: Is inside comment: 0.005059999879449606
+Info 275  [18:55:30.957] getCompletionData: Get previous token: 0.027852999977767467
+Info 276  [18:55:30.957] getCompletionsAtPosition: isCompletionListBlocker: 0.18021599994972348
+Info 277  [18:55:30.968] getExportInfoMap: cache hit
+Info 278  [18:55:31.009] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 279  [18:55:31.009] collectAutoImports: response is complete
+Info 280  [18:55:31.009] collectAutoImports: 41.51700300024822
+Info 281  [18:55:31.009] getCompletionData: Semantic work: 51.927734000142664
+Info 282  [18:55:31.035] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.661010999698192
+Info 283  [18:55:34.769] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 284  [18:55:34.779] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 9.371559999883175ms
+Info 285  [18:55:34.779] Different program with same set of files
+Info 286  [18:55:35.825] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 287  [18:55:35.832] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 6.5972440000623465ms
+Info 288  [18:55:35.832] Different program with same set of files
+Info 289  [18:55:37.389] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 290  [18:55:37.395] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 5.248048999812454ms
+Info 291  [18:55:37.395] Different program with same set of files
+Info 292  [18:55:37.778] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 293  [18:55:37.783] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 4.829425999894738ms
+Info 294  [18:55:37.783] Different program with same set of files
+Info 295  [18:55:37.929] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 296  [18:55:37.933] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 4.2228329996578395ms
+Info 297  [18:55:37.934] Different program with same set of files
+Info 298  [18:55:37.934] getCompletionData: Get current token: 0.006812999956309795
+Info 299  [18:55:37.934] getCompletionData: Is inside comment: 0.02090999996289611
+Info 300  [18:55:37.934] getCompletionData: Get previous token: 0.02890500007197261
+Info 301  [18:55:37.934] getCompletionsAtPosition: isCompletionListBlocker: 0.018145000096410513
+Info 302  [18:55:37.940] getExportInfoMap: cache hit
+Info 303  [18:55:37.943] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 304  [18:55:37.943] collectAutoImports: response is complete
+Info 305  [18:55:37.943] collectAutoImports: 2.2235810002312064
+Info 306  [18:55:37.943] getCompletionData: Semantic work: 8.661801000125706
+Info 307  [18:55:37.952] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.259276999626309
+Info 308  [18:55:38.476] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 309  [18:55:38.482] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 5.469944000244141ms
+Info 310  [18:55:38.482] Different program with same set of files
+Info 311  [18:55:38.743] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 312  [18:55:38.747] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 4.549781000241637ms
+Info 313  [18:55:38.747] Different program with same set of files
+Info 314  [18:55:39.044] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 315  [18:55:39.048] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 4.348814999684691ms
+Info 316  [18:55:39.048] Different program with same set of files
+Info 317  [18:55:39.716] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 318  [18:55:39.720] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 4.043459999840707ms
+Info 319  [18:55:39.720] Different program with same set of files
+Info 320  [18:55:39.997] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 321  [18:55:40.002] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 4.992368999868631ms
+Info 322  [18:55:40.002] Different program with same set of files
+Info 323  [18:55:40.003] getCompletionData: Get current token: 0.004259000066667795
+Info 324  [18:55:40.003] getCompletionData: Is inside comment: 0.011912000365555286
+Info 325  [18:55:40.003] getCompletionData: Get previous token: 0.009699000045657158
+Info 326  [18:55:40.003] getCompletionsAtPosition: isCompletionListBlocker: 0.031460000202059746
+Info 327  [18:55:40.009] getExportInfoMap: cache hit
+Info 328  [18:55:40.034] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 329  [18:55:40.034] collectAutoImports: response is complete
+Info 330  [18:55:40.034] collectAutoImports: 25.701381999999285
+Info 331  [18:55:40.034] getCompletionData: Semantic work: 31.741048000287265
+Info 332  [18:55:40.046] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.797061000019312
+Info 333  [18:55:40.939] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 334  [18:55:40.946] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 6.41745000006631ms
+Info 335  [18:55:40.946] Different program with same set of files
+Info 336  [18:56:34.734] Format host information updated
+Info 337  [18:58:03.676] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 338  [18:58:03.688] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 11.215639000292867ms
+Info 339  [18:58:03.688] Different program with same set of files
+Info 340  [18:58:03.968] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 341  [18:58:03.976] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 7.8305580001324415ms
+Info 342  [18:58:03.976] Different program with same set of files
+Info 343  [18:58:04.804] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 344  [18:58:04.811] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 6.899652000050992ms
+Info 345  [18:58:04.811] Different program with same set of files
+Info 346  [18:58:04.812] getCompletionData: Get current token: 0.014709000010043383
+Info 347  [18:58:04.812] getCompletionData: Is inside comment: 0.03371499991044402
+Info 348  [18:58:04.812] getCompletionData: Get previous token: 0.06959400000050664
+Info 349  [18:58:04.813] getCompletionsAtPosition: isCompletionListBlocker: 0.07028499990701675
+Info 350  [18:58:04.837] getExportInfoMap: cache hit
+Info 351  [18:58:04.851] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 352  [18:58:04.851] collectAutoImports: response is complete
+Info 353  [18:58:04.851] collectAutoImports: 13.567485999781638
+Info 354  [18:58:04.851] getCompletionData: Semantic work: 38.14533799979836
+Info 355  [18:58:04.871] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.36470999987796
+Info 356  [18:58:05.204] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 357  [18:58:05.213] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 8.676523000001907ms
+Info 358  [18:58:05.213] Different program with same set of files
+Info 359  [18:58:05.529] Format host information updated
+Info 360  [18:58:05.530] getCompletionData: Get current token: 0.046940000262111425
+Info 361  [18:58:05.531] getCompletionData: Is inside comment: 0.01791399996727705
+Info 362  [18:58:05.531] getCompletionData: Get previous token: 0.12623299984261394
+Info 363  [18:58:05.531] getCompletionsAtPosition: isCompletionListBlocker: 0.044065000023692846
+Info 364  [18:58:05.538] getCompletionData: Semantic work: 6.939417999703437
+Info 365  [18:58:06.035] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 366  [18:58:06.040] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 4.9877700000070035ms
+Info 367  [18:58:06.040] Different program with same set of files
+Info 368  [18:58:06.341] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 369  [18:58:06.348] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 6.98769999993965ms
+Info 370  [18:58:06.348] Different program with same set of files
+Info 371  [18:58:06.693] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 372  [18:58:06.701] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 7.648068000096828ms
+Info 373  [18:58:06.701] Different program with same set of files
+Info 374  [18:58:06.967] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 375  [18:58:06.974] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 7.008109000045806ms
+Info 376  [18:58:06.974] Different program with same set of files
+Info 377  [18:58:06.975] getCompletionData: Get current token: 0.012653999961912632
+Info 378  [18:58:06.975] getCompletionData: Is inside comment: 0.03380500013008714
+Info 379  [18:58:06.975] getCompletionData: Get previous token: 0.026430999860167503
+Info 380  [18:58:06.975] getCompletionsAtPosition: isCompletionListBlocker: 0.00853700004518032
+Info 381  [18:58:06.978] getCompletionData: Semantic work: 2.5059529999271035
+Info 382  [18:58:07.001] getCompletionData: Get current token: 0.009087000042200089
+Info 383  [18:58:07.001] getCompletionData: Is inside comment: 0.025258999783545732
+Info 384  [18:58:07.002] getCompletionData: Get previous token: 0.024267000146210194
+Info 385  [18:58:07.002] getCompletionsAtPosition: isCompletionListBlocker: 0.006032000295817852
+Info 386  [18:58:07.003] getCompletionData: Semantic work: 1.6065059998072684
+Info 387  [18:58:07.012] getCompletionData: Get current token: 0.009238000027835369
+Info 388  [18:58:07.012] getCompletionData: Is inside comment: 0.026490999851375818
+Info 389  [18:58:07.012] getCompletionData: Get previous token: 0.02503899997100234
+Info 390  [18:58:07.012] getCompletionsAtPosition: isCompletionListBlocker: 0.017764000222086906
+Info 391  [18:58:07.012] getCompletionData: Semantic work: 0.3984149997122586
+Info 392  [18:58:07.035] getCompletionData: Get current token: 0.009758000262081623
+Info 393  [18:58:07.035] getCompletionData: Is inside comment: 0.030408999882638454
+Info 394  [18:58:07.035] getCompletionData: Get previous token: 0.02116099977865815
+Info 395  [18:58:07.035] getCompletionsAtPosition: isCompletionListBlocker: 0.012735000345855951
+Info 396  [18:58:07.036] getCompletionData: Semantic work: 0.6999840000644326
+Info 397  [18:58:07.570] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 398  [18:58:07.578] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 7.588212999980897ms
+Info 399  [18:58:07.578] Different program with same set of files
+Info 400  [18:58:08.412] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 401  [18:58:08.420] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 8.04356799973175ms
+Info 402  [18:58:08.420] Different program with same set of files
+Info 403  [18:58:08.421] getCompletionData: Get current token: 0.010289999656379223
+Info 404  [18:58:08.421] getCompletionData: Is inside comment: 0.02784300036728382
+Info 405  [18:58:08.421] getCompletionData: Get previous token: 0.05547699984163046
+Info 406  [18:58:08.421] getCompletionsAtPosition: isCompletionListBlocker: 0.041580000426620245
+Info 407  [18:58:08.431] getExportInfoMap: cache hit
+Info 408  [18:58:08.437] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 409  [18:58:08.437] collectAutoImports: response is complete
+Info 410  [18:58:08.437] collectAutoImports: 5.85972399963066
+Info 411  [18:58:08.437] getCompletionData: Semantic work: 16.21561300009489
+Info 412  [18:58:08.462] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.103904000017792
+Info 413  [18:58:09.168] Format host information updated
+Info 414  [18:58:09.169] getCompletionData: Get current token: 0.018515999894589186
+Info 415  [18:58:09.169] getCompletionData: Is inside comment: 0.04824300017207861
+Info 416  [18:58:09.169] getCompletionData: Get previous token: 0.05664799967780709
+Info 417  [18:58:09.169] getCompletionsAtPosition: isCompletionListBlocker: 0.03497699974104762
+Info 418  [18:58:09.174] getCompletionData: Semantic work: 4.962150000035763
+Info 419  [18:58:09.457] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 420  [18:58:09.464] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 7.190370000433177ms
+Info 421  [18:58:09.464] Different program with same set of files
+Info 422  [18:58:09.619] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 423  [18:58:09.626] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 6.905882999766618ms
+Info 424  [18:58:09.626] Different program with same set of files
+Info 425  [18:58:09.626] getCompletionData: Get current token: 0.008737000171095133
+Info 426  [18:58:09.626] getCompletionData: Is inside comment: 0.028054000344127417
+Info 427  [18:58:09.627] getCompletionData: Get previous token: 0.023365000262856483
+Info 428  [18:58:09.627] getCompletionsAtPosition: isCompletionListBlocker: 0.0071739996783435345
+Info 429  [18:58:09.630] getCompletionData: Semantic work: 3.454965000040829
+Info 430  [18:58:09.638] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.285040999762714
+Info 431  [18:58:10.173] Format host information updated
+Info 432  [18:58:10.174] getCompletionData: Get current token: 0.01782400021329522
+Info 433  [18:58:10.174] getCompletionData: Is inside comment: 0.03771300008520484
+Info 434  [18:58:10.174] getCompletionData: Get previous token: 0.025397999677807093
+Info 435  [18:58:10.174] getCompletionsAtPosition: isCompletionListBlocker: 0.01956699974834919
+Info 436  [18:58:10.175] getCompletionData: Semantic work: 0.6411109999753535
+Info 437  [18:58:17.625] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 438  [18:58:17.633] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 7.506128000095487ms
+Info 439  [18:58:17.633] Different program with same set of files
+Info 440  [18:58:18.876] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 441  [18:58:18.884] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 8.570722999982536ms
+Info 442  [18:58:18.885] Different program with same set of files
+Info 443  [18:58:19.410] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 444  [18:58:19.420] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 9.418540999758989ms
+Info 445  [18:58:19.420] Different program with same set of files
+Info 446  [18:58:19.420] getCompletionData: Get current token: 0.008686999790370464
+Info 447  [18:58:19.420] getCompletionData: Is inside comment: 0.028685000259429216
+Info 448  [18:58:19.421] getCompletionData: Get previous token: 0.01990799978375435
+Info 449  [18:58:19.421] getCompletionsAtPosition: isCompletionListBlocker: 0.009988999925553799
+Info 450  [18:58:19.422] getCompletionData: Semantic work: 0.8776859999634326
+Info 451  [18:58:19.445] getCompletionData: Get current token: 0.010590000078082085
+Info 452  [18:58:19.445] getCompletionData: Is inside comment: 0.02365600038319826
+Info 453  [18:58:19.445] getCompletionData: Get previous token: 0.022552999667823315
+Info 454  [18:58:19.445] getCompletionsAtPosition: isCompletionListBlocker: 0.006972999777644873
+Info 455  [18:58:19.446] getCompletionData: Semantic work: 0.3975229999050498
+Info 456  [18:58:19.469] getCompletionData: Get current token: 0.01119100023061037
+Info 457  [18:58:19.469] getCompletionData: Is inside comment: 0.026251000352203846
+Info 458  [18:58:19.469] getCompletionData: Get previous token: 0.02133100014179945
+Info 459  [18:58:19.469] getCompletionsAtPosition: isCompletionListBlocker: 0.007022999692708254
+Info 460  [18:58:19.470] getCompletionData: Semantic work: 0.5317610003985465
+Info 461  [18:58:19.493] getCompletionData: Get current token: 0.009807999711483717
+Info 462  [18:58:19.493] getCompletionData: Is inside comment: 0.03044900018721819
+Info 463  [18:58:19.493] getCompletionData: Get previous token: 0.01939699985086918
+Info 464  [18:58:19.494] getCompletionsAtPosition: isCompletionListBlocker: 0.007495000027120113
+Info 465  [18:58:19.494] getCompletionData: Semantic work: 0.6709579997695982
+Info 466  [18:58:20.074] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 467  [18:58:20.083] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 9.206184000242501ms
+Info 468  [18:58:20.083] Different program with same set of files
+Info 469  [18:58:20.281] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 470  [18:58:20.290] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 8.63271200004965ms
+Info 471  [18:58:20.290] Different program with same set of files
+Info 472  [18:58:20.290] getCompletionData: Get current token: 0.010439999867230654
+Info 473  [18:58:20.290] getCompletionData: Is inside comment: 0.03073900006711483
+Info 474  [18:58:20.291] getCompletionData: Get previous token: 0.04806199995800853
+Info 475  [18:58:20.291] getCompletionsAtPosition: isCompletionListBlocker: 0.008456000126898289
+Info 476  [18:58:20.293] getCompletionData: Semantic work: 2.4204200003296137
+Info 477  [18:58:20.300] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.365306000225246
+Info 478  [18:58:20.542] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 479  [18:58:20.550] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 7.439499999862164ms
+Info 480  [18:58:20.550] Different program with same set of files
+Info 481  [18:58:20.854] Format host information updated
+Info 482  [18:58:20.855] getCompletionData: Get current token: 0.04048700025305152
+Info 483  [18:58:20.855] getCompletionData: Is inside comment: 0.012874000240117311
+Info 484  [18:58:20.855] getCompletionData: Get previous token: 0.04543800000101328
+Info 485  [18:58:20.855] getCompletionsAtPosition: isCompletionListBlocker: 0.005911000072956085
+Info 486  [18:58:20.856] getCompletionData: Semantic work: 0.7181889996863902
+Info 487  [18:58:21.143] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 488  [18:58:21.149] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 5.395893999841064ms
+Info 489  [18:58:21.149] Different program with same set of files
+Info 490  [18:58:21.518] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 491  [18:58:21.524] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 5.238262000028044ms
+Info 492  [18:58:21.524] Different program with same set of files
+Info 493  [18:58:24.013] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 494  [18:58:24.020] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 6.808669000398368ms
+Info 495  [18:58:24.020] Different program with same set of files
+Info 496  [18:58:24.768] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 497  [18:58:24.774] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 5.460569000337273ms
+Info 498  [18:58:24.774] Different program with same set of files
+Info 499  [18:58:24.869] getCompletionData: Get current token: 0.013054999988526106
+Info 500  [18:58:24.869] getCompletionData: Is inside comment: 0.003897000104188919
+Info 501  [18:58:24.869] getCompletionData: Get previous token: 0.034595999866724014
+Info 502  [18:58:24.869] getCompletionsAtPosition: isCompletionListBlocker: 0.08199799992144108
+Info 503  [18:58:24.877] getExportInfoMap: cache hit
+Info 504  [18:58:24.881] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 505  [18:58:24.882] collectAutoImports: response is complete
+Info 506  [18:58:24.882] collectAutoImports: 3.9235970000736415
+Info 507  [18:58:24.882] getCompletionData: Semantic work: 12.607598999980837
+Info 508  [18:58:24.894] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.297833000309765
+Info 509  [18:58:25.055] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 510  [18:58:25.062] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 6.918961000163108ms
+Info 511  [18:58:25.062] Different program with same set of files
+Info 512  [18:59:23.135] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 513  [18:59:23.144] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 9.03385500004515ms
+Info 514  [18:59:23.144] Different program with same set of files
+Info 515  [18:59:23.145] getCompletionData: Get current token: 0.012364000082015991
+Info 516  [18:59:23.145] getCompletionData: Is inside comment: 0.033995999954640865
+Info 517  [18:59:23.145] getCompletionData: Get previous token: 0.027912999968975782
+Info 518  [18:59:23.145] getCompletionsAtPosition: isCompletionListBlocker: 0.038945000153034925
+Info 519  [18:59:23.155] getExportInfoMap: cache hit
+Info 520  [18:59:23.197] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 521  [18:59:23.197] collectAutoImports: response is complete
+Info 522  [18:59:23.197] collectAutoImports: 42.03009899985045
+Info 523  [18:59:23.197] getCompletionData: Semantic work: 52.0963079999201
+Info 524  [18:59:23.216] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.177972000092268
+Info 525  [18:59:24.230] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 526  [18:59:24.241] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 10.660221000202ms
+Info 527  [18:59:24.241] Different program with same set of files
+Info 528  [18:59:26.018] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 529  [18:59:26.027] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 8.00524799991399ms
+Info 530  [18:59:26.027] Different program with same set of files
+Info 531  [18:59:26.762] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 532  [18:59:26.769] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 7.494826999958605ms
+Info 533  [18:59:26.770] Different program with same set of files
+Info 534  [18:59:27.136] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 535  [18:59:27.144] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 8.441195999737829ms
+Info 536  [18:59:27.144] Different program with same set of files
+Info 537  [18:59:29.046] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 538  [18:59:29.055] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 8.757855000440031ms
+Info 539  [18:59:29.055] Different program with same set of files
+Info 540  [18:59:29.317] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 541  [18:59:29.324] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 6.971952000167221ms
+Info 542  [18:59:29.324] Different program with same set of files
+Info 543  [18:59:30.008] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 544  [18:59:30.015] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 7.152768999803811ms
+Info 545  [18:59:30.015] Different program with same set of files
+Info 546  [18:59:30.264] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 547  [18:59:30.271] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 7.2217919998802245ms
+Info 548  [18:59:30.271] Different program with same set of files
+Info 549  [18:59:30.607] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 550  [18:59:30.614] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 6.927456999663264ms
+Info 551  [18:59:30.614] Different program with same set of files
+Info 552  [18:59:31.060] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 553  [18:59:31.067] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 81 structureChanged: false structureIsReused:: Completely Elapsed: 6.826262000016868ms
+Info 554  [18:59:31.067] Different program with same set of files
+Info 555  [18:59:31.372] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 556  [18:59:31.377] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 4.809574999846518ms
+Info 557  [18:59:31.377] Different program with same set of files
+Info 558  [18:59:32.020] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 559  [18:59:32.026] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 5.3901219996623695ms
+Info 560  [18:59:32.026] Different program with same set of files
+Info 561  [18:59:32.545] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 562  [18:59:32.549] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 4.202508999966085ms
+Info 563  [18:59:32.549] Different program with same set of files
+Info 564  [18:59:32.992] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 565  [18:59:32.996] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 4.21125499997288ms
+Info 566  [18:59:32.996] Different program with same set of files
+Info 567  [18:59:38.173] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 568  [18:59:38.179] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 5.90612499974668ms
+Info 569  [18:59:38.179] Different program with same set of files
+Info 570  [18:59:38.712] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 571  [18:59:38.718] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 5.99116799980402ms
+Info 572  [18:59:38.718] Different program with same set of files
+Info 573  [19:16:25.173] FileWatcher:: Triggered with /home/refat/Workspaces/typescript/tsconfig.json 1:: WatchInfo: /home/refat/Workspaces/typescript/tsconfig.json 2000 undefined Project: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Config file
+Info 574  [19:16:25.174] Elapsed:: 0.7899609999731183ms FileWatcher:: Triggered with /home/refat/Workspaces/typescript/tsconfig.json 1:: WatchInfo: /home/refat/Workspaces/typescript/tsconfig.json 2000 undefined Project: /home/refat/Workspaces/typescript/tsconfig.json WatchType: Config file
+Info 575  [19:16:25.424] Reloading configured project /home/refat/Workspaces/typescript/tsconfig.json
+Info 576  [19:16:25.435] Config: /home/refat/Workspaces/typescript/tsconfig.json : {
+ "rootNames": [
+  "/home/refat/Workspaces/typescript/src/index.ts",
+  "/home/refat/Workspaces/typescript/src/tstut.ts"
+ ],
+ "options": {
+  "target": 3,
+  "module": 1,
+  "rootDir": "/home/refat/Workspaces/typescript/src",
+  "outDir": "/home/refat/Workspaces/typescript/dist",
+  "removeComments": true,
+  "noEmitOnError": true,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "strict": true,
+  "noImplicitAny": true,
+  "skipLibCheck": true,
+  "configFilePath": "/home/refat/Workspaces/typescript/tsconfig.json"
+ }
+}
+Info 577  [19:16:25.448] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 578  [19:16:25.458] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 9.816259000450373ms
+Info 579  [19:16:25.458] Different program with same set of files
+Info 580  [19:16:27.676] Before ensureProjectForOpenFiles:
+Info 581  [19:16:27.676] After ensureProjectForOpenFiles:
+Info 582  [19:16:27.676] got projects updated in background, updating diagnostics for /home/refat/Workspaces/typescript/src/index.ts
+Info 583  [19:20:51.262] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 584  [19:20:51.271] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 9.083611000329256ms
+Info 585  [19:20:51.271] Different program with same set of files
+Info 586  [19:20:51.828] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 587  [19:20:51.847] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 90 structureChanged: false structureIsReused:: Completely Elapsed: 18.187973000109196ms
+Info 588  [19:20:51.847] Different program with same set of files
+Info 589  [19:20:51.848] getCompletionData: Get current token: 0.09046200010925531
+Info 590  [19:20:51.848] getCompletionData: Is inside comment: 0.05738899949938059
+Info 591  [19:20:51.848] getCompletionData: Get previous token: 0.07915999926626682
+Info 592  [19:20:51.848] getCompletionsAtPosition: isCompletionListBlocker: 0.047791000455617905
+Info 593  [19:20:51.861] getExportInfoMap: cache hit
+Info 594  [19:20:51.902] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 595  [19:20:51.902] collectAutoImports: response is complete
+Info 596  [19:20:51.902] collectAutoImports: 40.70059300027788
+Info 597  [19:20:51.902] getCompletionData: Semantic work: 54.02014200016856
+Info 598  [19:20:51.927] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.352304000407457
+Info 599  [19:20:51.933] getCompletionData: Get current token: 0.020608999766409397
+Info 600  [19:20:51.933] getCompletionData: Is inside comment: 0.033143000677227974
+Info 601  [19:20:51.933] getCompletionData: Get previous token: 0.048081000335514545
+Info 602  [19:20:51.933] getCompletionsAtPosition: isCompletionListBlocker: 0.03806199971586466
+Info 603  [19:20:51.939] getExportInfoMap: cache hit
+Info 604  [19:20:51.973] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 605  [19:20:51.973] collectAutoImports: response is complete
+Info 606  [19:20:51.973] collectAutoImports: 34.29163600038737
+Info 607  [19:20:51.974] getCompletionData: Semantic work: 40.68603499978781
+Info 608  [19:20:51.994] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.41101699974388
+Info 609  [19:20:51.999] getCompletionData: Get current token: 0.01506900042295456
+Info 610  [19:20:51.999] getCompletionData: Is inside comment: 0.026399999856948853
+Info 611  [19:20:51.999] getCompletionData: Get previous token: 0.035187000408768654
+Info 612  [19:20:51.999] getCompletionsAtPosition: isCompletionListBlocker: 0.047580999322235584
+Info 613  [19:20:52.005] getExportInfoMap: cache hit
+Info 614  [19:20:52.038] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 615  [19:20:52.038] collectAutoImports: response is complete
+Info 616  [19:20:52.038] collectAutoImports: 32.16682900022715
+Info 617  [19:20:52.038] getCompletionData: Semantic work: 38.73693300038576
+Info 618  [19:20:52.048] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.26906899921596
+Info 619  [19:20:52.053] getCompletionData: Get current token: 0.017362999729812145
+Info 620  [19:20:52.053] getCompletionData: Is inside comment: 0.028735000640153885
+Info 621  [19:20:52.053] getCompletionData: Get previous token: 0.038422999903559685
+Info 622  [19:20:52.053] getCompletionsAtPosition: isCompletionListBlocker: 0.03073900006711483
+Info 623  [19:20:52.057] getExportInfoMap: cache hit
+Info 624  [19:20:52.082] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 625  [19:20:52.082] collectAutoImports: response is complete
+Info 626  [19:20:52.082] collectAutoImports: 24.51933200005442
+Info 627  [19:20:52.082] getCompletionData: Semantic work: 28.769177000038326
+Info 628  [19:20:52.099] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.800500999204814
+Info 629  [19:20:52.104] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 630  [19:20:52.113] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 9.303821000270545ms
+Info 631  [19:20:52.113] Different program with same set of files
+Info 632  [19:21:00.543] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 633  [19:21:00.552] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 92 structureChanged: false structureIsReused:: Completely Elapsed: 9.063845000229776ms
+Info 634  [19:21:00.552] Different program with same set of files
+Info 635  [19:21:00.552] getCompletionData: Get current token: 0.027172000147402287
+Info 636  [19:21:00.552] getCompletionData: Is inside comment: 0.029195000417530537
+Info 637  [19:21:00.552] getCompletionData: Get previous token: 0.03794199973344803
+Info 638  [19:21:00.553] getCompletionsAtPosition: isCompletionListBlocker: 0.007954999804496765
+Info 639  [19:21:00.553] Returning an empty list because completion was requested in an invalid position.
+Info 640  [19:21:00.576] getCompletionData: Get current token: 0.013716000132262707
+Info 641  [19:21:00.576] getCompletionData: Is inside comment: 0.02688100002706051
+Info 642  [19:21:00.576] getCompletionData: Get previous token: 0.03514700010418892
+Info 643  [19:21:00.576] getCompletionsAtPosition: isCompletionListBlocker: 0.005721000023186207
+Info 644  [19:21:00.576] Returning an empty list because completion was requested in an invalid position.
+Info 645  [19:21:00.599] getCompletionData: Get current token: 0.013345999643206596
+Info 646  [19:21:00.599] getCompletionData: Is inside comment: 0.02735200058668852
+Info 647  [19:21:00.599] getCompletionData: Get previous token: 0.03373400028795004
+Info 648  [19:21:00.599] getCompletionsAtPosition: isCompletionListBlocker: 0.01260400004684925
+Info 649  [19:21:00.599] Returning an empty list because completion was requested in an invalid position.
+Info 650  [19:21:00.622] getCompletionData: Get current token: 0.01372699998319149
+Info 651  [19:21:00.622] getCompletionData: Is inside comment: 0.024966999888420105
+Info 652  [19:21:00.622] getCompletionData: Get previous token: 0.033164000138640404
+Info 653  [19:21:00.622] getCompletionsAtPosition: isCompletionListBlocker: 0.008996999822556973
+Info 654  [19:21:00.622] Returning an empty list because completion was requested in an invalid position.
+Info 655  [19:21:01.607] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 656  [19:21:01.617] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 9.864019999280572ms
+Info 657  [19:21:01.617] Different program with same set of files
+Info 658  [19:21:01.618] getCompletionData: Get current token: 0.027563000097870827
+Info 659  [19:21:01.618] getCompletionData: Is inside comment: 0.046107999980449677
+Info 660  [19:21:01.618] getCompletionData: Get previous token: 0.06449300050735474
+Info 661  [19:21:01.618] getCompletionsAtPosition: isCompletionListBlocker: 0.00697300024330616
+Info 662  [19:21:01.618] Returning an empty list because completion was requested in an invalid position.
+Info 663  [19:21:01.621] getCompletionData: Get current token: 0.021921999752521515
+Info 664  [19:21:01.621] getCompletionData: Is inside comment: 0.041188000701367855
+Info 665  [19:21:01.621] getCompletionData: Get previous token: 0.05478499922901392
+Info 666  [19:21:01.621] getCompletionsAtPosition: isCompletionListBlocker: 0.007092999294400215
+Info 667  [19:21:01.621] Returning an empty list because completion was requested in an invalid position.
+Info 668  [19:21:01.644] getCompletionData: Get current token: 0.022764000110328197
+Info 669  [19:21:01.644] getCompletionData: Is inside comment: 0.042121000587940216
+Info 670  [19:21:01.644] getCompletionData: Get previous token: 0.05805999971926212
+Info 671  [19:21:01.644] getCompletionsAtPosition: isCompletionListBlocker: 0.006622999906539917
+Info 672  [19:21:01.644] Returning an empty list because completion was requested in an invalid position.
+Info 673  [19:21:01.667] getCompletionData: Get current token: 0.016121000051498413
+Info 674  [19:21:01.668] getCompletionData: Is inside comment: 0.02999699953943491
+Info 675  [19:21:01.668] getCompletionData: Get previous token: 0.038604000583291054
+Info 676  [19:21:01.668] getCompletionsAtPosition: isCompletionListBlocker: 0.005950999446213245
+Info 677  [19:21:01.668] Returning an empty list because completion was requested in an invalid position.
+Info 678  [19:21:02.115] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 679  [19:21:02.124] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 94 structureChanged: false structureIsReused:: Completely Elapsed: 8.61188399977982ms
+Info 680  [19:21:02.124] Different program with same set of files
+Info 681  [19:21:02.124] getCompletionData: Get current token: 0.01421700045466423
+Info 682  [19:21:02.124] getCompletionData: Is inside comment: 0.025818999856710434
+Info 683  [19:21:02.124] getCompletionData: Get previous token: 0.03833300061523914
+Info 684  [19:21:02.124] getCompletionsAtPosition: isCompletionListBlocker: 0.005661000497639179
+Info 685  [19:21:02.124] Returning an empty list because completion was requested in an invalid position.
+Info 686  [19:21:02.147] getCompletionData: Get current token: 0.013454999774694443
+Info 687  [19:21:02.148] getCompletionData: Is inside comment: 0.025788999162614346
+Info 688  [19:21:02.148] getCompletionData: Get previous token: 0.03726100083440542
+Info 689  [19:21:02.148] getCompletionsAtPosition: isCompletionListBlocker: 0.005730000324547291
+Info 690  [19:21:02.148] Returning an empty list because completion was requested in an invalid position.
+Info 691  [19:21:02.168] getCompletionData: Get current token: 0.01357599999755621
+Info 692  [19:21:02.168] getCompletionData: Is inside comment: 0.028433999978005886
+Info 693  [19:21:02.168] getCompletionData: Get previous token: 0.037060000002384186
+Info 694  [19:21:02.168] getCompletionsAtPosition: isCompletionListBlocker: 0.007454999722540379
+Info 695  [19:21:02.168] Returning an empty list because completion was requested in an invalid position.
+Info 696  [19:21:02.169] getCompletionData: Get current token: 0.014808000065386295
+Info 697  [19:21:02.170] getCompletionData: Is inside comment: 0.02914499957114458
+Info 698  [19:21:02.170] getCompletionData: Get previous token: 0.04102800041437149
+Info 699  [19:21:02.170] getCompletionsAtPosition: isCompletionListBlocker: 0.004978999495506287
+Info 700  [19:21:02.170] Returning an empty list because completion was requested in an invalid position.
+Info 701  [19:21:02.375] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 702  [19:21:02.385] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 9.595629000104964ms
+Info 703  [19:21:02.385] Different program with same set of files
+Info 704  [19:21:04.886] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 705  [19:21:04.896] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 10.240637000650167ms
+Info 706  [19:21:04.896] Different program with same set of files
+Info 707  [19:21:05.143] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 708  [19:21:05.154] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 10.833025999367237ms
+Info 709  [19:21:05.154] Different program with same set of files
+Info 710  [19:21:05.740] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 711  [19:21:05.749] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 98 structureChanged: false structureIsReused:: Completely Elapsed: 9.326154999434948ms
+Info 712  [19:21:05.749] Different program with same set of files
+Info 713  [19:21:06.508] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 714  [19:21:06.514] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 99 structureChanged: false structureIsReused:: Completely Elapsed: 5.608785000629723ms
+Info 715  [19:21:06.514] Different program with same set of files
+Info 716  [19:21:06.727] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 717  [19:21:06.735] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 100 structureChanged: false structureIsReused:: Completely Elapsed: 8.309839999303222ms
+Info 718  [19:21:06.736] Different program with same set of files
+Info 719  [19:21:07.247] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 720  [19:21:07.253] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 101 structureChanged: false structureIsReused:: Completely Elapsed: 5.815848999656737ms
+Info 721  [19:21:07.253] Different program with same set of files
+Info 722  [19:21:07.591] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 723  [19:21:07.598] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 102 structureChanged: false structureIsReused:: Completely Elapsed: 6.793300999328494ms
+Info 724  [19:21:07.598] Different program with same set of files
+Info 725  [19:21:08.567] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 726  [19:21:08.575] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 103 structureChanged: false structureIsReused:: Completely Elapsed: 7.403814000077546ms
+Info 727  [19:21:08.575] Different program with same set of files
+Info 728  [19:21:09.061] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 729  [19:21:09.068] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 104 structureChanged: false structureIsReused:: Completely Elapsed: 6.518226999789476ms
+Info 730  [19:21:09.068] Different program with same set of files
+Info 731  [19:21:09.072] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 732  [19:21:09.081] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 105 structureChanged: false structureIsReused:: Completely Elapsed: 8.28641500044614ms
+Info 733  [19:21:09.081] Different program with same set of files
+Info 734  [19:21:09.784] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 735  [19:21:09.789] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 106 structureChanged: false structureIsReused:: Completely Elapsed: 5.002248999662697ms
+Info 736  [19:21:09.790] Different program with same set of files
+Info 737  [19:21:40.787] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 738  [19:21:40.792] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 107 structureChanged: false structureIsReused:: Completely Elapsed: 4.9526370000094175ms
+Info 739  [19:21:40.792] Different program with same set of files
+Info 740  [19:21:41.338] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 741  [19:21:41.343] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 108 structureChanged: false structureIsReused:: Completely Elapsed: 5.003473999910057ms
+Info 742  [19:21:41.343] Different program with same set of files
+Info 743  [19:21:41.343] getCompletionData: Get current token: 0.012133000418543816
+Info 744  [19:21:41.344] getCompletionData: Is inside comment: 0.043271999806165695
+Info 745  [19:21:41.344] getCompletionData: Get previous token: 0.04772000014781952
+Info 746  [19:21:41.344] getCompletionsAtPosition: isCompletionListBlocker: 0.007934999652206898
+Info 747  [19:21:41.354] getExportInfoMap: cache hit
+Info 748  [19:21:41.359] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 749  [19:21:41.359] collectAutoImports: response is complete
+Info 750  [19:21:41.359] collectAutoImports: 4.925406000576913
+Info 751  [19:21:41.359] getCompletionData: Semantic work: 15.123748000711203
+Info 752  [19:21:41.382] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.87403600011021
+Info 753  [19:21:41.683] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 754  [19:21:41.691] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 109 structureChanged: false structureIsReused:: Completely Elapsed: 7.393178000114858ms
+Info 755  [19:21:41.691] Different program with same set of files
+Info 756  [19:21:46.653] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 757  [19:21:46.662] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 110 structureChanged: false structureIsReused:: Completely Elapsed: 8.36311599984765ms
+Info 758  [19:21:46.662] Different program with same set of files
+Info 759  [19:21:47.758] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 760  [19:21:47.767] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 111 structureChanged: false structureIsReused:: Completely Elapsed: 8.550454000011086ms
+Info 761  [19:21:47.767] Different program with same set of files
+Info 762  [19:21:47.767] getCompletionData: Get current token: 0.07565499935299158
+Info 763  [19:21:47.767] getCompletionData: Is inside comment: 0.03830300085246563
+Info 764  [19:21:47.767] getCompletionData: Get previous token: 0.053302000276744366
+Info 765  [19:21:47.767] getCompletionsAtPosition: isCompletionListBlocker: 0.009327000007033348
+Info 766  [19:21:47.776] getExportInfoMap: cache hit
+Info 767  [19:21:47.781] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 768  [19:21:47.781] collectAutoImports: response is complete
+Info 769  [19:21:47.781] collectAutoImports: 4.5925820004194975
+Info 770  [19:21:47.781] getCompletionData: Semantic work: 13.541563999839127
+Info 771  [19:21:47.801] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 19.717774000018835
+Info 772  [19:21:48.105] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 773  [19:21:48.110] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 112 structureChanged: false structureIsReused:: Completely Elapsed: 4.890678999945521ms
+Info 774  [19:21:48.110] Different program with same set of files
+Info 775  [19:21:48.503] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 776  [19:21:48.511] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 113 structureChanged: false structureIsReused:: Completely Elapsed: 7.528807000257075ms
+Info 777  [19:21:48.511] Different program with same set of files
+Info 778  [19:21:48.817] Format host information updated
+Info 779  [19:21:48.818] getCompletionData: Get current token: 0.03316299989819527
+Info 780  [19:21:48.819] getCompletionData: Is inside comment: 0.00821600016206503
+Info 781  [19:21:48.819] getCompletionData: Get previous token: 0.0616669999435544
+Info 782  [19:21:48.819] getCompletionsAtPosition: isCompletionListBlocker: 0.00825599953532219
+Info 783  [19:21:48.822] getCompletionData: Semantic work: 3.5211600000038743
+Info 784  [19:21:49.135] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 785  [19:21:49.142] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 114 structureChanged: false structureIsReused:: Completely Elapsed: 6.728792999871075ms
+Info 786  [19:21:49.142] Different program with same set of files
+Info 787  [19:21:50.811] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 788  [19:21:50.818] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 115 structureChanged: false structureIsReused:: Completely Elapsed: 6.6408249996602535ms
+Info 789  [19:21:50.818] Different program with same set of files
+Info 790  [19:21:52.937] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 791  [19:21:52.942] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 116 structureChanged: false structureIsReused:: Completely Elapsed: 5.166865999810398ms
+Info 792  [19:21:52.942] Different program with same set of files
+Info 793  [19:21:53.691] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 794  [19:21:53.697] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 117 structureChanged: false structureIsReused:: Completely Elapsed: 5.297406000085175ms
+Info 795  [19:21:53.697] Different program with same set of files
+Info 796  [19:21:53.697] getCompletionData: Get current token: 0.012523000128567219
+Info 797  [19:21:53.697] getCompletionData: Is inside comment: 0.00496899988502264
+Info 798  [19:21:53.697] getCompletionData: Get previous token: 0.05087700020521879
+Info 799  [19:21:53.697] getCompletionsAtPosition: isCompletionListBlocker: 0.005960999988019466
+Info 800  [19:21:53.697] Returning an empty list because completion was requested in an invalid position.
+Info 801  [19:21:53.700] getCompletionData: Get current token: 0.011502000503242016
+Info 802  [19:21:53.700] getCompletionData: Is inside comment: 0.0053710006177425385
+Info 803  [19:21:53.700] getCompletionData: Get previous token: 0.11232399940490723
+Info 804  [19:21:53.700] getCompletionsAtPosition: isCompletionListBlocker: 0.005880999378859997
+Info 805  [19:21:53.700] Returning an empty list because completion was requested in an invalid position.
+Info 806  [19:21:53.724] getCompletionData: Get current token: 0.01837499998509884
+Info 807  [19:21:53.724] getCompletionData: Is inside comment: 0.005561000667512417
+Info 808  [19:21:53.724] getCompletionData: Get previous token: 0.050005000084638596
+Info 809  [19:21:53.724] getCompletionsAtPosition: isCompletionListBlocker: 0.005009000189602375
+Info 810  [19:21:53.724] Returning an empty list because completion was requested in an invalid position.
+Info 811  [19:21:53.747] getCompletionData: Get current token: 0.020949999801814556
+Info 812  [19:21:53.747] getCompletionData: Is inside comment: 0.008225000463426113
+Info 813  [19:21:53.747] getCompletionData: Get previous token: 0.0808739997446537
+Info 814  [19:21:53.747] getCompletionsAtPosition: isCompletionListBlocker: 0.008245999924838543
+Info 815  [19:21:53.747] Returning an empty list because completion was requested in an invalid position.
+Info 816  [19:21:53.969] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 817  [19:21:53.976] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 118 structureChanged: false structureIsReused:: Completely Elapsed: 7.645329000428319ms
+Info 818  [19:21:53.976] Different program with same set of files
+Info 819  [19:21:53.977] getCompletionData: Get current token: 0.010040000081062317
+Info 820  [19:21:53.977] getCompletionData: Is inside comment: 0.004688999615609646
+Info 821  [19:21:53.977] getCompletionData: Get previous token: 0.04212000034749508
+Info 822  [19:21:53.977] getCompletionsAtPosition: isCompletionListBlocker: 0.004959999583661556
+Info 823  [19:21:53.977] Returning an empty list because completion was requested in an invalid position.
+Info 824  [19:21:54.000] getCompletionData: Get current token: 0.013555999845266342
+Info 825  [19:21:54.000] getCompletionData: Is inside comment: 0.004587999545037746
+Info 826  [19:21:54.000] getCompletionData: Get previous token: 0.04188000038266182
+Info 827  [19:21:54.000] getCompletionsAtPosition: isCompletionListBlocker: 0.008245999924838543
+Info 828  [19:21:54.000] Returning an empty list because completion was requested in an invalid position.
+Info 829  [19:21:54.023] getCompletionData: Get current token: 0.011440999805927277
+Info 830  [19:21:54.023] getCompletionData: Is inside comment: 0.004920000210404396
+Info 831  [19:21:54.023] getCompletionData: Get previous token: 0.04196999967098236
+Info 832  [19:21:54.023] getCompletionsAtPosition: isCompletionListBlocker: 0.005048999562859535
+Info 833  [19:21:54.023] Returning an empty list because completion was requested in an invalid position.
+Info 834  [19:21:54.046] getCompletionData: Get current token: 0.018646000884473324
+Info 835  [19:21:54.046] getCompletionData: Is inside comment: 0.007483999244868755
+Info 836  [19:21:54.046] getCompletionData: Get previous token: 0.07236700039356947
+Info 837  [19:21:54.047] getCompletionsAtPosition: isCompletionListBlocker: 0.32909699995070696
+Info 838  [19:21:54.047] Returning an empty list because completion was requested in an invalid position.
+Info 839  [19:21:54.244] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 840  [19:21:54.248] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 119 structureChanged: false structureIsReused:: Completely Elapsed: 4.292639999650419ms
+Info 841  [19:21:54.248] Different program with same set of files
+Info 842  [19:21:54.248] getCompletionData: Get current token: 0.009678000584244728
+Info 843  [19:21:54.248] getCompletionData: Is inside comment: 0.004858999513089657
+Info 844  [19:21:54.248] getCompletionData: Get previous token: 0.04115800000727177
+Info 845  [19:21:54.248] getCompletionsAtPosition: isCompletionListBlocker: 0.01292400062084198
+Info 846  [19:21:54.248] Returning an empty list because completion was requested in an invalid position.
+Info 847  [19:21:54.251] getCompletionData: Get current token: 0.012714000418782234
+Info 848  [19:21:54.252] getCompletionData: Is inside comment: 0.004138000309467316
+Info 849  [19:21:54.252] getCompletionData: Get previous token: 0.0417089993134141
+Info 850  [19:21:54.252] getCompletionsAtPosition: isCompletionListBlocker: 0.004018000327050686
+Info 851  [19:21:54.252] Returning an empty list because completion was requested in an invalid position.
+Info 852  [19:21:54.263] getCompletionData: Get current token: 0.01282500009983778
+Info 853  [19:21:54.263] getCompletionData: Is inside comment: 0.0043279994279146194
+Info 854  [19:21:54.263] getCompletionData: Get previous token: 0.044405000284314156
+Info 855  [19:21:54.263] getCompletionsAtPosition: isCompletionListBlocker: 0.004297999665141106
+Info 856  [19:21:54.263] Returning an empty list because completion was requested in an invalid position.
+Info 857  [19:21:54.282] getCompletionData: Get current token: 0.011262000538408756
+Info 858  [19:21:54.283] getCompletionData: Is inside comment: 0.005169999785721302
+Info 859  [19:21:54.283] getCompletionData: Get previous token: 0.04351300001144409
+Info 860  [19:21:54.283] getCompletionsAtPosition: isCompletionListBlocker: 0.004018000327050686
+Info 861  [19:21:54.283] Returning an empty list because completion was requested in an invalid position.
+Info 862  [19:21:54.414] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 863  [19:21:54.422] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 120 structureChanged: false structureIsReused:: Completely Elapsed: 7.621724999509752ms
+Info 864  [19:21:54.422] Different program with same set of files
+Info 865  [19:21:54.422] getCompletionData: Get current token: 0.011551999486982822
+Info 866  [19:21:54.423] getCompletionData: Is inside comment: 0.004849000833928585
+Info 867  [19:21:54.423] getCompletionData: Get previous token: 0.04650899954140186
+Info 868  [19:21:54.423] getCompletionsAtPosition: isCompletionListBlocker: 0.0044380007311701775
+Info 869  [19:21:54.423] Returning an empty list because completion was requested in an invalid position.
+Info 870  [19:21:54.446] getCompletionData: Get current token: 0.0158909996971488
+Info 871  [19:21:54.446] getCompletionData: Is inside comment: 0.006261000409722328
+Info 872  [19:21:54.446] getCompletionData: Get previous token: 0.05779100023210049
+Info 873  [19:21:54.446] getCompletionsAtPosition: isCompletionListBlocker: 0.004999999888241291
+Info 874  [19:21:54.446] Returning an empty list because completion was requested in an invalid position.
+Info 875  [19:21:54.460] getCompletionData: Get current token: 0.01522899977862835
+Info 876  [19:21:54.460] getCompletionData: Is inside comment: 0.006211999803781509
+Info 877  [19:21:54.460] getCompletionData: Get previous token: 0.06124699953943491
+Info 878  [19:21:54.460] getCompletionsAtPosition: isCompletionListBlocker: 0.004789000377058983
+Info 879  [19:21:54.460] Returning an empty list because completion was requested in an invalid position.
+Info 880  [19:21:54.483] getCompletionData: Get current token: 0.023134000599384308
+Info 881  [19:21:54.483] getCompletionData: Is inside comment: 0.005721000023186207
+Info 882  [19:21:54.483] getCompletionData: Get previous token: 0.04667900037020445
+Info 883  [19:21:54.483] getCompletionsAtPosition: isCompletionListBlocker: 0.004648000001907349
+Info 884  [19:21:54.483] Returning an empty list because completion was requested in an invalid position.
+Info 885  [19:21:54.727] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 886  [19:21:54.733] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 121 structureChanged: false structureIsReused:: Completely Elapsed: 5.350657000206411ms
+Info 887  [19:21:54.733] Different program with same set of files
+Info 888  [19:21:54.733] getCompletionData: Get current token: 0.009928999468684196
+Info 889  [19:21:54.733] getCompletionData: Is inside comment: 0.004068000242114067
+Info 890  [19:21:54.733] getCompletionData: Get previous token: 0.03682999964803457
+Info 891  [19:21:54.733] getCompletionsAtPosition: isCompletionListBlocker: 0.005149999633431435
+Info 892  [19:21:54.733] Returning an empty list because completion was requested in an invalid position.
+Info 893  [19:21:54.756] getCompletionData: Get current token: 0.010460000485181808
+Info 894  [19:21:54.756] getCompletionData: Is inside comment: 0.0038479994982481003
+Info 895  [19:21:54.756] getCompletionData: Get previous token: 0.038604000583291054
+Info 896  [19:21:54.756] getCompletionsAtPosition: isCompletionListBlocker: 0.004047000780701637
+Info 897  [19:21:54.756] Returning an empty list because completion was requested in an invalid position.
+Info 898  [19:21:54.767] getCompletionData: Get current token: 0.010529999621212482
+Info 899  [19:21:54.767] getCompletionData: Is inside comment: 0.004568999633193016
+Info 900  [19:21:54.767] getCompletionData: Get previous token: 0.036890000104904175
+Info 901  [19:21:54.767] getCompletionsAtPosition: isCompletionListBlocker: 0.004597999155521393
+Info 902  [19:21:54.767] Returning an empty list because completion was requested in an invalid position.
+Info 903  [19:21:54.789] getCompletionData: Get current token: 0.010269999504089355
+Info 904  [19:21:54.789] getCompletionData: Is inside comment: 0.00402700062841177
+Info 905  [19:21:54.789] getCompletionData: Get previous token: 0.03631999995559454
+Info 906  [19:21:54.789] getCompletionsAtPosition: isCompletionListBlocker: 0.003767000511288643
+Info 907  [19:21:54.789] Returning an empty list because completion was requested in an invalid position.
+Info 908  [19:22:07.519] Format host information updated
+Info 909  [19:22:07.733] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 910  [19:22:07.738] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 122 structureChanged: false structureIsReused:: Completely Elapsed: 4.984139000065625ms
+Info 911  [19:22:07.738] Different program with same set of files
+Info 912  [19:22:27.647] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 913  [19:22:27.653] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 123 structureChanged: false structureIsReused:: Completely Elapsed: 6.064400000497699ms
+Info 914  [19:22:27.654] Different program with same set of files
+Info 915  [19:22:29.380] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 916  [19:22:29.387] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 124 structureChanged: false structureIsReused:: Completely Elapsed: 6.958735000342131ms
+Info 917  [19:22:29.387] Different program with same set of files
+Info 918  [19:22:30.021] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 919  [19:22:30.027] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 125 structureChanged: false structureIsReused:: Completely Elapsed: 5.365619000047445ms
+Info 920  [19:22:30.027] Different program with same set of files
+Info 921  [19:22:30.027] getCompletionData: Get current token: 0.015850000083446503
+Info 922  [19:22:30.027] getCompletionData: Is inside comment: 0.030628000386059284
+Info 923  [19:22:30.027] getCompletionData: Get previous token: 0.05837099999189377
+Info 924  [19:22:30.027] getCompletionsAtPosition: isCompletionListBlocker: 0.03054800070822239
+Info 925  [19:22:30.038] getExportInfoMap: cache hit
+Info 926  [19:22:30.083] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 927  [19:22:30.083] collectAutoImports: response is complete
+Info 928  [19:22:30.084] collectAutoImports: 45.76580000016838
+Info 929  [19:22:30.084] getCompletionData: Semantic work: 56.40017099957913
+Info 930  [19:22:30.099] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.31950300000608
+Info 931  [19:22:30.106] getCompletionData: Get current token: 0.01677200011909008
+Info 932  [19:22:30.106] getCompletionData: Is inside comment: 0.028855000622570515
+Info 933  [19:22:30.106] getCompletionData: Get previous token: 0.038693999871611595
+Info 934  [19:22:30.106] getCompletionsAtPosition: isCompletionListBlocker: 0.026149999350309372
+Info 935  [19:22:30.110] getExportInfoMap: cache hit
+Info 936  [19:22:30.141] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 937  [19:22:30.141] collectAutoImports: response is complete
+Info 938  [19:22:30.141] collectAutoImports: 30.895033000037074
+Info 939  [19:22:30.141] getCompletionData: Semantic work: 35.19355699978769
+Info 940  [19:22:30.156] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.507124000228941
+Info 941  [19:22:30.160] getCompletionData: Get current token: 0.011200999841094017
+Info 942  [19:22:30.160] getCompletionData: Is inside comment: 0.03883400000631809
+Info 943  [19:22:30.160] getCompletionData: Get previous token: 0.03229200001806021
+Info 944  [19:22:30.160] getCompletionsAtPosition: isCompletionListBlocker: 0.0247170003131032
+Info 945  [19:22:30.165] getExportInfoMap: cache hit
+Info 946  [19:22:30.188] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 947  [19:22:30.188] collectAutoImports: response is complete
+Info 948  [19:22:30.188] collectAutoImports: 22.01108800061047
+Info 949  [19:22:30.188] getCompletionData: Semantic work: 27.703127999790013
+Info 950  [19:22:30.201] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.002886000089347
+Info 951  [19:22:30.205] getCompletionData: Get current token: 0.01243400014936924
+Info 952  [19:22:30.205] getCompletionData: Is inside comment: 0.022232000716030598
+Info 953  [19:22:30.205] getCompletionData: Get previous token: 0.030787999741733074
+Info 954  [19:22:30.205] getCompletionsAtPosition: isCompletionListBlocker: 0.023214000277221203
+Info 955  [19:22:30.208] getExportInfoMap: cache hit
+Info 956  [19:22:30.231] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 957  [19:22:30.231] collectAutoImports: response is complete
+Info 958  [19:22:30.231] collectAutoImports: 22.35365099925548
+Info 959  [19:22:30.231] getCompletionData: Semantic work: 25.943202999420464
+Info 960  [19:22:30.242] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.906329999677837
+Info 961  [19:22:30.248] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 962  [19:22:30.255] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 126 structureChanged: false structureIsReused:: Completely Elapsed: 6.188056000508368ms
+Info 963  [19:22:30.255] Different program with same set of files
+Info 964  [19:22:30.868] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 965  [19:22:30.874] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 127 structureChanged: false structureIsReused:: Completely Elapsed: 5.792491000145674ms
+Info 966  [19:22:30.874] Different program with same set of files
+Info 967  [19:22:30.874] getCompletionData: Get current token: 0.021541999652981758
+Info 968  [19:22:30.874] getCompletionData: Is inside comment: 0.024246000684797764
+Info 969  [19:22:30.875] getCompletionData: Get previous token: 0.0326519999653101
+Info 970  [19:22:30.875] getCompletionsAtPosition: isCompletionListBlocker: 0.003936999477446079
+Info 971  [19:22:30.875] Returning an empty list because completion was requested in an invalid position.
+Info 972  [19:22:30.877] getCompletionData: Get current token: 0.009988999925553799
+Info 973  [19:22:30.877] getCompletionData: Is inside comment: 0.02218300011008978
+Info 974  [19:22:30.877] getCompletionData: Get previous token: 0.029405999928712845
+Info 975  [19:22:30.877] getCompletionsAtPosition: isCompletionListBlocker: 0.003746999427676201
+Info 976  [19:22:30.877] Returning an empty list because completion was requested in an invalid position.
+Info 977  [19:22:30.881] getCompletionData: Get current token: 0.011201000772416592
+Info 978  [19:22:30.881] getCompletionData: Is inside comment: 0.02226200047880411
+Info 979  [19:22:30.881] getCompletionData: Get previous token: 0.03021799959242344
+Info 980  [19:22:30.881] getCompletionsAtPosition: isCompletionListBlocker: 0.004358000122010708
+Info 981  [19:22:30.881] Returning an empty list because completion was requested in an invalid position.
+Info 982  [19:22:30.904] getCompletionData: Get current token: 0.009978999383747578
+Info 983  [19:22:30.904] getCompletionData: Is inside comment: 0.0229539992287755
+Info 984  [19:22:30.904] getCompletionData: Get previous token: 0.029575999826192856
+Info 985  [19:22:30.904] getCompletionsAtPosition: isCompletionListBlocker: 0.0042479997500777245
+Info 986  [19:22:30.904] Returning an empty list because completion was requested in an invalid position.
+Info 987  [19:22:31.190] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 988  [19:22:31.198] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 128 structureChanged: false structureIsReused:: Completely Elapsed: 8.68533599935472ms
+Info 989  [19:22:31.199] Different program with same set of files
+Info 990  [19:22:31.199] getCompletionData: Get current token: 0.024907000362873077
+Info 991  [19:22:31.199] getCompletionData: Is inside comment: 0.03678099997341633
+Info 992  [19:22:31.199] getCompletionData: Get previous token: 0.05016599968075752
+Info 993  [19:22:31.199] getCompletionsAtPosition: isCompletionListBlocker: 0.008205999620258808
+Info 994  [19:22:31.199] Returning an empty list because completion was requested in an invalid position.
+Info 995  [19:22:31.222] getCompletionData: Get current token: 0.017111999914050102
+Info 996  [19:22:31.222] getCompletionData: Is inside comment: 0.03490599989891052
+Info 997  [19:22:31.223] getCompletionData: Get previous token: 0.04908300004899502
+Info 998  [19:22:31.223] getCompletionsAtPosition: isCompletionListBlocker: 0.005610999651253223
+Info 999  [19:22:31.223] Returning an empty list because completion was requested in an invalid position.
+Info 1000 [19:22:31.245] getCompletionData: Get current token: 0.017222999595105648
+Info 1001 [19:22:31.245] getCompletionData: Is inside comment: 0.035849000327289104
+Info 1002 [19:22:31.245] getCompletionData: Get previous token: 0.04720999952405691
+Info 1003 [19:22:31.246] getCompletionsAtPosition: isCompletionListBlocker: 0.006962999701499939
+Info 1004 [19:22:31.246] Returning an empty list because completion was requested in an invalid position.
+Info 1005 [19:22:31.269] getCompletionData: Get current token: 0.012734000571072102
+Info 1006 [19:22:31.269] getCompletionData: Is inside comment: 0.026008999906480312
+Info 1007 [19:22:31.269] getCompletionData: Get previous token: 0.032231999561190605
+Info 1008 [19:22:31.269] getCompletionsAtPosition: isCompletionListBlocker: 0.004528999328613281
+Info 1009 [19:22:31.269] Returning an empty list because completion was requested in an invalid position.
+Info 1010 [19:22:31.487] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1011 [19:22:31.492] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 129 structureChanged: false structureIsReused:: Completely Elapsed: 4.651216000318527ms
+Info 1012 [19:22:31.492] Different program with same set of files
+Info 1013 [19:22:31.492] getCompletionData: Get current token: 0.015188999474048615
+Info 1014 [19:22:31.493] getCompletionData: Is inside comment: 0.024536999873816967
+Info 1015 [19:22:31.493] getCompletionData: Get previous token: 0.035407000221312046
+Info 1016 [19:22:31.493] getCompletionsAtPosition: isCompletionListBlocker: 0.0047589996829628944
+Info 1017 [19:22:31.493] Returning an empty list because completion was requested in an invalid position.
+Info 1018 [19:22:31.496] getCompletionData: Get current token: 0.015099000185728073
+Info 1019 [19:22:31.496] getCompletionData: Is inside comment: 0.029236000031232834
+Info 1020 [19:22:31.496] getCompletionData: Get previous token: 0.039835999719798565
+Info 1021 [19:22:31.496] getCompletionsAtPosition: isCompletionListBlocker: 0.006803000345826149
+Info 1022 [19:22:31.496] Returning an empty list because completion was requested in an invalid position.
+Info 1023 [19:22:31.500] getCompletionData: Get current token: 0.014378000050783157
+Info 1024 [19:22:31.501] getCompletionData: Is inside comment: 0.027873000130057335
+Info 1025 [19:22:31.501] getCompletionData: Get previous token: 0.035287000238895416
+Info 1026 [19:22:31.501] getCompletionsAtPosition: isCompletionListBlocker: 0.004649000242352486
+Info 1027 [19:22:31.501] Returning an empty list because completion was requested in an invalid position.
+Info 1028 [19:22:31.502] getCompletionData: Get current token: 0.012924999929964542
+Info 1029 [19:22:31.502] getCompletionData: Is inside comment: 0.023634999990463257
+Info 1030 [19:22:31.502] getCompletionData: Get previous token: 0.036089000292122364
+Info 1031 [19:22:31.502] getCompletionsAtPosition: isCompletionListBlocker: 0.0039980001747608185
+Info 1032 [19:22:31.502] Returning an empty list because completion was requested in an invalid position.
+Info 1033 [19:22:31.648] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1034 [19:22:31.654] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 130 structureChanged: false structureIsReused:: Completely Elapsed: 6.594911000691354ms
+Info 1035 [19:22:31.655] Different program with same set of files
+Info 1036 [19:22:31.655] getCompletionData: Get current token: 0.024376999586820602
+Info 1037 [19:22:31.655] getCompletionData: Is inside comment: 0.08209599927067757
+Info 1038 [19:22:31.655] getCompletionData: Get previous token: 0.038763999938964844
+Info 1039 [19:22:31.655] getCompletionsAtPosition: isCompletionListBlocker: 0.004618999548256397
+Info 1040 [19:22:31.655] Returning an empty list because completion was requested in an invalid position.
+Info 1041 [19:22:31.678] getCompletionData: Get current token: 0.008686000481247902
+Info 1042 [19:22:31.678] getCompletionData: Is inside comment: 0.027633000165224075
+Info 1043 [19:22:31.678] getCompletionData: Get previous token: 0.03684999980032444
+Info 1044 [19:22:31.679] getCompletionsAtPosition: isCompletionListBlocker: 0.0033260006457567215
+Info 1045 [19:22:31.679] Returning an empty list because completion was requested in an invalid position.
+Info 1046 [19:22:31.701] getCompletionData: Get current token: 0.010449999943375587
+Info 1047 [19:22:31.701] getCompletionData: Is inside comment: 0.023936000652611256
+Info 1048 [19:22:31.702] getCompletionData: Get previous token: 0.03435499966144562
+Info 1049 [19:22:31.702] getCompletionsAtPosition: isCompletionListBlocker: 0.0032259998843073845
+Info 1050 [19:22:31.702] Returning an empty list because completion was requested in an invalid position.
+Info 1051 [19:22:31.721] getCompletionData: Get current token: 0.008365999907255173
+Info 1052 [19:22:31.721] getCompletionData: Is inside comment: 0.02795299980789423
+Info 1053 [19:22:31.721] getCompletionData: Get previous token: 0.034815999679267406
+Info 1054 [19:22:31.721] getCompletionsAtPosition: isCompletionListBlocker: 0.0031560007482767105
+Info 1055 [19:22:31.721] Returning an empty list because completion was requested in an invalid position.
+Info 1056 [19:22:33.123] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1057 [19:22:33.133] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 131 structureChanged: false structureIsReused:: Completely Elapsed: 9.969383999705315ms
+Info 1058 [19:22:33.133] Different program with same set of files
+Info 1059 [19:22:33.577] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1060 [19:22:33.584] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 132 structureChanged: false structureIsReused:: Completely Elapsed: 6.7314320001751184ms
+Info 1061 [19:22:33.584] Different program with same set of files
+Info 1062 [19:22:34.409] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1063 [19:22:34.414] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 133 structureChanged: false structureIsReused:: Completely Elapsed: 4.749884000048041ms
+Info 1064 [19:22:34.414] Different program with same set of files
+Info 1065 [19:22:34.852] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1066 [19:22:34.857] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 134 structureChanged: false structureIsReused:: Completely Elapsed: 5.117775999940932ms
+Info 1067 [19:22:34.857] Different program with same set of files
+Info 1068 [19:22:40.419] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1069 [19:22:40.428] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 135 structureChanged: false structureIsReused:: Completely Elapsed: 8.633078000508249ms
+Info 1070 [19:22:40.428] Different program with same set of files
+Info 1071 [19:22:40.829] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1072 [19:22:40.835] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 136 structureChanged: false structureIsReused:: Completely Elapsed: 5.969699999317527ms
+Info 1073 [19:22:40.835] Different program with same set of files
+Info 1074 [19:22:40.836] getCompletionData: Get current token: 0.013315999880433083
+Info 1075 [19:22:40.836] getCompletionData: Is inside comment: 0.03340400010347366
+Info 1076 [19:22:40.836] getCompletionData: Get previous token: 0.044444999657571316
+Info 1077 [19:22:40.836] getCompletionsAtPosition: isCompletionListBlocker: 0.014437000267207623
+Info 1078 [19:22:40.844] getExportInfoMap: cache hit
+Info 1079 [19:22:40.848] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 1080 [19:22:40.849] collectAutoImports: response is complete
+Info 1081 [19:22:40.849] collectAutoImports: 4.254741000011563
+Info 1082 [19:22:40.849] getCompletionData: Semantic work: 12.283156000077724
+Info 1083 [19:22:40.868] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 19.06302099954337
+Info 1084 [19:22:41.189] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1085 [19:22:41.195] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 137 structureChanged: false structureIsReused:: Completely Elapsed: 5.85485199932009ms
+Info 1086 [19:22:41.195] Different program with same set of files
+Info 1087 [19:22:41.520] Format host information updated
+Info 1088 [19:22:41.521] getCompletionData: Get current token: 0.03439499996602535
+Info 1089 [19:22:41.521] getCompletionData: Is inside comment: 0.008987000212073326
+Info 1090 [19:22:41.521] getCompletionData: Get previous token: 0.06336100026965141
+Info 1091 [19:22:41.521] getCompletionsAtPosition: isCompletionListBlocker: 0.006862999871373177
+Info 1092 [19:22:41.525] getCompletionData: Semantic work: 4.31092800013721
+Info 1093 [19:22:41.846] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1094 [19:22:41.854] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 138 structureChanged: false structureIsReused:: Completely Elapsed: 8.044014999642968ms
+Info 1095 [19:22:41.854] Different program with same set of files
+Info 1096 [19:22:43.374] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1097 [19:22:43.381] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 139 structureChanged: false structureIsReused:: Completely Elapsed: 6.102904999628663ms
+Info 1098 [19:22:43.381] Different program with same set of files
+Info 1099 [19:23:05.395] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1100 [19:23:05.400] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 140 structureChanged: false structureIsReused:: Completely Elapsed: 5.241293999366462ms
+Info 1101 [19:23:05.400] Different program with same set of files
+Info 1102 [19:23:19.661] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1103 [19:23:19.666] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 141 structureChanged: false structureIsReused:: Completely Elapsed: 4.912127000279725ms
+Info 1104 [19:23:19.666] Different program with same set of files
+Info 1105 [19:23:19.830] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1106 [19:23:19.836] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 142 structureChanged: false structureIsReused:: Completely Elapsed: 5.594406999647617ms
+Info 1107 [19:23:19.836] Different program with same set of files
+Info 1108 [19:23:19.837] getCompletionData: Get current token: 0.030949000269174576
+Info 1109 [19:23:19.837] getCompletionData: Is inside comment: 0.037510999478399754
+Info 1110 [19:23:19.837] getCompletionData: Get previous token: 0.07908100076019764
+Info 1111 [19:23:19.837] getCompletionsAtPosition: isCompletionListBlocker: 0.05647700000554323
+Info 1112 [19:23:19.847] getExportInfoMap: cache hit
+Info 1113 [19:23:19.854] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1114 [19:23:19.854] collectAutoImports: response is complete
+Info 1115 [19:23:19.854] collectAutoImports: 6.5173879992216825
+Info 1116 [19:23:19.854] getCompletionData: Semantic work: 16.268633000552654
+Info 1117 [19:23:19.872] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.696946000680327
+Info 1118 [19:23:19.876] getCompletionData: Get current token: 0.007954999804496765
+Info 1119 [19:23:19.877] getCompletionData: Is inside comment: 0.029055999591946602
+Info 1120 [19:23:19.877] getCompletionData: Get previous token: 0.033454000018537045
+Info 1121 [19:23:19.877] getCompletionsAtPosition: isCompletionListBlocker: 0.02381599973887205
+Info 1122 [19:23:19.886] getExportInfoMap: cache hit
+Info 1123 [19:23:19.892] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1124 [19:23:19.892] collectAutoImports: response is complete
+Info 1125 [19:23:19.892] collectAutoImports: 6.227374999783933
+Info 1126 [19:23:19.892] getCompletionData: Semantic work: 15.479268000461161
+Info 1127 [19:23:19.911] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.987410999834538
+Info 1128 [19:23:19.916] getCompletionData: Get current token: 0.014667999930679798
+Info 1129 [19:23:19.916] getCompletionData: Is inside comment: 0.025097999721765518
+Info 1130 [19:23:19.916] getCompletionData: Get previous token: 0.04795200005173683
+Info 1131 [19:23:19.916] getCompletionsAtPosition: isCompletionListBlocker: 0.02815399970859289
+Info 1132 [19:23:19.923] getExportInfoMap: cache hit
+Info 1133 [19:23:19.927] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1134 [19:23:19.927] collectAutoImports: response is complete
+Info 1135 [19:23:19.927] collectAutoImports: 3.764669000171125
+Info 1136 [19:23:19.927] getCompletionData: Semantic work: 10.820473999716341
+Info 1137 [19:23:19.941] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.831073999404907
+Info 1138 [19:23:19.946] getCompletionData: Get current token: 0.010520000010728836
+Info 1139 [19:23:19.947] getCompletionData: Is inside comment: 0.033373999409377575
+Info 1140 [19:23:19.947] getCompletionData: Get previous token: 0.03156000003218651
+Info 1141 [19:23:19.947] getCompletionsAtPosition: isCompletionListBlocker: 0.02546800021082163
+Info 1142 [19:23:19.952] getExportInfoMap: cache hit
+Info 1143 [19:23:19.957] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1144 [19:23:19.957] collectAutoImports: response is complete
+Info 1145 [19:23:19.957] collectAutoImports: 4.680796000175178
+Info 1146 [19:23:19.957] getCompletionData: Semantic work: 10.31237499974668
+Info 1147 [19:23:19.972] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.917035999707878
+Info 1148 [19:23:19.976] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1149 [19:23:19.985] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 143 structureChanged: false structureIsReused:: Completely Elapsed: 9.281098000705242ms
+Info 1150 [19:23:19.985] Different program with same set of files
+Info 1151 [19:23:19.985] getCompletionData: Get current token: 0.017153000459074974
+Info 1152 [19:23:19.986] getCompletionData: Is inside comment: 0.022111999802291393
+Info 1153 [19:23:19.986] getCompletionData: Get previous token: 0.03646999970078468
+Info 1154 [19:23:19.986] getCompletionsAtPosition: isCompletionListBlocker: 0.02373499982059002
+Info 1155 [19:23:19.994] getExportInfoMap: cache hit
+Info 1156 [19:23:20.027] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 1157 [19:23:20.028] collectAutoImports: response is complete
+Info 1158 [19:23:20.028] collectAutoImports: 32.98739399947226
+Info 1159 [19:23:20.028] getCompletionData: Semantic work: 41.91827499959618
+Info 1160 [19:23:20.044] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.584125000052154
+Info 1161 [19:23:20.050] getCompletionData: Get current token: 0.012823999859392643
+Info 1162 [19:23:20.050] getCompletionData: Is inside comment: 0.028644000180065632
+Info 1163 [19:23:20.050] getCompletionData: Get previous token: 0.057489000260829926
+Info 1164 [19:23:20.050] getCompletionsAtPosition: isCompletionListBlocker: 0.02713199984282255
+Info 1165 [19:23:20.056] getExportInfoMap: cache hit
+Info 1166 [19:23:20.091] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 1167 [19:23:20.091] collectAutoImports: response is complete
+Info 1168 [19:23:20.092] collectAutoImports: 35.22666500043124
+Info 1169 [19:23:20.092] getCompletionData: Semantic work: 41.520976999774575
+Info 1170 [19:23:20.105] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.872206999920309
+Info 1171 [19:23:20.109] getCompletionData: Get current token: 0.010801000520586967
+Info 1172 [19:23:20.109] getCompletionData: Is inside comment: 0.026320000179111958
+Info 1173 [19:23:20.109] getCompletionData: Get previous token: 0.04040699917823076
+Info 1174 [19:23:20.109] getCompletionsAtPosition: isCompletionListBlocker: 0.030257999897003174
+Info 1175 [19:23:20.114] getExportInfoMap: cache hit
+Info 1176 [19:23:20.137] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 1177 [19:23:20.137] collectAutoImports: response is complete
+Info 1178 [19:23:20.137] collectAutoImports: 23.30733499955386
+Info 1179 [19:23:20.137] getCompletionData: Semantic work: 28.344711000099778
+Info 1180 [19:23:20.152] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.877439999952912
+Info 1181 [19:23:20.156] getCompletionData: Get current token: 0.00899800006300211
+Info 1182 [19:23:20.156] getCompletionData: Is inside comment: 0.035257999785244465
+Info 1183 [19:23:20.156] getCompletionData: Get previous token: 0.08732699975371361
+Info 1184 [19:23:20.157] getCompletionsAtPosition: isCompletionListBlocker: 0.031008999794721603
+Info 1185 [19:23:20.161] getExportInfoMap: cache hit
+Info 1186 [19:23:20.189] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 10 from cache
+Info 1187 [19:23:20.190] collectAutoImports: response is complete
+Info 1188 [19:23:20.190] collectAutoImports: 28.661756000481546
+Info 1189 [19:23:20.190] getCompletionData: Semantic work: 33.026899999938905
+Info 1190 [19:23:20.201] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.124793999828398
+Info 1191 [19:23:20.207] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1192 [19:23:20.214] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 144 structureChanged: false structureIsReused:: Completely Elapsed: 7.208595999516547ms
+Info 1193 [19:23:20.214] Different program with same set of files
+Info 1194 [19:23:20.425] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1195 [19:23:20.432] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 145 structureChanged: false structureIsReused:: Completely Elapsed: 6.308399999514222ms
+Info 1196 [19:23:20.432] Different program with same set of files
+Info 1197 [19:23:20.707] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1198 [19:23:20.715] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 146 structureChanged: false structureIsReused:: Completely Elapsed: 8.02682700008154ms
+Info 1199 [19:23:20.715] Different program with same set of files
+Info 1200 [19:23:20.962] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1201 [19:23:20.966] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 147 structureChanged: false structureIsReused:: Completely Elapsed: 4.392405999824405ms
+Info 1202 [19:23:20.966] Different program with same set of files
+Info 1203 [19:23:20.966] getCompletionData: Get current token: 0.014577999711036682
+Info 1204 [19:23:20.967] getCompletionData: Is inside comment: 0.021891999989748
+Info 1205 [19:23:20.967] getCompletionData: Get previous token: 0.026320000179111958
+Info 1206 [19:23:20.967] getCompletionsAtPosition: isCompletionListBlocker: 0.0036170007660984993
+Info 1207 [19:23:20.967] Returning an empty list because completion was requested in an invalid position.
+Info 1208 [19:23:20.970] getCompletionData: Get current token: 0.007294000126421452
+Info 1209 [19:23:20.970] getCompletionData: Is inside comment: 0.01890699937939644
+Info 1210 [19:23:20.970] getCompletionData: Get previous token: 0.0231539998203516
+Info 1211 [19:23:20.970] getCompletionsAtPosition: isCompletionListBlocker: 0.0026659993454813957
+Info 1212 [19:23:20.970] Returning an empty list because completion was requested in an invalid position.
+Info 1213 [19:23:20.993] getCompletionData: Get current token: 0.007393999956548214
+Info 1214 [19:23:20.993] getCompletionData: Is inside comment: 0.019557000137865543
+Info 1215 [19:23:20.993] getCompletionData: Get previous token: 0.02334399987012148
+Info 1216 [19:23:20.993] getCompletionsAtPosition: isCompletionListBlocker: 0.002774999476969242
+Info 1217 [19:23:20.993] Returning an empty list because completion was requested in an invalid position.
+Info 1218 [19:23:21.015] getCompletionData: Get current token: 0.007333999499678612
+Info 1219 [19:23:21.015] getCompletionData: Is inside comment: 0.01928700041025877
+Info 1220 [19:23:21.015] getCompletionData: Get previous token: 0.023924999870359898
+Info 1221 [19:23:21.015] getCompletionsAtPosition: isCompletionListBlocker: 0.0031859995797276497
+Info 1222 [19:23:21.016] Returning an empty list because completion was requested in an invalid position.
+Info 1223 [19:23:21.253] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1224 [19:23:21.261] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 148 structureChanged: false structureIsReused:: Completely Elapsed: 8.329082999378443ms
+Info 1225 [19:23:21.261] Different program with same set of files
+Info 1226 [19:23:21.262] getCompletionData: Get current token: 0.013334999792277813
+Info 1227 [19:23:21.262] getCompletionData: Is inside comment: 0.022181999869644642
+Info 1228 [19:23:21.262] getCompletionData: Get previous token: 0.025839999318122864
+Info 1229 [19:23:21.262] getCompletionsAtPosition: isCompletionListBlocker: 0.0031160004436969757
+Info 1230 [19:23:21.262] Returning an empty list because completion was requested in an invalid position.
+Info 1231 [19:23:21.268] getCompletionData: Get current token: 0.007625000551342964
+Info 1232 [19:23:21.268] getCompletionData: Is inside comment: 0.01911700051277876
+Info 1233 [19:23:21.268] getCompletionData: Get previous token: 0.024096000008285046
+Info 1234 [19:23:21.268] getCompletionsAtPosition: isCompletionListBlocker: 0.002895999699831009
+Info 1235 [19:23:21.268] Returning an empty list because completion was requested in an invalid position.
+Info 1236 [19:23:21.290] getCompletionData: Get current token: 0.007544000633060932
+Info 1237 [19:23:21.291] getCompletionData: Is inside comment: 0.019927999936044216
+Info 1238 [19:23:21.291] getCompletionData: Get previous token: 0.023866000585258007
+Info 1239 [19:23:21.291] getCompletionsAtPosition: isCompletionListBlocker: 0.002864999696612358
+Info 1240 [19:23:21.291] Returning an empty list because completion was requested in an invalid position.
+Info 1241 [19:23:21.313] getCompletionData: Get current token: 0.007574999704957008
+Info 1242 [19:23:21.313] getCompletionData: Is inside comment: 0.018915999680757523
+Info 1243 [19:23:21.313] getCompletionData: Get previous token: 0.023856000043451786
+Info 1244 [19:23:21.313] getCompletionsAtPosition: isCompletionListBlocker: 0.002984999679028988
+Info 1245 [19:23:21.313] Returning an empty list because completion was requested in an invalid position.
+Info 1246 [19:23:22.403] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1247 [19:23:22.409] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 149 structureChanged: false structureIsReused:: Completely Elapsed: 5.8334539998322725ms
+Info 1248 [19:23:22.409] Different program with same set of files
+Info 1249 [19:23:22.639] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1250 [19:23:22.647] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 150 structureChanged: false structureIsReused:: Completely Elapsed: 7.825141999870539ms
+Info 1251 [19:23:22.647] Different program with same set of files
+Info 1252 [19:23:23.235] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1253 [19:23:23.242] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 151 structureChanged: false structureIsReused:: Completely Elapsed: 6.904697000049055ms
+Info 1254 [19:23:23.242] Different program with same set of files
+Info 1255 [19:23:24.190] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1256 [19:23:24.197] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 152 structureChanged: false structureIsReused:: Completely Elapsed: 7.018924999982119ms
+Info 1257 [19:23:24.197] Different program with same set of files
+Info 1258 [19:23:24.312] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1259 [19:23:24.317] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 153 structureChanged: false structureIsReused:: Completely Elapsed: 5.250692999921739ms
+Info 1260 [19:23:24.317] Different program with same set of files
+Info 1261 [19:23:24.318] getCompletionData: Get current token: 0.011903000064194202
+Info 1262 [19:23:24.318] getCompletionData: Is inside comment: 0.003495999611914158
+Info 1263 [19:23:24.318] getCompletionData: Get previous token: 0.06674700044095516
+Info 1264 [19:23:24.318] getCompletionsAtPosition: isCompletionListBlocker: 0.008526000194251537
+Info 1265 [19:23:24.326] getExportInfoMap: cache hit
+Info 1266 [19:23:24.331] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 1267 [19:23:24.331] collectAutoImports: response is complete
+Info 1268 [19:23:24.331] collectAutoImports: 4.4719980005174875
+Info 1269 [19:23:24.331] getCompletionData: Semantic work: 12.899369000457227
+Info 1270 [19:23:24.355] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.563254999928176
+Info 1271 [19:23:24.420] getCompletionData: Get current token: 0.009748999960720539
+Info 1272 [19:23:24.420] getCompletionData: Is inside comment: 0.003716999664902687
+Info 1273 [19:23:24.420] getCompletionData: Get previous token: 0.05374199990183115
+Info 1274 [19:23:24.421] getCompletionsAtPosition: isCompletionListBlocker: 0.00912800058722496
+Info 1275 [19:23:24.426] getExportInfoMap: cache hit
+Info 1276 [19:23:24.430] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 1277 [19:23:24.430] collectAutoImports: response is complete
+Info 1278 [19:23:24.430] collectAutoImports: 4.219926999881864
+Info 1279 [19:23:24.430] getCompletionData: Semantic work: 9.679848999716341
+Info 1280 [19:23:24.453] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.205896000377834
+Info 1281 [19:23:24.459] getCompletionData: Get current token: 0.011270999908447266
+Info 1282 [19:23:24.459] getCompletionData: Is inside comment: 0.006403000093996525
+Info 1283 [19:23:24.459] getCompletionData: Get previous token: 0.06244899984449148
+Info 1284 [19:23:24.459] getCompletionsAtPosition: isCompletionListBlocker: 0.010590000078082085
+Info 1285 [19:23:24.465] getExportInfoMap: cache hit
+Info 1286 [19:23:24.470] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 1287 [19:23:24.470] collectAutoImports: response is complete
+Info 1288 [19:23:24.470] collectAutoImports: 4.709431000053883
+Info 1289 [19:23:24.470] getCompletionData: Semantic work: 10.740270999260247
+Info 1290 [19:23:24.497] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 26.47789299953729
+Info 1291 [19:23:24.503] getCompletionData: Get current token: 0.010550000704824924
+Info 1292 [19:23:24.503] getCompletionData: Is inside comment: 0.004038000479340553
+Info 1293 [19:23:24.503] getCompletionData: Get previous token: 0.05337199941277504
+Info 1294 [19:23:24.503] getCompletionsAtPosition: isCompletionListBlocker: 0.008476000279188156
+Info 1295 [19:23:24.508] getExportInfoMap: cache hit
+Info 1296 [19:23:24.512] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 1297 [19:23:24.512] collectAutoImports: response is complete
+Info 1298 [19:23:24.512] collectAutoImports: 3.6454520002007484
+Info 1299 [19:23:24.512] getCompletionData: Semantic work: 8.798138999380171
+Info 1300 [19:23:24.530] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.21116099972278
+Info 1301 [19:23:24.626] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1302 [19:23:24.632] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 154 structureChanged: false structureIsReused:: Completely Elapsed: 5.056803000159562ms
+Info 1303 [19:23:24.632] Different program with same set of files
+Info 1304 [19:23:24.707] getCompletionData: Get current token: 0.01435799989849329
+Info 1305 [19:23:24.707] getCompletionData: Is inside comment: 0.006601999513804913
+Info 1306 [19:23:24.707] getCompletionData: Get previous token: 0.08220700081437826
+Info 1307 [19:23:24.707] getCompletionsAtPosition: isCompletionListBlocker: 0.010049000382423401
+Info 1308 [19:23:24.713] getExportInfoMap: cache hit
+Info 1309 [19:23:24.716] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1310 [19:23:24.717] collectAutoImports: response is complete
+Info 1311 [19:23:24.717] collectAutoImports: 2.8968950007110834
+Info 1312 [19:23:24.717] getCompletionData: Semantic work: 9.117086000740528
+Info 1313 [19:23:24.736] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 19.007215999998152
+Info 1314 [19:23:24.742] getCompletionData: Get current token: 0.009868999943137169
+Info 1315 [19:23:24.742] getCompletionData: Is inside comment: 0.004719000309705734
+Info 1316 [19:23:24.742] getCompletionData: Get previous token: 0.04947399999946356
+Info 1317 [19:23:24.742] getCompletionsAtPosition: isCompletionListBlocker: 0.014848999679088593
+Info 1318 [19:23:24.746] getExportInfoMap: cache hit
+Info 1319 [19:23:24.750] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1320 [19:23:24.750] collectAutoImports: response is complete
+Info 1321 [19:23:24.750] collectAutoImports: 3.0094489995390177
+Info 1322 [19:23:24.750] getCompletionData: Semantic work: 7.179360999725759
+Info 1323 [19:23:24.773] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.70575900003314
+Info 1324 [19:23:24.781] getCompletionData: Get current token: 0.010359999723732471
+Info 1325 [19:23:24.782] getCompletionData: Is inside comment: 0.0037770001217722893
+Info 1326 [19:23:24.782] getCompletionData: Get previous token: 0.05347200017422438
+Info 1327 [19:23:24.782] getCompletionsAtPosition: isCompletionListBlocker: 0.007484999485313892
+Info 1328 [19:23:24.786] getExportInfoMap: cache hit
+Info 1329 [19:23:24.790] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1330 [19:23:24.791] collectAutoImports: response is complete
+Info 1331 [19:23:24.791] collectAutoImports: 4.298065999522805
+Info 1332 [19:23:24.791] getCompletionData: Semantic work: 8.973282000049949
+Info 1333 [19:23:24.815] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.934692999348044
+Info 1334 [19:23:24.822] getCompletionData: Get current token: 0.014127000235021114
+Info 1335 [19:23:24.822] getCompletionData: Is inside comment: 0.004808999598026276
+Info 1336 [19:23:24.824] getCompletionData: Get previous token: 1.6625910000875592
+Info 1337 [19:23:24.824] getCompletionsAtPosition: isCompletionListBlocker: 0.012103000655770302
+Info 1338 [19:23:24.829] getExportInfoMap: cache hit
+Info 1339 [19:23:24.833] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1340 [19:23:24.833] collectAutoImports: response is complete
+Info 1341 [19:23:24.833] collectAutoImports: 4.25344100035727
+Info 1342 [19:23:24.834] getCompletionData: Semantic work: 9.12115400005132
+Info 1343 [19:23:24.851] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.170905000530183
+Info 1344 [19:23:24.856] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1345 [19:23:24.863] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 155 structureChanged: false structureIsReused:: Completely Elapsed: 6.746946000494063ms
+Info 1346 [19:23:24.863] Different program with same set of files
+Info 1347 [19:23:24.864] getCompletionData: Get current token: 0.009577999822795391
+Info 1348 [19:23:24.864] getCompletionData: Is inside comment: 0.003467000089585781
+Info 1349 [19:23:24.864] getCompletionData: Get previous token: 0.053151000291109085
+Info 1350 [19:23:24.864] getCompletionsAtPosition: isCompletionListBlocker: 0.008045000024139881
+Info 1351 [19:23:24.869] getExportInfoMap: cache hit
+Info 1352 [19:23:24.873] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1353 [19:23:24.873] collectAutoImports: response is complete
+Info 1354 [19:23:24.873] collectAutoImports: 3.583863999694586
+Info 1355 [19:23:24.873] getCompletionData: Semantic work: 9.68130199983716
+Info 1356 [19:23:24.894] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.690577000379562
+Info 1357 [19:23:25.724] Format host information updated
+Info 1358 [19:23:25.725] getCompletionData: Get current token: 0.02138100005686283
+Info 1359 [19:23:25.725] getCompletionData: Is inside comment: 0.0076350001618266106
+Info 1360 [19:23:25.725] getCompletionData: Get previous token: 0.057079000398516655
+Info 1361 [19:23:25.725] getCompletionsAtPosition: isCompletionListBlocker: 0.005982000380754471
+Info 1362 [19:23:25.729] getCompletionData: Semantic work: 3.327185000292957
+Info 1363 [19:23:26.947] Format host information updated
+Info 1364 [19:23:26.948] getCompletionData: Get current token: 0.01818499993532896
+Info 1365 [19:23:26.948] getCompletionData: Is inside comment: 0.006541999988257885
+Info 1366 [19:23:26.948] getCompletionData: Get previous token: 0.053031000308692455
+Info 1367 [19:23:26.948] getCompletionsAtPosition: isCompletionListBlocker: 0.005690999329090118
+Info 1368 [19:23:26.951] getCompletionData: Semantic work: 2.97040499933064
+Info 1369 [19:23:27.305] Format host information updated
+Info 1370 [19:23:27.305] Format host information updated
+Info 1371 [19:23:27.305] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1372 [19:23:27.311] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 156 structureChanged: false structureIsReused:: Completely Elapsed: 5.901984999887645ms
+Info 1373 [19:23:27.312] Different program with same set of files
+Info 1374 [19:23:27.312] getCompletionData: Get current token: 0.03326400090008974
+Info 1375 [19:23:27.312] getCompletionData: Is inside comment: 0.008175000548362732
+Info 1376 [19:23:27.312] getCompletionData: Get previous token: 0.06703800056129694
+Info 1377 [19:23:27.312] getCompletionsAtPosition: isCompletionListBlocker: 0.009498000144958496
+Info 1378 [19:23:27.316] getCompletionData: Semantic work: 3.4474240001291037
+Info 1379 [19:23:27.318] getCompletionData: Get current token: 0.016009999439120293
+Info 1380 [19:23:27.318] getCompletionData: Is inside comment: 0.007023999467492104
+Info 1381 [19:23:27.318] getCompletionData: Get previous token: 0.05225900001823902
+Info 1382 [19:23:27.318] getCompletionsAtPosition: isCompletionListBlocker: 0.0052900006994605064
+Info 1383 [19:23:27.323] getCompletionData: Semantic work: 4.910052999854088
+Info 1384 [19:23:27.708] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1385 [19:23:27.715] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 157 structureChanged: false structureIsReused:: Completely Elapsed: 6.356250999495387ms
+Info 1386 [19:23:27.715] Different program with same set of files
+Info 1387 [19:23:28.611] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1388 [19:23:28.617] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 158 structureChanged: false structureIsReused:: Completely Elapsed: 5.704479000531137ms
+Info 1389 [19:23:28.617] Different program with same set of files
+Info 1390 [19:23:28.732] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1391 [19:23:28.737] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 159 structureChanged: false structureIsReused:: Completely Elapsed: 4.677490000613034ms
+Info 1392 [19:23:28.737] Different program with same set of files
+Info 1393 [19:23:28.737] getCompletionData: Get current token: 0.009669000282883644
+Info 1394 [19:23:28.738] getCompletionData: Is inside comment: 0.0030960002914071083
+Info 1395 [19:23:28.738] getCompletionData: Get previous token: 0.0552950007840991
+Info 1396 [19:23:28.738] getCompletionsAtPosition: isCompletionListBlocker: 0.12138199992477894
+Info 1397 [19:23:28.744] getExportInfoMap: cache hit
+Info 1398 [19:23:28.751] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1399 [19:23:28.751] collectAutoImports: response is complete
+Info 1400 [19:23:28.751] collectAutoImports: 6.67386700026691
+Info 1401 [19:23:28.751] getCompletionData: Semantic work: 13.078331000171602
+Info 1402 [19:23:28.773] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21.717796999961138
+Info 1403 [19:23:28.824] getCompletionData: Get current token: 0.00940799992531538
+Info 1404 [19:23:28.824] getCompletionData: Is inside comment: 0.0039980001747608185
+Info 1405 [19:23:28.824] getCompletionData: Get previous token: 0.056738000363111496
+Info 1406 [19:23:28.824] getCompletionsAtPosition: isCompletionListBlocker: 0.012553999200463295
+Info 1407 [19:23:28.829] getExportInfoMap: cache hit
+Info 1408 [19:23:28.836] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1409 [19:23:28.836] collectAutoImports: response is complete
+Info 1410 [19:23:28.837] collectAutoImports: 7.70197799988091
+Info 1411 [19:23:28.837] getCompletionData: Semantic work: 12.46286700014025
+Info 1412 [19:23:28.859] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.215685999952257
+Info 1413 [19:23:28.867] getCompletionData: Get current token: 0.012773999944329262
+Info 1414 [19:23:28.867] getCompletionData: Is inside comment: 0.0040480000898242
+Info 1415 [19:23:28.867] getCompletionData: Get previous token: 0.0633809994906187
+Info 1416 [19:23:28.867] getCompletionsAtPosition: isCompletionListBlocker: 0.011943000368773937
+Info 1417 [19:23:28.873] getExportInfoMap: cache hit
+Info 1418 [19:23:28.882] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1419 [19:23:28.882] collectAutoImports: response is complete
+Info 1420 [19:23:28.882] collectAutoImports: 8.139632999897003
+Info 1421 [19:23:28.882] getCompletionData: Semantic work: 14.66097899992019
+Info 1422 [19:23:28.902] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 19.66389899980277
+Info 1423 [19:23:28.907] getCompletionData: Get current token: 0.009548000060021877
+Info 1424 [19:23:28.907] getCompletionData: Is inside comment: 0.003597000613808632
+Info 1425 [19:23:28.907] getCompletionData: Get previous token: 0.05118799954652786
+Info 1426 [19:23:28.907] getCompletionsAtPosition: isCompletionListBlocker: 0.012122999876737595
+Info 1427 [19:23:28.911] getExportInfoMap: cache hit
+Info 1428 [19:23:28.918] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1429 [19:23:28.918] collectAutoImports: response is complete
+Info 1430 [19:23:28.918] collectAutoImports: 6.395527000539005
+Info 1431 [19:23:28.918] getCompletionData: Semantic work: 10.532146000303328
+Info 1432 [19:23:28.939] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.726235000416636
+Info 1433 [19:23:28.992] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1434 [19:23:28.999] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 160 structureChanged: false structureIsReused:: Completely Elapsed: 7.155915999785066ms
+Info 1435 [19:23:28.999] Different program with same set of files
+Info 1436 [19:23:28.999] getCompletionData: Get current token: 0.012783999554812908
+Info 1437 [19:23:29.000] getCompletionData: Is inside comment: 0.003495999611914158
+Info 1438 [19:23:29.000] getCompletionData: Get previous token: 0.06766900047659874
+Info 1439 [19:23:29.000] getCompletionsAtPosition: isCompletionListBlocker: 0.029275999404489994
+Info 1440 [19:23:29.006] getExportInfoMap: cache hit
+Info 1441 [19:23:29.010] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1442 [19:23:29.010] collectAutoImports: response is complete
+Info 1443 [19:23:29.010] collectAutoImports: 4.011720000766218
+Info 1444 [19:23:29.010] getCompletionData: Semantic work: 10.677211999893188
+Info 1445 [19:23:29.032] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21.098455999977887
+Info 1446 [19:23:29.201] getCompletionData: Get current token: 0.010990999639034271
+Info 1447 [19:23:29.201] getCompletionData: Is inside comment: 0.003817000426352024
+Info 1448 [19:23:29.201] getCompletionData: Get previous token: 0.05693900026381016
+Info 1449 [19:23:29.202] getCompletionsAtPosition: isCompletionListBlocker: 0.016290999948978424
+Info 1450 [19:23:29.205] getExportInfoMap: cache hit
+Info 1451 [19:23:29.209] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1452 [19:23:29.209] collectAutoImports: response is complete
+Info 1453 [19:23:29.209] collectAutoImports: 3.772854999639094
+Info 1454 [19:23:29.209] getCompletionData: Semantic work: 7.410562999546528
+Info 1455 [19:23:29.227] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.16791799943894
+Info 1456 [19:23:29.234] getCompletionData: Get current token: 0.012112999334931374
+Info 1457 [19:23:29.234] getCompletionData: Is inside comment: 0.004147999919950962
+Info 1458 [19:23:29.235] getCompletionData: Get previous token: 0.07435199990868568
+Info 1459 [19:23:29.235] getCompletionsAtPosition: isCompletionListBlocker: 0.015008999966084957
+Info 1460 [19:23:29.239] getExportInfoMap: cache hit
+Info 1461 [19:23:29.244] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1462 [19:23:29.244] collectAutoImports: response is complete
+Info 1463 [19:23:29.244] collectAutoImports: 5.168676999397576
+Info 1464 [19:23:29.244] getCompletionData: Semantic work: 9.579799000173807
+Info 1465 [19:23:29.263] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.65250200033188
+Info 1466 [19:23:29.269] getCompletionData: Get current token: 0.010329999960958958
+Info 1467 [19:23:29.270] getCompletionData: Is inside comment: 0.004459000192582607
+Info 1468 [19:23:29.270] getCompletionData: Get previous token: 0.055656000040471554
+Info 1469 [19:23:29.270] getCompletionsAtPosition: isCompletionListBlocker: 0.013314999639987946
+Info 1470 [19:23:29.273] getExportInfoMap: cache hit
+Info 1471 [19:23:29.277] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1472 [19:23:29.277] collectAutoImports: response is complete
+Info 1473 [19:23:29.277] collectAutoImports: 3.725964999757707
+Info 1474 [19:23:29.277] getCompletionData: Semantic work: 7.455187000334263
+Info 1475 [19:23:29.294] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.507420000620186
+Info 1476 [19:23:29.320] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1477 [19:23:29.333] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 161 structureChanged: false structureIsReused:: Completely Elapsed: 12.682537000626326ms
+Info 1478 [19:23:29.333] Different program with same set of files
+Info 1479 [19:23:29.333] getCompletionData: Get current token: 0.014747999608516693
+Info 1480 [19:23:29.333] getCompletionData: Is inside comment: 0.004607999697327614
+Info 1481 [19:23:29.333] getCompletionData: Get previous token: 0.08080399967730045
+Info 1482 [19:23:29.334] getCompletionsAtPosition: isCompletionListBlocker: 0.01437699981033802
+Info 1483 [19:23:29.343] getExportInfoMap: cache hit
+Info 1484 [19:23:29.349] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1485 [19:23:29.349] collectAutoImports: response is complete
+Info 1486 [19:23:29.349] collectAutoImports: 6.2735640006139874
+Info 1487 [19:23:29.349] getCompletionData: Semantic work: 15.84643100015819
+Info 1488 [19:23:29.383] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 33.151651999913156
+Info 1489 [19:23:29.888] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1490 [19:23:29.893] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 162 structureChanged: false structureIsReused:: Completely Elapsed: 5.2493209997192025ms
+Info 1491 [19:23:29.893] Different program with same set of files
+Info 1492 [19:23:30.429] Format host information updated
+Info 1493 [19:23:30.430] getCompletionData: Get current token: 0.025078000500798225
+Info 1494 [19:23:30.430] getCompletionData: Is inside comment: 0.00940799992531538
+Info 1495 [19:23:30.430] getCompletionData: Get previous token: 0.06021500006318092
+Info 1496 [19:23:30.430] getCompletionsAtPosition: isCompletionListBlocker: 0.01398599985986948
+Info 1497 [19:23:30.434] getCompletionData: Semantic work: 3.748859000392258
+Info 1498 [19:23:31.520] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1499 [19:23:31.525] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 163 structureChanged: false structureIsReused:: Completely Elapsed: 5.579820999875665ms
+Info 1500 [19:23:31.525] Different program with same set of files
+Info 1501 [19:23:32.286] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1502 [19:23:32.291] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 164 structureChanged: false structureIsReused:: Completely Elapsed: 5.563549999147654ms
+Info 1503 [19:23:32.291] Different program with same set of files
+Info 1504 [19:23:33.553] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1505 [19:23:33.558] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 165 structureChanged: false structureIsReused:: Completely Elapsed: 5.2146650003269315ms
+Info 1506 [19:23:33.558] Different program with same set of files
+Info 1507 [19:23:34.347] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1508 [19:23:34.354] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 166 structureChanged: false structureIsReused:: Completely Elapsed: 7.108727999962866ms
+Info 1509 [19:23:34.354] Different program with same set of files
+Info 1510 [19:23:35.016] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1511 [19:23:35.023] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 167 structureChanged: false structureIsReused:: Completely Elapsed: 6.774249999783933ms
+Info 1512 [19:23:35.023] Different program with same set of files
+Info 1513 [19:23:55.024] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1514 [19:23:55.029] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 168 structureChanged: false structureIsReused:: Completely Elapsed: 4.859668999910355ms
+Info 1515 [19:23:55.029] Different program with same set of files
+Info 1516 [19:23:55.883] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1517 [19:23:55.890] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 169 structureChanged: false structureIsReused:: Completely Elapsed: 6.614957000128925ms
+Info 1518 [19:23:55.890] Different program with same set of files
+Info 1519 [19:23:56.132] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1520 [19:23:56.139] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 170 structureChanged: false structureIsReused:: Completely Elapsed: 6.879472000524402ms
+Info 1521 [19:23:56.139] Different program with same set of files
+Info 1522 [19:23:56.139] getCompletionData: Get current token: 0.011752999387681484
+Info 1523 [19:23:56.139] getCompletionData: Is inside comment: 0.027753000147640705
+Info 1524 [19:23:56.139] getCompletionData: Get previous token: 0.05958299990743399
+Info 1525 [19:23:56.139] getCompletionsAtPosition: isCompletionListBlocker: 0.02208200003951788
+Info 1526 [19:23:56.150] getExportInfoMap: cache hit
+Info 1527 [19:23:56.158] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1528 [19:23:56.158] collectAutoImports: response is complete
+Info 1529 [19:23:56.158] collectAutoImports: 8.55233300011605
+Info 1530 [19:23:56.159] getCompletionData: Semantic work: 18.971005000174046
+Info 1531 [19:23:56.169] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.334141000173986
+Info 1532 [19:23:56.178] getCompletionData: Get current token: 0.005239999853074551
+Info 1533 [19:23:56.178] getCompletionData: Is inside comment: 0.021150000393390656
+Info 1534 [19:23:56.178] getCompletionData: Get previous token: 0.03168000001460314
+Info 1535 [19:23:56.179] getCompletionsAtPosition: isCompletionListBlocker: 0.01937699969857931
+Info 1536 [19:23:56.183] getExportInfoMap: cache hit
+Info 1537 [19:23:56.189] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1538 [19:23:56.189] collectAutoImports: response is complete
+Info 1539 [19:23:56.190] collectAutoImports: 6.611681000329554
+Info 1540 [19:23:56.190] getCompletionData: Semantic work: 10.947931999340653
+Info 1541 [19:23:56.201] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.137172999791801
+Info 1542 [19:23:56.204] getCompletionData: Get current token: 0.005641000345349312
+Info 1543 [19:23:56.204] getCompletionData: Is inside comment: 0.018063999712467194
+Info 1544 [19:23:56.204] getCompletionData: Get previous token: 0.03144000004976988
+Info 1545 [19:23:56.205] getCompletionsAtPosition: isCompletionListBlocker: 0.02111000008881092
+Info 1546 [19:23:56.209] getExportInfoMap: cache hit
+Info 1547 [19:23:56.215] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1548 [19:23:56.215] collectAutoImports: response is complete
+Info 1549 [19:23:56.215] collectAutoImports: 5.885807000100613
+Info 1550 [19:23:56.215] getCompletionData: Semantic work: 10.927281999960542
+Info 1551 [19:23:56.227] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.272652000188828
+Info 1552 [19:23:56.231] getCompletionData: Get current token: 0.0050999997183680534
+Info 1553 [19:23:56.231] getCompletionData: Is inside comment: 0.01712300069630146
+Info 1554 [19:23:56.231] getCompletionData: Get previous token: 0.027242000214755535
+Info 1555 [19:23:56.231] getCompletionsAtPosition: isCompletionListBlocker: 0.0218319995328784
+Info 1556 [19:23:56.235] getExportInfoMap: cache hit
+Info 1557 [19:23:56.240] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1558 [19:23:56.240] collectAutoImports: response is complete
+Info 1559 [19:23:56.240] collectAutoImports: 4.460357000119984
+Info 1560 [19:23:56.240] getCompletionData: Semantic work: 8.525290999561548
+Info 1561 [19:23:56.251] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.559960000216961
+Info 1562 [19:23:56.255] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1563 [19:23:56.262] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 171 structureChanged: false structureIsReused:: Completely Elapsed: 7.0067549999803305ms
+Info 1564 [19:23:56.262] Different program with same set of files
+Info 1565 [19:23:56.262] getCompletionData: Get current token: 0.008194999769330025
+Info 1566 [19:23:56.262] getCompletionData: Is inside comment: 0.018636000342667103
+Info 1567 [19:23:56.264] getCompletionData: Get previous token: 0.08327899966388941
+Info 1568 [19:23:56.264] getCompletionsAtPosition: isCompletionListBlocker: 0.024656999856233597
+Info 1569 [19:23:56.270] getExportInfoMap: cache hit
+Info 1570 [19:23:56.276] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1571 [19:23:56.276] collectAutoImports: response is complete
+Info 1572 [19:23:56.276] collectAutoImports: 6.193073000758886
+Info 1573 [19:23:56.276] getCompletionData: Semantic work: 12.371277999132872
+Info 1574 [19:23:56.287] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.226692999713123
+Info 1575 [19:23:56.291] getCompletionData: Get current token: 0.00595100037753582
+Info 1576 [19:23:56.291] getCompletionData: Is inside comment: 0.019948000088334084
+Info 1577 [19:23:56.291] getCompletionData: Get previous token: 0.03000700008124113
+Info 1578 [19:23:56.291] getCompletionsAtPosition: isCompletionListBlocker: 0.0207290006801486
+Info 1579 [19:23:56.295] getExportInfoMap: cache hit
+Info 1580 [19:23:56.301] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1581 [19:23:56.302] collectAutoImports: response is complete
+Info 1582 [19:23:56.302] collectAutoImports: 6.22454300057143
+Info 1583 [19:23:56.302] getCompletionData: Semantic work: 10.211838000454009
+Info 1584 [19:23:56.312] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.707133000716567
+Info 1585 [19:23:56.316] getCompletionData: Get current token: 0.005921000614762306
+Info 1586 [19:23:56.316] getCompletionData: Is inside comment: 0.019106999970972538
+Info 1587 [19:23:56.316] getCompletionData: Get previous token: 0.030377999879419804
+Info 1588 [19:23:56.316] getCompletionsAtPosition: isCompletionListBlocker: 0.021650999784469604
+Info 1589 [19:23:56.320] getExportInfoMap: cache hit
+Info 1590 [19:23:56.324] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1591 [19:23:56.325] collectAutoImports: response is complete
+Info 1592 [19:23:56.325] collectAutoImports: 4.300742999650538
+Info 1593 [19:23:56.325] getCompletionData: Semantic work: 8.19045199919492
+Info 1594 [19:23:56.336] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.42990200035274
+Info 1595 [19:23:56.340] getCompletionData: Get current token: 0.005209999158978462
+Info 1596 [19:23:56.340] getCompletionData: Is inside comment: 0.030207999981939793
+Info 1597 [19:23:56.340] getCompletionData: Get previous token: 0.07209799997508526
+Info 1598 [19:23:56.340] getCompletionsAtPosition: isCompletionListBlocker: 0.018764999695122242
+Info 1599 [19:23:56.344] getExportInfoMap: cache hit
+Info 1600 [19:23:56.348] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1601 [19:23:56.348] collectAutoImports: response is complete
+Info 1602 [19:23:56.348] collectAutoImports: 3.9201279999688268
+Info 1603 [19:23:56.348] getCompletionData: Semantic work: 7.451413000002503
+Info 1604 [19:23:56.358] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.375891000032425
+Info 1605 [19:23:56.361] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1606 [19:23:56.366] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 172 structureChanged: false structureIsReused:: Completely Elapsed: 4.999055000022054ms
+Info 1607 [19:23:56.367] Different program with same set of files
+Info 1608 [19:23:56.367] getCompletionData: Get current token: 0.005800999701023102
+Info 1609 [19:23:56.367] getCompletionData: Is inside comment: 0.017262999899685383
+Info 1610 [19:23:56.367] getCompletionData: Get previous token: 0.03097900003194809
+Info 1611 [19:23:56.367] getCompletionsAtPosition: isCompletionListBlocker: 0.018094999715685844
+Info 1612 [19:23:56.373] getExportInfoMap: cache hit
+Info 1613 [19:23:56.377] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 1614 [19:23:56.377] collectAutoImports: response is complete
+Info 1615 [19:23:56.377] collectAutoImports: 3.9593420000746846
+Info 1616 [19:23:56.377] getCompletionData: Semantic work: 10.316839000210166
+Info 1617 [19:23:56.388] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.160620000213385
+Info 1618 [19:23:56.959] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1619 [19:23:56.966] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 173 structureChanged: false structureIsReused:: Completely Elapsed: 6.758630999363959ms
+Info 1620 [19:23:56.966] Different program with same set of files
+Info 1621 [19:23:57.570] Format host information updated
+Info 1622 [19:23:57.571] getCompletionData: Get current token: 0.016290999948978424
+Info 1623 [19:23:57.571] getCompletionData: Is inside comment: 0.006372000090777874
+Info 1624 [19:23:57.571] getCompletionData: Get previous token: 0.11380700021982193
+Info 1625 [19:23:57.571] getCompletionsAtPosition: isCompletionListBlocker: 0.021622000262141228
+Info 1626 [19:23:57.574] getCompletionData: Semantic work: 3.087558999657631
+Info 1627 [19:24:02.789] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1628 [19:24:02.794] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 174 structureChanged: false structureIsReused:: Completely Elapsed: 5.286003000102937ms
+Info 1629 [19:24:02.795] Different program with same set of files
+Info 1630 [19:24:10.969] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1631 [19:24:10.976] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 175 structureChanged: false structureIsReused:: Completely Elapsed: 7.381110000424087ms
+Info 1632 [19:24:10.977] Different program with same set of files
+Info 1633 [19:24:10.977] getCompletionData: Get current token: 0.009197000414133072
+Info 1634 [19:24:10.977] getCompletionData: Is inside comment: 0.0034369993954896927
+Info 1635 [19:24:10.977] getCompletionData: Get previous token: 0.04150899965316057
+Info 1636 [19:24:10.977] getCompletionsAtPosition: isCompletionListBlocker: 0.003246000036597252
+Info 1637 [19:24:10.977] Returning an empty list because completion was requested in an invalid position.
+Info 1638 [19:24:10.981] getCompletionData: Get current token: 0.008415999822318554
+Info 1639 [19:24:10.981] getCompletionData: Is inside comment: 0.003256000578403473
+Info 1640 [19:24:10.981] getCompletionData: Get previous token: 0.035237000323832035
+Info 1641 [19:24:10.981] getCompletionsAtPosition: isCompletionListBlocker: 0.003376999869942665
+Info 1642 [19:24:10.981] Returning an empty list because completion was requested in an invalid position.
+Info 1643 [19:24:11.004] getCompletionData: Get current token: 0.0077149998396635056
+Info 1644 [19:24:11.004] getCompletionData: Is inside comment: 0.0036570001393556595
+Info 1645 [19:24:11.004] getCompletionData: Get previous token: 0.03671999927610159
+Info 1646 [19:24:11.004] getCompletionsAtPosition: isCompletionListBlocker: 0.0027250004932284355
+Info 1647 [19:24:11.004] Returning an empty list because completion was requested in an invalid position.
+Info 1648 [19:24:11.024] getCompletionData: Get current token: 0.007764999754726887
+Info 1649 [19:24:11.024] getCompletionData: Is inside comment: 0.002865999937057495
+Info 1650 [19:24:11.024] getCompletionData: Get previous token: 0.036178999580442905
+Info 1651 [19:24:11.024] getCompletionsAtPosition: isCompletionListBlocker: 0.002615000121295452
+Info 1652 [19:24:11.024] Returning an empty list because completion was requested in an invalid position.
+Info 1653 [23:16:32.580] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1654 [23:16:32.586] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 176 structureChanged: false structureIsReused:: Completely Elapsed: 5.343728998675942ms
+Info 1655 [23:16:32.586] Different program with same set of files
+Info 1656 [23:16:33.373] Starting updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json
+Info 1657 [23:16:33.381] Finishing updateGraphWorker: Project: /home/refat/Workspaces/typescript/tsconfig.json Version: 177 structureChanged: false structureIsReused:: Completely Elapsed: 7.324249999597669ms
+Info 1658 [23:16:33.381] Different program with same set of files

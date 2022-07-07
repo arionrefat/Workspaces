@@ -5,18 +5,21 @@
 * Finish Lectures
 ** CSE251
 *** TODO Finish Lecture 5
-*** TODO Finish Assignment 2
 ** CSE424
 *** TODO Check MidpointCircle
 *** TODO Check 8 Point symmetry
+*** TODO Check Cohen sutherland algo
 ** CSE422
-*** TODO Prepare for quiz
+*** TODO Revise for Quiz 2
 *** TODO Checkout MHB quiz
 ** BUS201
 *** TODO Start with slides
 
 * Project
 ** Reinforz
-*** TODO Deploy script
-** Go Server
-*** TODO do project 3
+*** TODO Create banned status for user
+**** TODO Make Tests
+** Svelte Tutorial
+*** TODO make review page
+** Shell Script
+*** TODO Rewrite touchpad shell script
