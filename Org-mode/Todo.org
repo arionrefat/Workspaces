@@ -2,24 +2,22 @@
 #+DESCRIPTION: Daily Todo List
 #+Author: Refatul Islam
 
-* Finish Lectures
+* Academics
 ** CSE251
-*** TODO Finish Lecture 5
-** CSE424
-*** TODO Check MidpointCircle
-*** TODO Check 8 Point symmetry
-*** TODO Check Cohen sutherland algo
+*** TODO Start with final syllabus
+** CSE423
+*** TODO Start with Final syllabus
 ** CSE422
-*** TODO Revise for Quiz 2
-*** TODO Checkout MHB quiz
+*** TODO Start with final syllabus
 ** BUS201
-*** TODO Start with slides
+*** TODO Start with final syllabus
 
-* Project
+* Coding
 ** Reinforz
-*** TODO Create banned status for user
-**** TODO Make Tests
+*** TODO Start Next Sprint
 ** Svelte Tutorial
-*** TODO make review page
+*** TODO Make review page
 ** Shell Script
-*** TODO Rewrite touchpad shell script
+*** TODO Fix micmute on/off script
+** Awesome WM
+*** TODO Fix notification icon issue
