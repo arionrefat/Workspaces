@@ -6,18 +6,19 @@
 ** CSE251
 *** TODO Start with final syllabus
 ** CSE423
-*** TODO Start with Final syllabus
+*** TODO Revise theory of transformation
 ** CSE422
-*** TODO Start with final syllabus
+*** TODO Start Decision tree
 ** BUS201
 *** TODO Start with final syllabus
 
 * Coding
+** Binray Clock
+*** Make a binary clock in lua
+**** Choose a MD array
 ** Reinforz
-*** TODO Start Next Sprint
+*** TODO Start with deleting quiz endpoint
 ** Svelte Tutorial
 *** TODO Make review page
 ** Shell Script
 *** TODO Fix micmute on/off script
-** Awesome WM
-*** TODO Fix notification icon issue
