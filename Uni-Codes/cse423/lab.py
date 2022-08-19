@@ -161,7 +161,7 @@ def convertToZone0Circle(x1, y1, x, y):
     glEnd()
 
 
-def main():
+def iterate():
     glViewport(150, 150, 500, 600)
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
@@ -170,14 +170,10 @@ def main():
     glLoadIdentity()
 
 
-def drawEight():
-    convertToZone0(200, 100, 200, 200)
-    convertToZone0(200, 200, 200, 300)
-    convertToZone0(200, 300, 300, 300)
-    convertToZone0(300, 300, 300, 200)
-    convertToZone0(300, 200, 300, 100)
-    convertToZone0(200, 200, 300, 200)
-    convertToZone0(200, 100, 300, 100)
+def drawCircle(r, x, y):
+    z1 = midpointCircle(r)
+    for a, b in z1:
+        convertToZone0Circle(a, b, x, y)
 
 
 def drawTwo():
@@ -188,30 +184,50 @@ def drawTwo():
     convertToZone0(400, 100, 500, 100)
 
 
-def drawCircle(r, x, y):
-    z1 = midpointCircle(r)
-    for a, b in z1:
-        convertToZone0Circle(a, b, x, y)
+
+def drawCircles():
+    drawCircle(180, 275, 275)
+    drawCircle(90, 345, 220)
 
 
 def showScreen():
-    main()
+    iterate()
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
     glLoadIdentity()
     glColor3f(0, 1, 1)
     glPointSize(2)
-    # drawEight()
-    # drawTwo()
 
-    drawCircle(180, 275, 275)
-    drawCircle(90, 185, 275)
-    drawCircle(90, 365, 275)
-    drawCircle(90, 275, 185)
-    drawCircle(90, 275, 365)
-    drawCircle(90, 205, 330)
-    drawCircle(90, 345, 330)
-    drawCircle(90, 205, 220)
-    drawCircle(90, 345, 220)
+    Bx = 200
+    By = 0
+    Cx = 300
+    Cy = 0
+    Dx = 200
+    Dy = 100
+    Ex = 300
+    Ey = 100
+    Gx = 250
+    Gy = 100
+    centerx = 250
+    centery = 50
+
+
+    for _ in range(0, 1):
+        convertToZone0(Bx, By, Cx, Cy)
+        convertToZone0(Cx, Cy, Ex, Ey)
+        convertToZone0(Bx, By, Dx, Dy)
+        convertToZone0(Dx, Dy, Ex, Ey)
+        convertToZone0(Bx, By, Gx, Gy)
+        convertToZone0(Cx, Cy, Gx, Gy)
+
+        Bx = Bx + 50
+        Cx = Cy + 50
+        Dx = Dx - 50
+        Dy = Dy + 50
+        Ex = Ex + 50
+        Ey = Ey - 50
+        Gy = Gy + 50
+
+    drawCircle(50, centerx, centery)
 
     glutSwapBuffers()
 
@@ -222,5 +238,5 @@ glutInitWindowSize(600, 600)
 glutInitWindowPosition(0, 0)
 wind = glutCreateWindow(b"Student ID: 20101482")
 glutDisplayFunc(showScreen)
-glutIdleFunc(showScreen)
+# glutIdleFunc(showScreen)
 glutMainLoop()

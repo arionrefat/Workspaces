@@ -1,20 +1,22 @@
 {
-    "name": "typescript",
+    "name": "testing",
     "version": "1.0.0",
-    "description": "",
-    "main": "./dist/index.js",
+    "description": "code for learing and testing ts",
+    "main": "src/index.ts",
+    "author": "Refatul",
+    "license": "GPL",
+    "private": true,
     "scripts": {
-        "start": "nodemon ./dist/index.js",
-        "build": "tsc -w"
+        "build": "tsc",
+        "start": "node ./dist/index.js",
+        "dev": "ts-node ./src/index.ts"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "dependencies": {
-        "@types/express": "^4.17.13",
-        "express": "^4.18.1"
+        "@types/node": "^18.7.6",
+        "typescript": "^4.7.4",
+        "zod": "^3.18.0"
     },
     "devDependencies": {
-        "nodemon": "^2.0.16"
+        "ts-node": "^10.9.1"
     }
 }

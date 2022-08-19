@@ -153,5 +153,5 @@ glutInitWindowSize(600, 600)
 glutInitWindowPosition(0, 0)
 wind = glutCreateWindow(b"Student ID: 20101482. Let's draw: 82")
 glutDisplayFunc(showScreen)
-
+glutIdleFunc(showScreen)
 glutMainLoop()

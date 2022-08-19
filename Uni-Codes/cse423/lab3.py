@@ -3,15 +3,6 @@ from OpenGL.GLUT import *
 from OpenGL.GLU import *
 
 
-def main():
-    glViewport(0, 0, 500, 500)
-    glMatrixMode(GL_PROJECTION)
-    glLoadIdentity()
-    glOrtho(0.0, 500, 0.0, 500, 0.0, 1.0)
-    glMatrixMode(GL_MODELVIEW)
-    glLoadIdentity()
-
-
 def originalZoneCircle(x, y, zone, x1, y1):
     if zone == 1:
         a, b = y, x
@@ -71,14 +62,7 @@ def drawCircle(r, x, y):
         convertToZone0Circle(a, b, x, y)
 
 
-def window():
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
-    glLoadIdentity()
-    main()
-    glColor3f(0, 1, 0.5)
-    glPointSize(2)
-    glColor3f(255, 255, 255)
-
+def drawCircles():
     drawCircle(180, 275, 275)
     drawCircle(90, 185, 275)
     drawCircle(90, 365, 275)
@@ -89,6 +73,24 @@ def window():
     drawCircle(90, 205, 220)
     drawCircle(90, 345, 220)
 
+
+def iterate():
+    glViewport(0, 0, 500, 500)
+    glMatrixMode(GL_PROJECTION)
+    glLoadIdentity()
+    glOrtho(0.0, 500, 0.0, 500, 0.0, 1.0)
+    glMatrixMode(GL_MODELVIEW)
+    glLoadIdentity()
+
+
+def window():
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+    glLoadIdentity()
+    iterate()
+    glColor3f(0, 1, 0.5)
+    glPointSize(2)
+    glColor3f(255, 255, 255)
+    drawCircles()
     glutSwapBuffers()
 
 
