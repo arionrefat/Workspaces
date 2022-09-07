@@ -1,0 +1,15 @@
+#+TITLE: Goals
+#+DESCRIPTION: Goals needed to be completed within a year
+#+Author: Refatul Islam
+
+* Programming
+** Learn Frontend
+**** React + NextJs
+**** Svelte
+** Learn Backend
+**** Golang
+** Learn Data Structures
+*** With Java
+
+* Learn Creative Skills
+** Learn Blender

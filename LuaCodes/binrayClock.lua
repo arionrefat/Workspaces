@@ -16,15 +16,10 @@ end
 
 local time = { 0, 10, 12, 0 }
 
---Clock
-local binaryClock = {}
-for i = 1, 5 do
-	binaryClock[i] = {} -- create a new row
-	for j = 1, 8 do
-		binaryClock[i][j] = 0
-	end
-end
+local binaryClock = array.new(5,8)
+print(binaryClock)
 
+-- put the matrix inside
 print(table.concat(BinaryConverter(10), ""))
 
 for _, line in ipairs(binaryClock) do
