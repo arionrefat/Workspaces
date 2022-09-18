@@ -1,0 +1,22 @@
+* React
+** what is declarative approach? !learn more
+** Learned how to set dynamic values instead of hardcoded ones {value}
+** How to use CSS with jsx
+** Property attributes (props)
+*** Props on multilevel
+** Splitting to multi components
+** Wrapper components
+** Add event listner(on click)
+** how component function is executed
+** use of react states {useState}
+*** React hooks
+*** State is seprated on per component basis
+** Use of form
+*** Make use of state
+*** Write states in form of a function on previousState
+** Lifting state up
+* Search
+** HTML Button element MDN
+** cors policy
+** Take a look at [[https://restcountries.com/#api-endpoints-v2-all]]
+** Make weather app ()
