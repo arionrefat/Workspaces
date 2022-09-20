@@ -15,6 +15,13 @@
 *** Make use of state
 *** Write states in form of a function on previousState
 ** Lifting state up
+** React portal
+** Use of useEffect
+** Debouncing
+** use of useReducer
+** React fragment
+* NextJS
+** How pages work
 * Search
 ** HTML Button element MDN
 ** cors policy
