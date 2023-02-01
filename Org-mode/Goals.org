@@ -5,13 +5,13 @@
 * Programming
 ** Learn Frontend
 **** React + NextJs
-**** Svelte
 ** Learn Backend
 **** Golang
 ** Learn Data Structures
-*** With Java
+*** With C++, Java
 * Learn Creative Skills
 ** Learn Blender
+** Learn Adobe Photoshop
 * Seft Improvement
 ** Workout - Calisthnics
 ** Read Book

@@ -1,22 +1,27 @@
 {
-    "name": "testing",
-    "version": "1.0.0",
-    "description": "code for learing and testing ts",
-    "main": "src/index.ts",
-    "author": "Refatul",
-    "license": "GPL",
-    "private": true,
-    "scripts": {
-        "build": "tsc",
-        "start": "node ./dist/index.js",
-        "dev": "ts-node ./src/index.ts"
-    },
-    "dependencies": {
-        "@types/node": "^18.7.6",
-        "axios": "^0.27.2",
-        "typescript": "^4.7.4"
-    },
-    "devDependencies": {
-        "ts-node": "^10.9.1"
-    }
+  "name": "react-ts",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "7.19.0",
+    "@codemirror/lang-javascript": "^6.0.2",
+    "@codemirror/theme-one-dark": "6.0.0",
+    "@codemirror/view": "6.2.2",
+    "@types/react": "18.0.18",
+    "@types/react-dom": "18.0.6",
+    "@uiw/codemirror-theme-sublime": "^4.12.1",
+    "@uiw/react-codemirror": "4.12.1",
+    "codemirror": "6.65.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
 }
